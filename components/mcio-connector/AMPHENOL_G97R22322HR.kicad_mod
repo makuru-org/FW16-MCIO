@@ -1108,7 +1108,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/components/MCIO-connector/G97R22322HR.step"
+	(model "${KIPRJMOD}/components/mcio-connector/G97R22322HR.step"
 		(offset
 			(xyz 0 -6 2.75)
 		)
