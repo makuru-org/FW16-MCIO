@@ -1,6 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Expansion_Bay")(type "KiCad")(uri "${KIPRJMOD}/components/fxbeam/FXBeam.pretty")(options "")(descr ""))
+  (lib (name "expansion_bay")(type "KiCad")(uri "${KIPRJMOD}/components/fxbeam/FXBeam.pretty")(options "")(descr ""))
   (lib (name "fpc-fan")(type "KiCad")(uri "${KIPRJMOD}/components/fpc-fan.pretty")(options "")(descr ""))
-  (lib (name "MCIO-connector")(type "KiCad")(uri "${KIPRJMOD}/components/MCIO-connector")(options "")(descr ""))
+  (lib (name "mcio-connector")(type "KiCad")(uri "${KIPRJMOD}/components/mcio-connector")(options "")(descr ""))
+  (lib (name "pcie-redriver")(type "KiCad")(uri "${KIPRJMOD}/components/pcie-driver/footprints.pretty")(options "")(descr ""))
 )
