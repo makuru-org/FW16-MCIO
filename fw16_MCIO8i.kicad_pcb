@@ -68,7 +68,7 @@
 				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
-				(type "core")
+				(type "prepreg")
 				(thickness 1.265)
 				(material "Core")
 				(epsilon_r 4.6)
@@ -9891,7 +9891,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fa3ff30f-51e7-4c29-8b36-fd7de2c95b49")
 	)
-	(gr_text "Framework 16 Laptop\nFXBeam to OCuLink Card\nREV 1.1\nENGINEER SAMPLE"
+	(gr_text "Framework 16 Laptop\nFXBeam to MCIO x8 Card\nREV 0.1\nENGINEER SAMPLE"
 		(at 44.704 79.516967 0)
 		(layer "F.Cu")
 		(uuid "b3043ebd-717e-4ba9-be88-336bc66ab0dc")

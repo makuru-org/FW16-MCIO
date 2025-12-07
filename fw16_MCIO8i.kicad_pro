@@ -473,7 +473,7 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "warning",
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fw16_oculink8i.kicad_pro",
+    "filename": "fw16_MCIO8i.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -516,7 +516,7 @@
         "diff_pair_gap": 0.1016,
         "diff_pair_width": 0.109728,
         "name": "PCIe",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 194)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
