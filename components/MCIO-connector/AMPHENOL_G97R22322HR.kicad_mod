@@ -1110,13 +1110,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/components/MCIO-connector/G97R22322HR.step"
 		(offset
-			(xyz 0 3.5 2.5)
+			(xyz 0 -6 2.75)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -180)
+			(xyz 90 -0 -0)
 		)
 	)
 )
