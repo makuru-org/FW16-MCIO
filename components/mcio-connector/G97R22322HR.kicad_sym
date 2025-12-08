@@ -7,8 +7,8 @@
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(property "Reference" "J"
 			(at -7.62 51.562 0)
 			(effects
@@ -92,6 +92,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5433519"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1104,42 +1113,6 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 30.48 0)
-				(length 5.08)
-				(name "A8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 27.94 0)
-				(length 5.08)
-				(name "A9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -12.7 25.4 0)
 				(length 5.08)
 				(name "GND"
@@ -1150,42 +1123,6 @@
 					)
 				)
 				(number "A10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 22.86 0)
-				(length 5.08)
-				(name "A11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 20.32 0)
-				(length 5.08)
-				(name "A12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1427,42 +1364,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -12.7 -15.24 0)
-				(length 5.08)
-				(name "A26"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A26"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -17.78 0)
-				(length 5.08)
-				(name "A27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -12.7 -20.32 0)
 				(length 5.08)
@@ -1474,42 +1375,6 @@
 					)
 				)
 				(number "A28"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -22.86 0)
-				(length 5.08)
-				(name "A29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -25.4 0)
-				(length 5.08)
-				(name "A30"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1769,42 +1634,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 30.48 180)
-				(length 5.08)
-				(name "B8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 27.94 180)
-				(length 5.08)
-				(name "B9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 12.7 25.4 180)
 				(length 5.08)
@@ -1816,42 +1645,6 @@
 					)
 				)
 				(number "B10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 22.86 180)
-				(length 5.08)
-				(name "B11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 20.32 180)
-				(length 5.08)
-				(name "B12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2111,24 +1904,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 -17.78 180)
-				(length 5.08)
-				(name "B27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 12.7 -20.32 180)
 				(length 5.08)
@@ -2140,42 +1915,6 @@
 					)
 				)
 				(number "B28"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -22.86 180)
-				(length 5.08)
-				(name "B29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -25.4 180)
-				(length 5.08)
-				(name "B30"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2314,14 +2053,158 @@
 			(pin passive line
 				(at -12.7 33.02 0)
 				(length 5.08)
-				(name "A7"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "GND"
+				(number "A7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 30.48 0)
+				(length 5.08)
+				(name "SMB0_SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 27.94 0)
+				(length 5.08)
+				(name "SMB0_SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 22.86 0)
+				(length 5.08)
+				(name "PCI0_RST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 20.32 0)
+				(length 5.08)
+				(name "A12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -15.24 0)
+				(length 5.08)
+				(name "SMB1_SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -17.78 0)
+				(length 5.08)
+				(name "SMB1_SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -22.86 0)
+				(length 5.08)
+				(name "PCI1_RST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -25.4 0)
+				(length 5.08)
+				(name "A30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2394,6 +2277,132 @@
 					)
 				)
 				(number "SH4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 30.48 180)
+				(length 5.08)
+				(name "B8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 27.94 180)
+				(length 5.08)
+				(name "ALERT0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 22.86 180)
+				(length 5.08)
+				(name "CLK0+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 20.32 180)
+				(length 5.08)
+				(name "CLK0-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -17.78 180)
+				(length 5.08)
+				(name "ALERT1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -22.86 180)
+				(length 5.08)
+				(name "B29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -25.4 180)
+				(length 5.08)
+				(name "B30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B30"
 					(effects
 						(font
 							(size 1.016 1.016)

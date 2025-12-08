@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "889309b9-5e7b-4416-8a83-4d77598110fe")
+		(uuid "a56f0a5c-4c43-4ddb-ba37-ad4aafcadc3c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "218e2589-83b0-4a66-a37a-266a41767330")
+		(uuid "706dabe2-fd83-4c6d-be84-840dccf6f158")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -605,25 +605,11 @@
 		(uuid "243564e5-8c97-442c-b7d9-a3148b971509")
 	)
 	(pad "PJ1" smd rect
-		(at -10.41 1.92 180)
-		(size 0.7 0.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "117f1743-7e7f-4b88-89b8-57d5b58aaed5")
-	)
-	(pad "PJ1" smd rect
 		(at -2.95 1.92)
 		(size 0.7 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "0d60a39f-a24a-4d6d-bad1-d7f47f6da6fa")
-	)
-	(pad "PJ2" smd rect
-		(at -12.85 1.92)
-		(size 0.7 0.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "774e2c2c-12e9-49cf-a336-3323eceed61d")
 	)
 	(pad "PJ2" smd rect
 		(at -3.81 1.92)
@@ -633,18 +619,32 @@
 		(uuid "77aa7ecc-f872-43b6-9935-2bed9a27b467")
 	)
 	(pad "PJ3" smd rect
-		(at -13.71 1.92)
-		(size 0.7 0.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "88d11452-5d90-45cc-ae62-627ef6525868")
-	)
-	(pad "PJ3" smd rect
 		(at -6.25 1.92)
 		(size 0.7 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "d70fae8d-31b8-4445-a535-7a532d82af2e")
+	)
+	(pad "PJ6" smd rect
+		(at -10.41 1.92 180)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "117f1743-7e7f-4b88-89b8-57d5b58aaed5")
+	)
+	(pad "PJ7" smd rect
+		(at -12.85 1.92)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "774e2c2c-12e9-49cf-a336-3323eceed61d")
+	)
+	(pad "PJ8" smd rect
+		(at -13.71 1.92)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "88d11452-5d90-45cc-ae62-627ef6525868")
 	)
 	(pad "PK1" smd rect
 		(at -2.95 2.52)

@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "59453-041110EDHLF:AMPHENOL_59453-041110EDHLF"
+		(property "Footprint" "fan-connector:AMPHENOL_59453-041110EDHLF"
 			(at 0 7.874 0)
 			(effects
 				(font
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 0 0 0)
+			(at -6.096 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 9.906 0)
+			(at 0 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
-			(at 0.254 11.684 0)
+			(at 0 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 0 13.716 0)
+			(at 0 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,8 +97,8 @@
 		)
 		(symbol "59453-041110EDHLF_0_0"
 			(rectangle
-				(start -5.08 -7.62)
-				(end 5.08 5.08)
+				(start -5.08 5.08)
+				(end 5.08 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
