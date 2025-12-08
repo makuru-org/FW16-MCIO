@@ -3,4 +3,5 @@
   (lib (name "expansion_bay")(type "KiCad")(uri "${KIPRJMOD}/components/fxbeam/FXBeam.kicad_sym")(options "")(descr ""))
   (lib (name "mcio-connector")(type "KiCad")(uri "${KIPRJMOD}/components/mcio-connector/G97R22322HR.kicad_sym")(options "")(descr ""))
   (lib (name "pcie-redriver")(type "KiCad")(uri "${KIPRJMOD}/components/pcie-driver/2025-12-07_19-34-24.kicad_sym")(options "")(descr ""))
+  (lib (name "fan-connector")(type "KiCad")(uri "${KIPRJMOD}/components/fan-connector/59453-041110EDHLF.kicad_sym")(options "")(descr ""))
 )
