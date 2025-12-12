@@ -3,6 +3,7 @@
   (lib (name "expansion_bay")(type "KiCad")(uri "${KIPRJMOD}/components/fxbeam/FXBeam.pretty")(options "")(descr ""))
   (lib (name "fan-connector")(type "KiCad")(uri "${KIPRJMOD}/components/fan-connector")(options "")(descr ""))
   (lib (name "mcio-connector")(type "KiCad")(uri "${KIPRJMOD}/components/mcio-connector")(options "")(descr ""))
-  (lib (name "pcie-redriver")(type "KiCad")(uri "${KIPRJMOD}/components/pcie-driver/footprints.pretty")(options "")(descr ""))
+  (lib (name "pcie-redriver")(type "KiCad")(uri "${KIPRJMOD}/components/pcie-redriver/footprints.pretty")(options "")(descr ""))
   (lib (name "eeprom")(type "KiCad")(uri "${KIPRJMOD}/components/eeprom/footprints.pretty")(options "")(descr ""))
+  (lib (name "oculink-connector")(type "KiCad")(uri "${KIPRJMOD}/components/oculink-connector")(options "")(descr ""))
 )

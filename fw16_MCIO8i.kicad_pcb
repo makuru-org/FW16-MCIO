@@ -4489,7 +4489,7 @@
 		(property "Reference" "MCIO1"
 			(at -9.575 -7.385 180)
 			(layer "F.SilkS")
-			(uuid "b1586025-f3ba-4184-a00c-1e73b0e8c566")
+			(uuid "005e92e6-857e-4a67-abd3-92d5adc7e98a")
 			(effects
 				(font
 					(size 1 1)
@@ -4500,7 +4500,7 @@
 		(property "Value" "G97R22322HR"
 			(at -0.05 -5.885 180)
 			(layer "F.Fab")
-			(uuid "0a242d35-c4fe-4929-b034-bbe3ce1222f3")
+			(uuid "cb06663c-1780-42fb-8df0-eeffdcaef05e")
 			(effects
 				(font
 					(size 1 1)
@@ -4512,7 +4512,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2962c04c-01cd-42bc-87b0-9e0a386ff21d")
+			(uuid "b820d88a-c57e-41af-b54d-e924540f5d67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4524,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1d1d7f0-8da6-47a5-bcf6-bb921e719b52")
+			(uuid "6345d01d-10c7-487a-bd30-628810a9dbd5")
 			(effects
 				(font
 					(size 1.27 1.27)
