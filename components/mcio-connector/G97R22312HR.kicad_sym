@@ -2,15 +2,15 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "G97R22322HR"
+	(symbol "G97R22312HR"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(property "Reference" "J"
-			(at -7.62 51.562 0)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MCIO"
+			(at -2.54 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,17 +18,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "G97R22322HR"
-			(at -7.62 -60.96 0)
+		(property "Value" "G97R22312HR"
+			(at -7.366 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "mcio-connector:AMPHENOL_G97R22322HR"
-			(at 0 53.086 0)
+		(property "Footprint" "mcio-connector:AMPHENOL_G97R22312HR"
+			(at 0 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,27 +57,7 @@
 			)
 		)
 		(property "PARTREV" "AX16"
-			(at 0 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Amphenol"
-			(at 0.254 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.43mm"
-			(at 0 61.468 0)
+			(at 0 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +67,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 55.88 0)
+			(at 0 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,8 +76,28 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5433519"
-			(at 0 0 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.43mm"
+			(at 0 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 0 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "G97R22312HR"
+			(at -0.508 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,10 +105,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "G97R22322HR_0_0"
+		(symbol "G97R22312HR_0_0"
 			(rectangle
-				(start -8.89 50.8)
-				(end 8.89 -58.42)
+				(start -11.43 54.61)
+				(end 11.43 -54.61)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -117,9 +118,9 @@
 				)
 			)
 			(arc
-				(start -6.985 47.625)
-				(mid -7.6172 48.26)
-				(end -6.985 48.895)
+				(start -9.525 51.435)
+				(mid -10.1572 52.07)
+				(end -9.525 52.705)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -129,9 +130,9 @@
 				)
 			)
 			(arc
-				(start -6.985 45.085)
-				(mid -7.6172 45.72)
-				(end -6.985 46.355)
+				(start -9.525 48.895)
+				(mid -10.1572 49.53)
+				(end -9.525 50.165)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -141,9 +142,9 @@
 				)
 			)
 			(arc
-				(start -6.985 42.545)
-				(mid -7.6172 43.18)
-				(end -6.985 43.815)
+				(start -9.525 46.355)
+				(mid -10.1572 46.99)
+				(end -9.525 47.625)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -153,9 +154,9 @@
 				)
 			)
 			(arc
-				(start -6.985 40.005)
-				(mid -7.6172 40.64)
-				(end -6.985 41.275)
+				(start -9.525 43.815)
+				(mid -10.1572 44.45)
+				(end -9.525 45.085)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -165,9 +166,9 @@
 				)
 			)
 			(arc
-				(start -6.985 37.465)
-				(mid -7.6172 38.1)
-				(end -6.985 38.735)
+				(start -9.525 41.275)
+				(mid -10.1572 41.91)
+				(end -9.525 42.545)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -177,9 +178,9 @@
 				)
 			)
 			(arc
-				(start -6.985 34.925)
-				(mid -7.6172 35.56)
-				(end -6.985 36.195)
+				(start -9.525 38.735)
+				(mid -10.1572 39.37)
+				(end -9.525 40.005)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -189,9 +190,9 @@
 				)
 			)
 			(arc
-				(start -6.985 32.385)
-				(mid -7.6172 33.02)
-				(end -6.985 33.655)
+				(start -9.525 36.195)
+				(mid -10.1572 36.83)
+				(end -9.525 37.465)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -201,9 +202,9 @@
 				)
 			)
 			(arc
-				(start -6.985 29.845)
-				(mid -7.6172 30.48)
-				(end -6.985 31.115)
+				(start -9.525 33.655)
+				(mid -10.1572 34.29)
+				(end -9.525 34.925)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -213,9 +214,9 @@
 				)
 			)
 			(arc
-				(start -6.985 27.305)
-				(mid -7.6172 27.94)
-				(end -6.985 28.575)
+				(start -9.525 31.115)
+				(mid -10.1572 31.75)
+				(end -9.525 32.385)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -225,9 +226,9 @@
 				)
 			)
 			(arc
-				(start -6.985 24.765)
-				(mid -7.6172 25.4)
-				(end -6.985 26.035)
+				(start -9.525 28.575)
+				(mid -10.1572 29.21)
+				(end -9.525 29.845)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -237,9 +238,9 @@
 				)
 			)
 			(arc
-				(start -6.985 22.225)
-				(mid -7.6172 22.86)
-				(end -6.985 23.495)
+				(start -9.525 26.035)
+				(mid -10.1572 26.67)
+				(end -9.525 27.305)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -249,9 +250,9 @@
 				)
 			)
 			(arc
-				(start -6.985 19.685)
-				(mid -7.6172 20.32)
-				(end -6.985 20.955)
+				(start -9.525 23.495)
+				(mid -10.1572 24.13)
+				(end -9.525 24.765)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -261,9 +262,9 @@
 				)
 			)
 			(arc
-				(start -6.985 17.145)
-				(mid -7.6172 17.78)
-				(end -6.985 18.415)
+				(start -9.525 20.955)
+				(mid -10.1572 21.59)
+				(end -9.525 22.225)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -273,9 +274,9 @@
 				)
 			)
 			(arc
-				(start -6.985 14.605)
-				(mid -7.6172 15.24)
-				(end -6.985 15.875)
+				(start -9.525 18.415)
+				(mid -10.1572 19.05)
+				(end -9.525 19.685)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -285,9 +286,9 @@
 				)
 			)
 			(arc
-				(start -6.985 12.065)
-				(mid -7.6172 12.7)
-				(end -6.985 13.335)
+				(start -9.525 15.875)
+				(mid -10.1572 16.51)
+				(end -9.525 17.145)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -297,9 +298,9 @@
 				)
 			)
 			(arc
-				(start -6.985 9.525)
-				(mid -7.6172 10.16)
-				(end -6.985 10.795)
+				(start -9.525 13.335)
+				(mid -10.1572 13.97)
+				(end -9.525 14.605)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -309,9 +310,9 @@
 				)
 			)
 			(arc
-				(start -6.985 6.985)
-				(mid -7.6172 7.62)
-				(end -6.985 8.255)
+				(start -9.525 10.795)
+				(mid -10.1572 11.43)
+				(end -9.525 12.065)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -321,9 +322,9 @@
 				)
 			)
 			(arc
-				(start -6.985 4.445)
-				(mid -7.6172 5.08)
-				(end -6.985 5.715)
+				(start -9.525 8.255)
+				(mid -10.1572 8.89)
+				(end -9.525 9.525)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -333,9 +334,9 @@
 				)
 			)
 			(arc
-				(start -6.985 1.905)
-				(mid -7.6172 2.54)
-				(end -6.985 3.175)
+				(start -9.525 5.715)
+				(mid -10.1572 6.35)
+				(end -9.525 6.985)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -345,9 +346,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -0.635)
-				(mid -7.6172 0)
-				(end -6.985 0.635)
+				(start -9.525 3.175)
+				(mid -10.1572 3.81)
+				(end -9.525 4.445)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -357,9 +358,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -3.175)
-				(mid -7.6172 -2.54)
-				(end -6.985 -1.905)
+				(start -9.525 0.635)
+				(mid -10.1572 1.27)
+				(end -9.525 1.905)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -369,9 +370,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -5.715)
-				(mid -7.6172 -5.08)
-				(end -6.985 -4.445)
+				(start -9.525 -1.905)
+				(mid -10.1572 -1.27)
+				(end -9.525 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -381,9 +382,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -8.255)
-				(mid -7.6172 -7.62)
-				(end -6.985 -6.985)
+				(start -9.525 -4.445)
+				(mid -10.1572 -3.81)
+				(end -9.525 -3.175)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -393,9 +394,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -10.795)
-				(mid -7.6172 -10.16)
-				(end -6.985 -9.525)
+				(start -9.525 -6.985)
+				(mid -10.1572 -6.35)
+				(end -9.525 -5.715)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -405,9 +406,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -13.335)
-				(mid -7.6172 -12.7)
-				(end -6.985 -12.065)
+				(start -9.525 -9.525)
+				(mid -10.1572 -8.89)
+				(end -9.525 -8.255)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -417,9 +418,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -15.875)
-				(mid -7.6172 -15.24)
-				(end -6.985 -14.605)
+				(start -9.525 -12.065)
+				(mid -10.1572 -11.43)
+				(end -9.525 -10.795)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -429,9 +430,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -18.415)
-				(mid -7.6172 -17.78)
-				(end -6.985 -17.145)
+				(start -9.525 -14.605)
+				(mid -10.1572 -13.97)
+				(end -9.525 -13.335)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -441,9 +442,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -20.955)
-				(mid -7.6172 -20.32)
-				(end -6.985 -19.685)
+				(start -9.525 -17.145)
+				(mid -10.1572 -16.51)
+				(end -9.525 -15.875)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -453,9 +454,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -23.495)
-				(mid -7.6172 -22.86)
-				(end -6.985 -22.225)
+				(start -9.525 -19.685)
+				(mid -10.1572 -19.05)
+				(end -9.525 -18.415)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -465,9 +466,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -26.035)
-				(mid -7.6172 -25.4)
-				(end -6.985 -24.765)
+				(start -9.525 -22.225)
+				(mid -10.1572 -21.59)
+				(end -9.525 -20.955)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -477,9 +478,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -28.575)
-				(mid -7.6172 -27.94)
-				(end -6.985 -27.305)
+				(start -9.525 -24.765)
+				(mid -10.1572 -24.13)
+				(end -9.525 -23.495)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -489,9 +490,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -31.115)
-				(mid -7.6172 -30.48)
-				(end -6.985 -29.845)
+				(start -9.525 -27.305)
+				(mid -10.1572 -26.67)
+				(end -9.525 -26.035)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -501,9 +502,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -33.655)
-				(mid -7.6172 -33.02)
-				(end -6.985 -32.385)
+				(start -9.525 -29.845)
+				(mid -10.1572 -29.21)
+				(end -9.525 -28.575)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -513,9 +514,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -36.195)
-				(mid -7.6172 -35.56)
-				(end -6.985 -34.925)
+				(start -9.525 -32.385)
+				(mid -10.1572 -31.75)
+				(end -9.525 -31.115)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -525,9 +526,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -38.735)
-				(mid -7.6172 -38.1)
-				(end -6.985 -37.465)
+				(start -9.525 -34.925)
+				(mid -10.1572 -34.29)
+				(end -9.525 -33.655)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -537,9 +538,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -41.275)
-				(mid -7.6172 -40.64)
-				(end -6.985 -40.005)
+				(start -9.525 -37.465)
+				(mid -10.1572 -36.83)
+				(end -9.525 -36.195)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -549,9 +550,9 @@
 				)
 			)
 			(arc
-				(start -6.985 -43.815)
-				(mid -7.6172 -43.18)
-				(end -6.985 -42.545)
+				(start -9.525 -40.005)
+				(mid -10.1572 -39.37)
+				(end -9.525 -38.735)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -561,9 +562,9 @@
 				)
 			)
 			(arc
-				(start 6.985 48.895)
-				(mid 7.6172 48.26)
-				(end 6.985 47.625)
+				(start 10.795 52.705)
+				(mid 11.4272 52.07)
+				(end 10.795 51.435)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -573,9 +574,9 @@
 				)
 			)
 			(arc
-				(start 6.985 46.355)
-				(mid 7.6172 45.72)
-				(end 6.985 45.085)
+				(start 10.795 50.165)
+				(mid 11.4272 49.53)
+				(end 10.795 48.895)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -585,9 +586,9 @@
 				)
 			)
 			(arc
-				(start 6.985 43.815)
-				(mid 7.6172 43.18)
-				(end 6.985 42.545)
+				(start 10.795 47.625)
+				(mid 11.4272 46.99)
+				(end 10.795 46.355)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -597,9 +598,9 @@
 				)
 			)
 			(arc
-				(start 6.985 41.275)
-				(mid 7.6172 40.64)
-				(end 6.985 40.005)
+				(start 10.795 45.085)
+				(mid 11.4272 44.45)
+				(end 10.795 43.815)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -609,9 +610,9 @@
 				)
 			)
 			(arc
-				(start 6.985 38.735)
-				(mid 7.6172 38.1)
-				(end 6.985 37.465)
+				(start 10.795 42.545)
+				(mid 11.4272 41.91)
+				(end 10.795 41.275)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -621,9 +622,9 @@
 				)
 			)
 			(arc
-				(start 6.985 36.195)
-				(mid 7.6172 35.56)
-				(end 6.985 34.925)
+				(start 10.795 40.005)
+				(mid 11.4272 39.37)
+				(end 10.795 38.735)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -633,9 +634,9 @@
 				)
 			)
 			(arc
-				(start 6.985 33.655)
-				(mid 7.6172 33.02)
-				(end 6.985 32.385)
+				(start 10.795 37.465)
+				(mid 11.4272 36.83)
+				(end 10.795 36.195)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -645,9 +646,9 @@
 				)
 			)
 			(arc
-				(start 6.985 31.115)
-				(mid 7.6172 30.48)
-				(end 6.985 29.845)
+				(start 10.795 34.925)
+				(mid 11.4272 34.29)
+				(end 10.795 33.655)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -657,9 +658,9 @@
 				)
 			)
 			(arc
-				(start 6.985 28.575)
-				(mid 7.6172 27.94)
-				(end 6.985 27.305)
+				(start 10.795 32.385)
+				(mid 11.4272 31.75)
+				(end 10.795 31.115)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -669,9 +670,9 @@
 				)
 			)
 			(arc
-				(start 6.985 26.035)
-				(mid 7.6172 25.4)
-				(end 6.985 24.765)
+				(start 10.795 29.845)
+				(mid 11.4272 29.21)
+				(end 10.795 28.575)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -681,9 +682,9 @@
 				)
 			)
 			(arc
-				(start 6.985 23.495)
-				(mid 7.6172 22.86)
-				(end 6.985 22.225)
+				(start 10.795 27.305)
+				(mid 11.4272 26.67)
+				(end 10.795 26.035)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -693,9 +694,9 @@
 				)
 			)
 			(arc
-				(start 6.985 20.955)
-				(mid 7.6172 20.32)
-				(end 6.985 19.685)
+				(start 10.795 24.765)
+				(mid 11.4272 24.13)
+				(end 10.795 23.495)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -705,9 +706,9 @@
 				)
 			)
 			(arc
-				(start 6.985 18.415)
-				(mid 7.6172 17.78)
-				(end 6.985 17.145)
+				(start 10.795 22.225)
+				(mid 11.4272 21.59)
+				(end 10.795 20.955)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -717,9 +718,9 @@
 				)
 			)
 			(arc
-				(start 6.985 15.875)
-				(mid 7.6172 15.24)
-				(end 6.985 14.605)
+				(start 10.795 19.685)
+				(mid 11.4272 19.05)
+				(end 10.795 18.415)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -729,9 +730,9 @@
 				)
 			)
 			(arc
-				(start 6.985 13.335)
-				(mid 7.6172 12.7)
-				(end 6.985 12.065)
+				(start 10.795 17.145)
+				(mid 11.4272 16.51)
+				(end 10.795 15.875)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -741,9 +742,9 @@
 				)
 			)
 			(arc
-				(start 6.985 10.795)
-				(mid 7.6172 10.16)
-				(end 6.985 9.525)
+				(start 10.795 14.605)
+				(mid 11.4272 13.97)
+				(end 10.795 13.335)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -753,9 +754,9 @@
 				)
 			)
 			(arc
-				(start 6.985 8.255)
-				(mid 7.6172 7.62)
-				(end 6.985 6.985)
+				(start 10.795 12.065)
+				(mid 11.4272 11.43)
+				(end 10.795 10.795)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -765,9 +766,9 @@
 				)
 			)
 			(arc
-				(start 6.985 5.715)
-				(mid 7.6172 5.08)
-				(end 6.985 4.445)
+				(start 10.795 9.525)
+				(mid 11.4272 8.89)
+				(end 10.795 8.255)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -777,9 +778,9 @@
 				)
 			)
 			(arc
-				(start 6.985 3.175)
-				(mid 7.6172 2.54)
-				(end 6.985 1.905)
+				(start 10.795 6.985)
+				(mid 11.4272 6.35)
+				(end 10.795 5.715)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -789,9 +790,9 @@
 				)
 			)
 			(arc
-				(start 6.985 0.635)
-				(mid 7.6172 0)
-				(end 6.985 -0.635)
+				(start 10.795 4.445)
+				(mid 11.4272 3.81)
+				(end 10.795 3.175)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -801,9 +802,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -1.905)
-				(mid 7.6172 -2.54)
-				(end 6.985 -3.175)
+				(start 10.795 1.905)
+				(mid 11.4272 1.27)
+				(end 10.795 0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -813,9 +814,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -4.445)
-				(mid 7.6172 -5.08)
-				(end 6.985 -5.715)
+				(start 10.795 -0.635)
+				(mid 11.4272 -1.27)
+				(end 10.795 -1.905)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -825,9 +826,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -6.985)
-				(mid 7.6172 -7.62)
-				(end 6.985 -8.255)
+				(start 10.795 -3.175)
+				(mid 11.4272 -3.81)
+				(end 10.795 -4.445)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -837,9 +838,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -9.525)
-				(mid 7.6172 -10.16)
-				(end 6.985 -10.795)
+				(start 10.795 -5.715)
+				(mid 11.4272 -6.35)
+				(end 10.795 -6.985)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -849,9 +850,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -12.065)
-				(mid 7.6172 -12.7)
-				(end 6.985 -13.335)
+				(start 10.795 -8.255)
+				(mid 11.4272 -8.89)
+				(end 10.795 -9.525)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -861,9 +862,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -14.605)
-				(mid 7.6172 -15.24)
-				(end 6.985 -15.875)
+				(start 10.795 -10.795)
+				(mid 11.4272 -11.43)
+				(end 10.795 -12.065)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -873,9 +874,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -17.145)
-				(mid 7.6172 -17.78)
-				(end 6.985 -18.415)
+				(start 10.795 -13.335)
+				(mid 11.4272 -13.97)
+				(end 10.795 -14.605)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -885,9 +886,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -19.685)
-				(mid 7.6172 -20.32)
-				(end 6.985 -20.955)
+				(start 10.795 -15.875)
+				(mid 11.4272 -16.51)
+				(end 10.795 -17.145)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -897,9 +898,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -22.225)
-				(mid 7.6172 -22.86)
-				(end 6.985 -23.495)
+				(start 10.795 -18.415)
+				(mid 11.4272 -19.05)
+				(end 10.795 -19.685)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -909,9 +910,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -24.765)
-				(mid 7.6172 -25.4)
-				(end 6.985 -26.035)
+				(start 10.795 -20.955)
+				(mid 11.4272 -21.59)
+				(end 10.795 -22.225)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -921,9 +922,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -27.305)
-				(mid 7.6172 -27.94)
-				(end 6.985 -28.575)
+				(start 10.795 -23.495)
+				(mid 11.4272 -24.13)
+				(end 10.795 -24.765)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -933,9 +934,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -29.845)
-				(mid 7.6172 -30.48)
-				(end 6.985 -31.115)
+				(start 10.795 -26.035)
+				(mid 11.4272 -26.67)
+				(end 10.795 -27.305)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -945,9 +946,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -32.385)
-				(mid 7.6172 -33.02)
-				(end 6.985 -33.655)
+				(start 10.795 -28.575)
+				(mid 11.4272 -29.21)
+				(end 10.795 -29.845)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -957,9 +958,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -34.925)
-				(mid 7.6172 -35.56)
-				(end 6.985 -36.195)
+				(start 10.795 -31.115)
+				(mid 11.4272 -31.75)
+				(end 10.795 -32.385)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -969,9 +970,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -37.465)
-				(mid 7.6172 -38.1)
-				(end 6.985 -38.735)
+				(start 10.795 -33.655)
+				(mid 11.4272 -34.29)
+				(end 10.795 -34.925)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -981,9 +982,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -40.005)
-				(mid 7.6172 -40.64)
-				(end 6.985 -41.275)
+				(start 10.795 -36.195)
+				(mid 11.4272 -36.83)
+				(end 10.795 -37.465)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -993,9 +994,9 @@
 				)
 			)
 			(arc
-				(start 6.985 -42.545)
-				(mid 7.6172 -43.18)
-				(end 6.985 -43.815)
+				(start 10.795 -38.735)
+				(mid 11.4272 -39.37)
+				(end 10.795 -40.005)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1004,8 +1005,8 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -12.7 48.26 0)
+			(pin power_in line
+				(at -15.24 52.07 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1022,10 +1023,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 45.72 0)
+			(pin output line
+				(at -15.24 49.53 0)
 				(length 5.08)
-				(name "TX0+"
+				(name "PER0+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1040,10 +1041,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 43.18 0)
+			(pin output line
+				(at -15.24 46.99 0)
 				(length 5.08)
-				(name "TX0-"
+				(name "PER0+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1058,8 +1059,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 40.64 0)
+			(pin power_in line
+				(at -15.24 44.45 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1076,10 +1077,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 38.1 0)
+			(pin output line
+				(at -15.24 41.91 0)
 				(length 5.08)
-				(name "TX1+"
+				(name "PER1+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1094,10 +1095,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 35.56 0)
+			(pin output line
+				(at -15.24 39.37 0)
 				(length 5.08)
-				(name "TX1-"
+				(name "PER1-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1112,8 +1113,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 25.4 0)
+			(pin power_in line
+				(at -15.24 29.21 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1130,8 +1131,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 17.78 0)
+			(pin power_in line
+				(at -15.24 21.59 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1148,10 +1149,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 15.24 0)
+			(pin output line
+				(at -15.24 19.05 0)
 				(length 5.08)
-				(name "TX2+"
+				(name "PER2+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1166,10 +1167,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 12.7 0)
+			(pin output line
+				(at -15.24 16.51 0)
 				(length 5.08)
-				(name "TX2-"
+				(name "PER2-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1184,8 +1185,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 10.16 0)
+			(pin power_in line
+				(at -15.24 13.97 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1202,10 +1203,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 7.62 0)
+			(pin output line
+				(at -15.24 11.43 0)
 				(length 5.08)
-				(name "TX3+"
+				(name "PER3+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1220,10 +1221,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 5.08 0)
+			(pin output line
+				(at -15.24 8.89 0)
 				(length 5.08)
-				(name "TX3-"
+				(name "PER3-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1238,8 +1239,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 2.54 0)
+			(pin power_in line
+				(at -15.24 6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1256,10 +1257,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 0 0)
+			(pin output line
+				(at -15.24 3.81 0)
 				(length 5.08)
-				(name "TX4+"
+				(name "PER4+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1274,10 +1275,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -2.54 0)
+			(pin output line
+				(at -15.24 1.27 0)
 				(length 5.08)
-				(name "TX4-"
+				(name "PER4-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1292,8 +1293,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -5.08 0)
+			(pin power_in line
+				(at -15.24 -1.27 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1310,10 +1311,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -7.62 0)
+			(pin output line
+				(at -15.24 -3.81 0)
 				(length 5.08)
-				(name "TX5+"
+				(name "PER5+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1328,10 +1329,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -10.16 0)
+			(pin output line
+				(at -15.24 -6.35 0)
 				(length 5.08)
-				(name "TX5-"
+				(name "PER5-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1346,8 +1347,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -12.7 0)
+			(pin power_in line
+				(at -15.24 -8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1364,8 +1365,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -20.32 0)
+			(pin power_in line
+				(at -15.24 -16.51 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1382,8 +1383,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -27.94 0)
+			(pin power_in line
+				(at -15.24 -24.13 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1400,10 +1401,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -30.48 0)
+			(pin output line
+				(at -15.24 -26.67 0)
 				(length 5.08)
-				(name "TX6+"
+				(name "PER6+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1418,10 +1419,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -33.02 0)
+			(pin output line
+				(at -15.24 -29.21 0)
 				(length 5.08)
-				(name "TX6-"
+				(name "PER6-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1436,8 +1437,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -35.56 0)
+			(pin power_in line
+				(at -15.24 -31.75 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1454,10 +1455,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -38.1 0)
+			(pin output line
+				(at -15.24 -34.29 0)
 				(length 5.08)
-				(name "TX7+"
+				(name "PER7+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1472,10 +1473,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -40.64 0)
+			(pin output line
+				(at -15.24 -36.83 0)
 				(length 5.08)
-				(name "TX7-"
+				(name "PER7+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1490,8 +1491,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -43.18 0)
+			(pin power_in line
+				(at -15.24 -39.37 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1508,8 +1509,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 48.26 180)
+			(pin power_in line
+				(at 16.51 52.07 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1526,10 +1527,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 45.72 180)
+			(pin input line
+				(at 16.51 49.53 180)
 				(length 5.08)
-				(name "RX0+"
+				(name "PET0+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1544,10 +1545,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 43.18 180)
+			(pin input line
+				(at 16.51 46.99 180)
 				(length 5.08)
-				(name "RX0-"
+				(name "PET0-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1562,8 +1563,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 40.64 180)
+			(pin power_in line
+				(at 16.51 44.45 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1580,10 +1581,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 38.1 180)
+			(pin input line
+				(at 16.51 41.91 180)
 				(length 5.08)
-				(name "RX1+"
+				(name "PET1+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1598,10 +1599,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 35.56 180)
+			(pin input line
+				(at 16.51 39.37 180)
 				(length 5.08)
-				(name "RX1-"
+				(name "PET1-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1616,8 +1617,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 33.02 180)
+			(pin power_in line
+				(at 16.51 36.83 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1634,26 +1635,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 25.4 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 17.78 180)
+			(pin power_in line
+				(at 16.51 21.59 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1670,10 +1653,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 15.24 180)
+			(pin input line
+				(at 16.51 19.05 180)
 				(length 5.08)
-				(name "RX2+"
+				(name "PET2+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1688,10 +1671,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 12.7 180)
+			(pin input line
+				(at 16.51 16.51 180)
 				(length 5.08)
-				(name "RX2-"
+				(name "PET2-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1706,8 +1689,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 10.16 180)
+			(pin power_in line
+				(at 16.51 13.97 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1724,10 +1707,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 7.62 180)
+			(pin input line
+				(at 16.51 11.43 180)
 				(length 5.08)
-				(name "RX3+"
+				(name "PET3+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1742,10 +1725,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 5.08 180)
+			(pin input line
+				(at 16.51 8.89 180)
 				(length 5.08)
-				(name "RX3-"
+				(name "PET3-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1760,8 +1743,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 2.54 180)
+			(pin power_in line
+				(at 16.51 6.35 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1778,10 +1761,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 0 180)
+			(pin input line
+				(at 16.51 3.81 180)
 				(length 5.08)
-				(name "RX4+"
+				(name "PET4+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1796,10 +1779,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -2.54 180)
+			(pin input line
+				(at 16.51 1.27 180)
 				(length 5.08)
-				(name "RX4-"
+				(name "PET4-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1814,8 +1797,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -5.08 180)
+			(pin power_in line
+				(at 16.51 -1.27 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1832,10 +1815,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -7.62 180)
+			(pin input line
+				(at 16.51 -3.81 180)
 				(length 5.08)
-				(name "RX5+"
+				(name "PET5+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1850,10 +1833,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -10.16 180)
+			(pin input line
+				(at 16.51 -6.35 180)
 				(length 5.08)
-				(name "RX5-"
+				(name "PET5-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1868,8 +1851,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -12.7 180)
+			(pin power_in line
+				(at 16.51 -8.89 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1886,26 +1869,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 -15.24 180)
-				(length 5.08)
-				(name "B26"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B26"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -20.32 180)
+			(pin power_in line
+				(at 16.51 -16.51 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1922,8 +1887,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -27.94 180)
+			(pin power_in line
+				(at 16.51 -24.13 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1940,10 +1905,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -30.48 180)
+			(pin input line
+				(at 16.51 -26.67 180)
 				(length 5.08)
-				(name "RX6+"
+				(name "PET6+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1958,10 +1923,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -33.02 180)
+			(pin input line
+				(at 16.51 -29.21 180)
 				(length 5.08)
-				(name "RX6-"
+				(name "PET6-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1976,8 +1941,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -35.56 180)
+			(pin power_in line
+				(at 16.51 -31.75 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1994,10 +1959,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -38.1 180)
+			(pin input line
+				(at 16.51 -34.29 180)
 				(length 5.08)
-				(name "RX7+"
+				(name "PET7+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2012,10 +1977,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -40.64 180)
+			(pin input line
+				(at 16.51 -36.83 180)
 				(length 5.08)
-				(name "RX7-"
+				(name "PET7-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2030,8 +1995,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -43.18 180)
+			(pin power_in line
+				(at 16.51 -39.37 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2049,9 +2014,9 @@
 				)
 			)
 		)
-		(symbol "G97R22322HR_1_0"
-			(pin passive line
-				(at -12.7 33.02 0)
+		(symbol "G97R22312HR_1_0"
+			(pin power_in line
+				(at -15.24 36.83 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2068,10 +2033,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 30.48 0)
+			(pin power_in line
+				(at -15.24 34.29 0)
 				(length 5.08)
-				(name "SMB0_SCL"
+				(name "3V3_AUX"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2086,10 +2051,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 27.94 0)
+			(pin no_connect line
+				(at -15.24 31.75 0)
 				(length 5.08)
-				(name "SMB0_SDA"
+				(name "FLEXIO_0"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2104,10 +2069,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 22.86 0)
+			(pin output line
+				(at -15.24 26.67 0)
 				(length 5.08)
-				(name "PCI0_RST"
+				(name "REFCLK_A+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2122,10 +2087,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -12.7 20.32 0)
+			(pin output line
+				(at -15.24 24.13 0)
 				(length 5.08)
-				(name "A12"
+				(name "REFCLK_A-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2140,10 +2105,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -12.7 -15.24 0)
+			(pin no_connect line
+				(at -15.24 -11.43 0)
 				(length 5.08)
-				(name "SMB1_SCL"
+				(name "FLEXIO1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2158,10 +2123,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -17.78 0)
+			(pin no_connect line
+				(at -15.24 -13.97 0)
 				(length 5.08)
-				(name "SMB1_SDA"
+				(name "FLEXIO2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2176,10 +2141,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -22.86 0)
+			(pin bidirectional line
+				(at -15.24 -19.05 0)
 				(length 5.08)
-				(name "PCI1_RST"
+				(name "USB+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2194,10 +2159,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -12.7 -25.4 0)
+			(pin bidirectional line
+				(at -15.24 -21.59 0)
 				(length 5.08)
-				(name "A30"
+				(name "USB-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2212,8 +2177,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -48.26 0)
+			(pin power_in line
+				(at -15.24 -44.45 0)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
@@ -2230,8 +2195,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -50.8 0)
+			(pin power_in line
+				(at -15.24 -46.99 0)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
@@ -2248,8 +2213,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -53.34 0)
+			(pin power_in line
+				(at -15.24 -49.53 0)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
@@ -2266,8 +2231,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -12.7 -55.88 0)
+			(pin power_in line
+				(at -15.24 -52.07 0)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
@@ -2284,10 +2249,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 30.48 180)
+			(pin output line
+				(at 16.51 34.29 180)
 				(length 5.08)
-				(name "B8"
+				(name "SMSCL_A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2302,10 +2267,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 27.94 180)
+			(pin bidirectional line
+				(at 16.51 31.75 180)
 				(length 5.08)
-				(name "ALERT0"
+				(name "SMSDA_A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2320,10 +2285,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 22.86 180)
+			(pin power_in line
+				(at 16.51 29.21 180)
 				(length 5.08)
-				(name "CLK0+"
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 26.67 180)
+				(length 5.08)
+				(name "PERST"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2338,10 +2321,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 20.32 180)
+			(pin bidirectional line
+				(at 16.51 24.13 180)
 				(length 5.08)
-				(name "CLK0-"
+				(name "CBL_PESTI"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2356,10 +2339,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -17.78 180)
+			(pin no_connect line
+				(at 16.51 -11.43 180)
 				(length 5.08)
-				(name "ALERT1"
+				(name "FLEXIO3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -13.97 180)
+				(length 5.08)
+				(name "FLEXIO4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2374,10 +2375,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 -22.86 180)
+			(pin no_connect line
+				(at 16.51 -19.05 180)
 				(length 5.08)
-				(name "B29"
+				(name "FLEXIO5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2392,10 +2393,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 -25.4 180)
+			(pin no_connect line
+				(at 16.51 -21.59 180)
 				(length 5.08)
-				(name "B30"
+				(name "FLEXIO6"
 					(effects
 						(font
 							(size 1.016 1.016)
