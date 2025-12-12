@@ -124,7 +124,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
@@ -207,7 +207,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 1.016
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -494,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0,
@@ -511,16 +511,10 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.109728,
         "name": "PCIe",
         "pcb_color": "rgb(255, 0, 255)",
         "priority": 1,
-        "schematic_color": "rgb(255, 0, 255)",
-        "track_width": 0.1,
-        "via_diameter": 0.4,
-        "via_drill": 0.3
+        "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "name": "Power",
