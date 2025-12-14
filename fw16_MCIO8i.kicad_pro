@@ -646,6 +646,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/TX6+"
       }
     ]
   },

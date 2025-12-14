@@ -50,7 +50,7 @@
 		)
 	)
 	(property "MPN" "59453-041110EDHLF"
-		(at 0 0 0)
+		(at 0 -8 0)
 		(layer "F.SilkS")
 		(uuid "5256307d-0043-4ce6-9549-542dd3e6c69b")
 		(effects
@@ -251,6 +251,20 @@
 		(layer "F.Fab")
 		(uuid "1e436a42-6a57-4066-bddd-b69c541fe34e")
 	)
+	(pad "" smd rect
+		(at -1.49 0)
+		(size 0.52 1)
+		(layers "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7d6e1736-e741-4200-82f5-56a25d7c4b4c")
+	)
+	(pad "" smd rect
+		(at 1.49 0)
+		(size 0.52 1)
+		(layers "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "087f8e99-5c23-459f-8cb4-3357140f0f25")
+	)
 	(pad "1" smd rect
 		(at -0.75 -1.45)
 		(size 0.3 1.4)
@@ -278,20 +292,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "47f0ab24-f728-4480-b9df-f42318699015")
-	)
-	(pad "SH1" smd rect
-		(at -1.49 0)
-		(size 0.52 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "7d6e1736-e741-4200-82f5-56a25d7c4b4c")
-	)
-	(pad "SH2" smd rect
-		(at 1.49 0)
-		(size 0.52 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "087f8e99-5c23-459f-8cb4-3357140f0f25")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/components/fan-connector/59453-041110EDHLF.step"
