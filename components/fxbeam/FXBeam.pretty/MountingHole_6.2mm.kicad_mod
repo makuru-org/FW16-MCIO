@@ -74,7 +74,7 @@
 		(uuid "6c1ae806-df02-46db-835b-298ce70ec030")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -6.5 0)
 		(layer "F.Fab")
 		(uuid "53adbedf-9adf-4975-aa03-1e985e5741e4")
 		(effects
@@ -84,12 +84,11 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 7.1 7.1)
 		(drill 6.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(zone_connect 2)
 		(uuid "8f4e538a-d977-4177-8994-379ddf25797b")
 	)

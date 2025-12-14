@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(property "Reference" "U"
+		(property "Reference" "EEPROM"
 			(at 0 11.176 0)
 			(effects
 				(font
