@@ -1,7 +1,7 @@
 (kicad_symbol_lib
 	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(symbol "G97R22312HR"
 		(pin_names
 			(offset 1.016)
@@ -20,89 +20,89 @@
 		)
 		(property "Value" "G97R22312HR"
 			(at -7.366 61.214 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "mcio-connector:AMPHENOL_G97R22312HR"
 			(at 0 59.182 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "AX16"
 			(at 0 65.278 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 77.724 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.43mm"
 			(at 0 69.596 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
 			(at 0 74.168 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "G97R22312HR"
 			(at -0.508 61.976 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "G97R22312HR_0_0"
@@ -2069,10 +2069,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -15.24 26.67 0)
 				(length 5.08)
-				(name "REFCLK_A+"
+				(name "REFCLK+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2087,10 +2087,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -15.24 24.13 0)
 				(length 5.08)
-				(name "REFCLK_A-"
+				(name "REFCLK-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2249,10 +2249,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 16.51 34.29 180)
 				(length 5.08)
-				(name "SMSCL_A"
+				(name "SM_SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2270,7 +2270,7 @@
 			(pin bidirectional line
 				(at 16.51 31.75 180)
 				(length 5.08)
-				(name "SMSDA_A"
+				(name "SM_SDA"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2324,7 +2324,7 @@
 			(pin bidirectional line
 				(at 16.51 24.13 180)
 				(length 5.08)
-				(name "CBL_PESTI"
+				(name "M-PESTI"
 					(effects
 						(font
 							(size 1.016 1.016)
