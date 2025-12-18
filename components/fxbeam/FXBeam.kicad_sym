@@ -1202,7 +1202,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -17.78 -198.12 0)
 				(length 2.54)
 				(name "Fan0_SPEED"
@@ -1238,7 +1238,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -17.78 -203.2 0)
 				(length 2.54)
 				(name "Fan1_SPEED"
