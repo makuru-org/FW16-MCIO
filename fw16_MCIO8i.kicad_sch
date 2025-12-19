@@ -293,6 +293,15 @@
 					)
 				)
 			)
+			(property "MPN" "CL05A105KA5NQNC"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(hide yes)
@@ -576,6 +585,15 @@
 					)
 				)
 			)
+			(property "MPN" "0402WGF1002TCE"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(hide yes)
@@ -846,6 +864,15 @@
 					)
 				)
 			)
+			(property "MPN" "0402WGF3303TCE"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(hide yes)
@@ -916,7 +943,7 @@
 			(in_bom no)
 			(on_board no)
 			(property "Reference" "EEPROM"
-				(at 0 11.176 0)
+				(at 0 11.938 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -924,7 +951,7 @@
 				)
 			)
 			(property "Value" "M24C32-FDW6TP"
-				(at 0 9.144 0)
+				(at 0 9.906 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -932,7 +959,7 @@
 				)
 			)
 			(property "Footprint" "eeprom:TSSOP8_4P5X3P1X0P65_STM"
-				(at -1.016 15.748 0)
+				(at -1.016 16.51 0)
 				(hide yes)
 				(effects
 					(font
@@ -942,7 +969,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.st.com/resource/en/datasheet/m24c32-w.pdf"
-				(at -1.27 13.208 0)
+				(at -1.27 13.97 0)
 				(hide yes)
 				(effects
 					(font
@@ -962,6 +989,15 @@
 			)
 			(property "LCSC PN" "C2061249"
 				(at 0 6.096 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "M24C32-FDW6TP"
+				(at 0 7.874 0)
 				(hide yes)
 				(effects
 					(font
@@ -7169,7 +7205,7 @@
 	)
 	(no_connect
 		(at 328.93 72.39)
-		(uuid "7105dd80-f6c6-4a94-a3ff-66f9ea444fea")
+		(uuid "7a357516-9c0d-48c0-8292-0c2809377a10")
 	)
 	(no_connect
 		(at 359.41 82.55)
@@ -11732,7 +11768,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 76.2 40.64) (xy 76.2 140.97) (xy 78.74 140.97) (xy 78.74 40.64)
+				(xy 76.2 162.56) (xy 78.74 162.56) (xy 78.74 184.15) (xy 76.2 184.15)
 			)
 			(stroke
 				(width 0)
@@ -11741,37 +11777,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 04828a99-4aa1-4f84-8256-31e6c7c3591b)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 33.02 113.03) (xy 35.56 113.03) (xy 34.29 231.14) (xy 31.75 231.14)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8471fde9-64ad-4c86-8138-bfe8cb65cd49)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 76.2 241.3) (xy 78.74 241.3) (xy 78.74 278.13) (xy 76.2 278.13)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid bb3244b1-1cb9-4df4-8c5c-ccdc49d6fc31)
+			(uuid 2cc9fd58-e31e-4a3a-9ef9-db97b6a37486)
 		)
 	)
 	(rule_area
@@ -11786,13 +11792,13 @@
 			(fill
 				(type none)
 			)
-			(uuid d64acd24-d218-48ff-a4f6-bee7f64c32e2)
+			(uuid 9285294e-69ca-475a-8a02-87fc221a5bf6)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 76.2 162.56) (xy 78.74 162.56) (xy 78.74 184.15) (xy 76.2 184.15)
+				(xy 76.2 40.64) (xy 76.2 140.97) (xy 78.74 140.97) (xy 78.74 40.64)
 			)
 			(stroke
 				(width 0)
@@ -11801,7 +11807,37 @@
 			(fill
 				(type none)
 			)
-			(uuid daccfaa0-16f8-40bf-8eea-079e65644520)
+			(uuid a9a20422-7af1-408d-ac79-50293dc607f4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 76.2 241.3) (xy 78.74 241.3) (xy 78.74 278.13) (xy 76.2 278.13)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ea19ac0e-a629-4845-b741-333a5ff5d0fe)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 33.02 113.03) (xy 35.56 113.03) (xy 34.29 231.14) (xy 31.75 231.14)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f2547b5d-2b63-478f-89f6-656b211124f5)
 		)
 	)
 	(netclass_flag ""
@@ -12156,6 +12192,24 @@
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
 			(at 264.16 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-25567"
+			(at 264.16 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 264.16 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -12956,6 +13010,24 @@
 				)
 			)
 		)
+		(property "PROD_ID" "RES-25567"
+			(at 269.24 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 269.24 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68dbf826-4d53-4dca-85d7-b5d8d1ee7b21")
 		)
@@ -13035,6 +13107,15 @@
 				)
 			)
 		)
+		(property "MPN" "M24C32-FDW6TP"
+			(at 219.71 48.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "4610546d-0f2b-4518-9a0a-78ee23f6b2e7")
 		)
@@ -13073,11 +13154,11 @@
 		(at 34.29 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8b005c5f-1d7e-48ab-a788-94bbd724ee04")
-		(property "Reference" "TP3"
+		(property "Reference" "TP_SIGNAL1"
 			(at 36.068 102.87 0)
 			(effects
 				(font
@@ -13087,6 +13168,7 @@
 		)
 		(property "Value" "TestPoint_Small"
 			(at 32.512 101.092 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,7 +13208,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "TP3")
+					(reference "TP_SIGNAL1")
 					(unit 1)
 				)
 			)
@@ -13229,6 +13311,24 @@
 		)
 		(property "MPN" "609-F33D-1A7H1-E7C04CT-ND"
 			(at 174.244 60.198 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 173.99 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 173.99 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -13360,6 +13460,24 @@
 		)
 		(property "MPN" "609-F33D-1A7H1-E7C04CT-ND"
 			(at 139.954 60.198 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 139.7 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 139.7 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -13950,6 +14068,24 @@
 				)
 			)
 		)
+		(property "PROD_ID" "RES-15407"
+			(at 35.56 273.05 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF3303TCE"
+			(at 35.56 273.05 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7905c4dd-5b56-4de1-b8b4-482ecf3ac760")
 		)
@@ -14173,6 +14309,24 @@
 				)
 			)
 		)
+		(property "PROD_ID" "RES-15407"
+			(at 27.94 100.33 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF3303TCE"
+			(at 27.94 100.33 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40853d48-0ddb-495a-8ee8-128df456fc02")
 		)
@@ -14194,12 +14348,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eb65444a-bcd4-4e4a-9000-60e39cbdb2d3")
-		(property "Reference" "TP5"
-			(at 33.02 264.16 0)
+		(property "Reference" "TP_POWER1"
+			(at 31.242 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,6 +14362,7 @@
 		)
 		(property "Value" "TestPoint_Small"
 			(at 33.02 265.938 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,7 +14402,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "TP5")
+					(reference "TP_POWER1")
 					(unit 1)
 				)
 			)
@@ -14261,7 +14416,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe885127-3713-4b0a-b6ba-f3030f19e87b")
 		(property "Reference" "C1"
 			(at 246.38 34.2899 0)
@@ -14427,6 +14581,33 @@
 		)
 		(property "Temperature Coefficient" "X5R"
 			(at 243.84 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-25565"
+			(at 243.84 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 243.84 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
+			(at 248.92 41.91 0)
 			(hide yes)
 			(effects
 				(font
