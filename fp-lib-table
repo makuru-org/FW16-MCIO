@@ -6,4 +6,5 @@
   (lib (name "pcie-redriver")(type "KiCad")(uri "${KIPRJMOD}/components/pcie-redriver/footprints.pretty")(options "")(descr ""))
   (lib (name "eeprom")(type "KiCad")(uri "${KIPRJMOD}/components/eeprom/footprints.pretty")(options "")(descr ""))
   (lib (name "oculink-connector")(type "KiCad")(uri "${KIPRJMOD}/components/oculink-connector")(options "")(descr ""))
+  (lib (name "displayport")(type "KiCad")(uri "${KIPRJMOD}/components/displayport")(options "")(descr ""))
 )
