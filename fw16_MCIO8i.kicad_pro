@@ -205,7 +205,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.0,
           "single_sided": false,
           "spacing": 0.6
         },
@@ -644,28 +644,7 @@
         "Power"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "PCIe",
-        "pattern": "/TX\\d.*"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/RX\\d.*"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PEX_CLK.*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "3V3_ALW"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
