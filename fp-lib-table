@@ -7,4 +7,8 @@
   (lib (name "eeprom")(type "KiCad")(uri "${KIPRJMOD}/components/eeprom/footprints.pretty")(options "")(descr ""))
   (lib (name "oculink-connector")(type "KiCad")(uri "${KIPRJMOD}/components/oculink-connector")(options "")(descr ""))
   (lib (name "displayport")(type "KiCad")(uri "${KIPRJMOD}/components/displayport")(options "")(descr ""))
+  (lib (name "resistors")(type "KiCad")(uri "${KIPRJMOD}/components/resistors/footprints/Resistor_SMD_Wurth.pretty")(options "")(descr ""))
+  (lib (name "fan-diode")(type "KiCad")(uri "${KIPRJMOD}/components/fan-diode")(options "")(descr ""))
+  (lib (name "diode")(type "KiCad")(uri "${KIPRJMOD}/components/diode")(options "")(descr ""))
+  (lib (name "capacitor")(type "KiCad")(uri "${KIPRJMOD}/components/capacitor/footprints/Capacitor_SMD_Wurth.pretty")(options "")(descr ""))
 )

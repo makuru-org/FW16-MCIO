@@ -1,0 +1,136 @@
+(footprint "C_Wurth_WCAP-CSGP-1210_H2.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.99")
+	(layer "F.Cu")
+	(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ecb7e6f-2a04-43f4-8328-dd02bd5557d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Wurth_WCAP-CSGP-1210_H2.5"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7823dfc-9530-4b30-a93c-c1ed2b837123")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18548b2a-44c4-4860-8e80-4aa6813ceea5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd19da94-b31d-4a73-96de-08b743b98a98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.51)
+		(end 1.6 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "617671f0-cc77-4105-8e1f-597c68123ad7")
+	)
+	(fp_line
+		(start -1.6 1.51)
+		(end 1.6 1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a39752bc-9291-452c-a8be-70a8eba7c04b")
+	)
+	(fp_rect
+		(start -2.25 -1.5)
+		(end 2.25 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "de0a6674-b91e-4d66-a503-95aa9e87dc5b")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e4ca6ce1-e6a4-4d8f-a1c0-bfb44c3fdb34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61e3adff-802e-4aa7-9d09-84c7fde5a1c3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.55 0)
+		(size 0.9 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f4fcc30-c309-472a-a735-1990cc403f0e")
+	)
+	(pad "2" smd rect
+		(at 1.55 0)
+		(size 0.9 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9cb8591-441a-4c6d-8394-edf88f3a2ea8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/capacitor/3dmodels/Capacitor_SMD_Wurth.3dshapes/C_Wurth_WCAP-CSGP-1210_H2.5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

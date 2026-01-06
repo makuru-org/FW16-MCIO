@@ -7,4 +7,8 @@
   (lib (name "mcio-connector")(type "KiCad")(uri "${KIPRJMOD}/components/mcio-connector/G97R22312HR.kicad_sym")(options "")(descr ""))
   (lib (name "oculink-connector")(type "KiCad")(uri "${KIPRJMOD}/components/oculink-connector/G14B80121612HR.kicad_sym")(options "")(descr ""))
   (lib (name "displayport")(type "KiCad")(uri "${KIPRJMOD}/components/displayport/DPF20102711TR.kicad_sym")(options "")(descr ""))
+  (lib (name "resistor")(type "KiCad")(uri "${KIPRJMOD}/components/resistors/symbols/Resistor_Wurth_WRIS-RSKS.kicad_sym")(options "")(descr ""))
+  (lib (name "fan-diode")(type "KiCad")(uri "${KIPRJMOD}/components/fan-diode/ES15DLW.kicad_sym")(options "")(descr ""))
+  (lib (name "diode")(type "KiCad")(uri "${KIPRJMOD}/components/diode/SS115LW.kicad_sym")(options "")(descr ""))
+  (lib (name "capacitor")(type "KiCad")(uri "${KIPRJMOD}/components/capacitor/symbols/Capacitor_Wurth_WCAP-CSGP.kicad_sym")(options "")(descr ""))
 )

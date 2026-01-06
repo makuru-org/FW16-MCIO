@@ -515,7 +515,7 @@
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 0,
         "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.2032
+        "track_width": 0.3
       }
     ],
     "meta": {
@@ -641,6 +641,36 @@
         "Power"
       ],
       "GND": [
+        "Power"
+      ],
+      "Net-(D3-PadC)": [
+        "Power"
+      ],
+      "Net-(D4-PadA)": [
+        "Power"
+      ],
+      "Net-(D5-PadA)": [
+        "Power"
+      ],
+      "Net-(D6-PadC)": [
+        "Power"
+      ],
+      "Net-(EEPROM1-E0)": [
+        "Power"
+      ],
+      "Net-(EEPROM1-VCC)": [
+        "Power"
+      ],
+      "Net-(FAN_L1-Pad1)": [
+        "Power"
+      ],
+      "Net-(FAN_L1-Pad4)": [
+        "Power"
+      ],
+      "Net-(FAN_R1-Pad1)": [
+        "Power"
+      ],
+      "Net-(FAN_R1-Pad4)": [
         "Power"
       ]
     },
@@ -915,6 +945,108 @@
           "group_by": false,
           "label": "CREATOR",
           "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol. R",
+          "name": "Tol. R",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VE (V)",
+          "name": "VE (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TCR (ppm/ °C).1",
+          "name": "TCR (ppm/ °C).1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "W (mm)",
+          "name": "W (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R",
+          "name": "R",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "H (mm)",
+          "name": "H (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (mm)",
+          "name": "L (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TCR (ppm/ °C)",
+          "name": "TCR (ppm/ °C)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Match Code",
+          "name": "Match Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRated (mW)",
+          "name": "PRated (mW)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Published Date",
+          "name": "Published Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
           "show": false
         }
       ],
