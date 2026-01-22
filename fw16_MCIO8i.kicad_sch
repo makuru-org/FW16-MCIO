@@ -7742,22 +7742,16 @@
 		(uuid "336a4e30-d2f9-41df-9de7-3d383d3e5b14")
 	)
 	(junction
-		(at 264.16 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33a750e8-850b-4a60-8232-2b3728299bde")
-	)
-	(junction
 		(at 204.47 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35e84b18-ccf8-485d-b42c-c7b32c436289")
 	)
 	(junction
-		(at 255.27 31.75)
+		(at 260.35 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36d79452-8d89-4b50-b011-e1f91f4ece73")
+		(uuid "3702373f-c637-4cfb-8f52-9b37e4cdcb2f")
 	)
 	(junction
 		(at 233.68 31.75)
@@ -7826,6 +7820,12 @@
 		(uuid "5af3155c-a497-47ef-a46f-464cb58f39fa")
 	)
 	(junction
+		(at 247.65 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a3c25c4-3042-4a93-8cd0-9c6f3f9113ff")
+	)
+	(junction
 		(at 31.75 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7874,12 +7874,6 @@
 		(uuid "91a644a4-4160-488e-98d9-22ff349d8061")
 	)
 	(junction
-		(at 204.47 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9375282f-96d8-4afe-bec5-ac826bdc7b2f")
-	)
-	(junction
 		(at 327.66 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7910,6 +7904,12 @@
 		(uuid "a35c82af-cd6a-445a-956b-c6aa7f4e5161")
 	)
 	(junction
+		(at 260.35 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a49042-548d-42de-b4d2-a8c4e3a6fded")
+	)
+	(junction
 		(at 35.56 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7932,6 +7932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b89dd317-186f-4766-8d68-ff264ab7a16d")
+	)
+	(junction
+		(at 204.47 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb1aa153-5304-4697-a76a-a2825672060d")
 	)
 	(junction
 		(at 31.75 152.4)
@@ -7988,12 +7994,6 @@
 		(uuid "d5990562-381a-432e-b522-66da2034be79")
 	)
 	(junction
-		(at 204.47 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddff607a-e6ef-49c5-9d66-71140ba1e775")
-	)
-	(junction
 		(at 80.01 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8022,12 +8022,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f594adf3-feb1-43b0-8835-4817a12b6d97")
-	)
-	(junction
-		(at 264.16 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb1b223d-1d76-460b-a09e-d464488016e0")
 	)
 	(junction
 		(at 31.75 191.77)
@@ -8105,16 +8099,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 54.61) (xy 204.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03270d11-8e84-4a0a-93d0-c14cb07ec621")
-	)
-	(wire
-		(pts
 			(xy 31.75 129.54) (xy 38.1 129.54)
 		)
 		(stroke
@@ -8172,16 +8156,6 @@
 			(type default)
 		)
 		(uuid "088480a4-1830-490a-a667-998d624be8b2")
-	)
-	(wire
-		(pts
-			(xy 264.16 31.75) (xy 269.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a2873d-d90e-44bb-9b8a-81924804f17e")
 	)
 	(wire
 		(pts
@@ -8415,7 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 43.18) (xy 204.47 44.45)
+			(xy 204.47 38.1) (xy 204.47 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8735,7 +8709,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 40.64) (xy 246.38 40.64)
+			(xy 245.11 40.64) (xy 247.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8752,6 +8726,16 @@
 			(type default)
 		)
 		(uuid "3cc3214c-1832-423f-8c74-3c63283add4e")
+	)
+	(wire
+		(pts
+			(xy 260.35 31.75) (xy 269.24 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd9a2f5-1036-4b00-a7f9-dd4aeb46d71b")
 	)
 	(wire
 		(pts
@@ -8895,7 +8879,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 31.75) (xy 255.27 31.75)
+			(xy 233.68 31.75) (xy 247.65 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9005,16 +8989,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 31.75) (xy 264.16 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5342b203-29b0-4d10-9b70-cbb29601c2dd")
-	)
-	(wire
-		(pts
 			(xy 31.75 168.91) (xy 38.1 168.91)
 		)
 		(stroke
@@ -9055,7 +9029,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 48.26) (xy 264.16 49.53)
+			(xy 260.35 41.91) (xy 260.35 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9255,16 +9229,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 49.53) (xy 204.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "661e01b6-67f1-4163-9def-801c434f4b18")
-	)
-	(wire
-		(pts
 			(xy 73.66 128.27) (xy 82.55 128.27)
 		)
 		(stroke
@@ -9315,26 +9279,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 54.61) (xy 204.47 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c185441-6e22-4040-8736-10da9b36cc71")
-	)
-	(wire
-		(pts
-			(xy 264.16 49.53) (xy 273.05 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d043e28-8e7a-4a54-8a5c-e2952180ded7")
-	)
-	(wire
-		(pts
 			(xy 129.54 34.29) (xy 129.54 44.45)
 		)
 		(stroke
@@ -9345,7 +9289,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 49.53) (xy 264.16 49.53)
+			(xy 233.68 49.53) (xy 260.35 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9465,6 +9409,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 31.75) (xy 260.35 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a99807d-0c8f-47b3-968d-762541e458cd")
+	)
+	(wire
+		(pts
 			(xy 204.47 49.53) (xy 205.74 49.53)
 		)
 		(stroke
@@ -9575,6 +9529,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 49.53) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3d019f-5e07-4018-98b5-65e8bc81ba0a")
+	)
+	(wire
+		(pts
 			(xy 149.86 43.18) (xy 152.4 43.18)
 		)
 		(stroke
@@ -9592,6 +9556,16 @@
 			(type default)
 		)
 		(uuid "80947fe3-3b08-4a01-8de1-d41948a4223a")
+	)
+	(wire
+		(pts
+			(xy 260.35 49.53) (xy 273.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c22b00-9e0c-400e-a346-d005387259c6")
 	)
 	(wire
 		(pts
@@ -9665,16 +9639,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 46.99) (xy 237.49 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e7399c-a744-48bf-8354-c6fd5737df07")
-	)
-	(wire
-		(pts
 			(xy 326.39 123.19) (xy 328.93 123.19)
 		)
 		(stroke
@@ -9705,7 +9669,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 35.56) (xy 207.01 35.56)
+			(xy 204.47 38.1) (xy 207.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9775,7 +9739,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 31.75) (xy 264.16 33.02)
+			(xy 260.35 31.75) (xy 260.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9955,16 +9919,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 31.75) (xy 233.68 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a13d32ba-07ff-4f33-8878-d8d1f8e1d050")
-	)
-	(wire
-		(pts
 			(xy 31.75 214.63) (xy 38.1 214.63)
 		)
 		(stroke
@@ -10015,6 +9969,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 31.75) (xy 269.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dff618-9d34-480b-aa33-fe0cd6c476d4")
+	)
+	(wire
+		(pts
 			(xy 129.54 72.39) (xy 161.29 72.39)
 		)
 		(stroke
@@ -10025,7 +9989,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 41.91) (xy 233.68 44.45)
+			(xy 233.68 31.75) (xy 233.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10042,16 +10006,6 @@
 			(type default)
 		)
 		(uuid "a7ba7692-a69a-43b6-b440-7b95b33b81cf")
-	)
-	(wire
-		(pts
-			(xy 269.24 31.75) (xy 269.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7e12d15-4d3d-45ce-a834-50071e708dbe")
 	)
 	(wire
 		(pts
@@ -10515,7 +10469,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 31.75) (xy 255.27 33.02)
+			(xy 247.65 31.75) (xy 247.65 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10832,16 +10786,6 @@
 			(type default)
 		)
 		(uuid "f32bb752-9d28-4de6-8aa4-e25458d83803")
-	)
-	(wire
-		(pts
-			(xy 254 40.64) (xy 255.27 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f438cbe2-e369-495d-ad53-b2691e60814c")
 	)
 	(wire
 		(pts
@@ -12359,7 +12303,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 207.01 35.56 0)
+		(at 207.01 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12369,7 +12313,7 @@
 		)
 		(uuid "7cc630f3-6650-433c-9c51-75db0da6fa80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7544 35.56 0)
+			(at 212.7544 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -12645,6 +12589,28 @@
 	)
 	(global_label "GND"
 		(shape passive)
+		(at 237.49 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5487cd2-15bc-42ab-9091-c16fa8e7514a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.2344 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
 		(at 361.95 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12756,21 +12722,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 76.2 241.3) (xy 78.74 241.3) (xy 78.74 278.13) (xy 76.2 278.13)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 271648f5-0918-412f-bc14-40bd27942dc4)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 76.2 40.64) (xy 76.2 140.97) (xy 78.74 140.97) (xy 78.74 40.64)
 			)
 			(stroke
@@ -12780,22 +12731,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 770c43a3-b598-4918-9394-a0178dac12b9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 33.02 113.03) (xy 35.56 113.03) (xy 34.29 231.14) (xy 31.75 231.14)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid a2e4c2b8-32cf-4a1b-8233-731ceb81f1f6)
+			(uuid 76a4f1f0-061c-4f69-8948-d2fb7b10f827)
 		)
 	)
 	(rule_area
@@ -12810,7 +12746,22 @@
 			(fill
 				(type none)
 			)
-			(uuid f365dd31-5627-4fcb-b0dd-0e90ff0d49eb)
+			(uuid 82cfcc87-ea33-409d-b93a-acb3c21c6a07)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 33.02 113.03) (xy 35.56 113.03) (xy 34.29 231.14) (xy 31.75 231.14)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c0683a16-5cf6-4d39-8a0a-bbe8be004a40)
 		)
 	)
 	(rule_area
@@ -12825,7 +12776,22 @@
 			(fill
 				(type none)
 			)
-			(uuid fec10905-4058-490f-8615-f433ecb3ca9c)
+			(uuid ef37c975-248c-4690-9f48-994004294584)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 76.2 241.3) (xy 78.74 241.3) (xy 78.74 278.13) (xy 76.2 278.13)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid fa4df6cc-eb35-4291-a3fa-8a9850a8df25)
 		)
 	)
 	(netclass_flag ""
@@ -12891,37 +12857,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 233.68 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "219888c7-60f3-4276-8221-66466a9ef108")
-		(property "Netclass" "Power"
-			(at 231.14 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 166.37 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 180.34 59.69 0)
 		(effects
 			(font
@@ -12941,36 +12876,6 @@
 		)
 		(property "Component Class" ""
 			(at 90.17 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 204.47 52.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40ee306e-ee6d-4131-adde-692bb98b7917")
-		(property "Netclass" "Power"
-			(at 201.93 51.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 137.16 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,7 +12977,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 205.74 35.56 0)
+		(at 205.74 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13081,7 +12986,7 @@
 		)
 		(uuid "8101740a-0a9e-4d47-b81f-fe9c1162dae9")
 		(property "Netclass" "Power"
-			(at 206.248 33.02 0)
+			(at 206.248 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13090,7 +12995,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 115.57 -31.75 0)
+			(at 115.57 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13786,124 +13691,6 @@
 			(project ""
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "diode:SS115LW")
-		(at 269.24 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10e16dff-dd8e-4933-baf3-186659465f33")
-		(property "Reference" "D14"
-			(at 267.97 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 271.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 260.604 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 257.048 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 264.16 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 258.826 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 255.27 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 262.382 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "A"
-			(uuid "2ea49ce1-5a72-4869-b325-57ff4f8f64fa")
-		)
-		(pin "C"
-			(uuid "75f4bb23-881b-47b1-a361-e5dfbc89d5b5")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -14790,124 +14577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diode:SS115LW")
-		(at 250.19 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c9469c6-954a-4549-8ae3-b70ddfea092d")
-		(property "Reference" "D12"
-			(at 254 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 250.19 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 250.19 32.004 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 250.19 28.448 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 250.19 35.56 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 250.19 30.226 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 250.19 26.67 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 250.19 33.782 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "A"
-			(uuid "ebc8e5fa-2e33-42c4-abbb-d0643e8b57ce")
-		)
-		(pin "C"
-			(uuid "c3f89a7b-aca4-4b83-ab4f-e6a6ef7471bc")
-		)
-		(instances
-			(project ""
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "expansion_bay:FXBeam")
 		(at 55.88 55.88 0)
 		(unit 1)
@@ -15701,7 +15370,7 @@
 	)
 	(symbol
 		(lib_id "capacitor:0402_885012105012")
-		(at 255.27 36.83 0)
+		(at 247.65 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15709,7 +15378,7 @@
 		(dnp no)
 		(uuid "63315a1c-bf26-42bf-a304-6c0724bab502")
 		(property "Reference" "C1"
-			(at 250.19 36.83 0)
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,7 +15387,7 @@
 			)
 		)
 		(property "Value" "0402_885012105012"
-			(at 260.35 13.97 0)
+			(at 252.73 13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -15728,7 +15397,7 @@
 			)
 		)
 		(property "Footprint" "capacitor:C_Wurth_WCAP-CSGP-0402"
-			(at 260.35 16.51 0)
+			(at 252.73 16.51 0)
 			(hide yes)
 			(effects
 				(font
@@ -15738,7 +15407,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012105012.pdf?ki"
-			(at 260.35 19.05 0)
+			(at 252.73 19.05 0)
 			(hide yes)
 			(effects
 				(font
@@ -15748,7 +15417,7 @@
 			)
 		)
 		(property "Description" "MLCCs 10 V(DC) ED"
-			(at 255.27 36.83 0)
+			(at 247.65 36.83 0)
 			(hide yes)
 			(effects
 				(font
@@ -15757,7 +15426,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 260.35 21.59 0)
+			(at 252.73 21.59 0)
 			(hide yes)
 			(effects
 				(font
@@ -15767,7 +15436,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 260.35 24.13 0)
+			(at 252.73 24.13 0)
 			(hide yes)
 			(effects
 				(font
@@ -15777,7 +15446,7 @@
 			)
 		)
 		(property "Published Date" "20251008"
-			(at 260.35 26.67 0)
+			(at 252.73 26.67 0)
 			(hide yes)
 			(effects
 				(font
@@ -15787,7 +15456,7 @@
 			)
 		)
 		(property "Match Code" "WCAP-CSGP"
-			(at 260.35 29.21 0)
+			(at 252.73 29.21 0)
 			(hide yes)
 			(effects
 				(font
@@ -15797,7 +15466,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 260.35 31.75 0)
+			(at 252.73 31.75 0)
 			(hide yes)
 			(effects
 				(font
@@ -15807,7 +15476,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 260.35 34.29 0)
+			(at 252.73 34.29 0)
 			(hide yes)
 			(effects
 				(font
@@ -15817,7 +15486,7 @@
 			)
 		)
 		(property "Part Number" "885012105012"
-			(at 247.65 34.29 0)
+			(at 240.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,7 +15495,7 @@
 			)
 		)
 		(property "Capacitance" "1 µF"
-			(at 257.81 36.83 0)
+			(at 250.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15835,7 +15504,7 @@
 			)
 		)
 		(property "Voltage" "10.0"
-			(at 257.81 39.37 0)
+			(at 250.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,7 +15513,7 @@
 			)
 		)
 		(property "C" "1 µF"
-			(at 267.97 39.37 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -15854,7 +15523,7 @@
 			)
 		)
 		(property "Tol. C" "±20%"
-			(at 267.97 41.91 0)
+			(at 260.35 41.91 0)
 			(hide yes)
 			(effects
 				(font
@@ -15864,7 +15533,7 @@
 			)
 		)
 		(property "VR (V (DC))" "10.0"
-			(at 267.97 44.45 0)
+			(at 260.35 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -15874,7 +15543,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +85 °C"
-			(at 267.97 46.99 0)
+			(at 260.35 46.99 0)
 			(hide yes)
 			(effects
 				(font
@@ -15884,7 +15553,7 @@
 			)
 		)
 		(property "DF (%)" "15"
-			(at 267.97 49.53 0)
+			(at 260.35 49.53 0)
 			(hide yes)
 			(effects
 				(font
@@ -15894,7 +15563,7 @@
 			)
 		)
 		(property "RISO" "0.05 GΩ"
-			(at 267.97 52.07 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(effects
 				(font
@@ -15904,7 +15573,7 @@
 			)
 		)
 		(property "Ceramic Type" "X5R Class II"
-			(at 267.97 54.61 0)
+			(at 260.35 54.61 0)
 			(hide yes)
 			(effects
 				(font
@@ -15914,7 +15583,7 @@
 			)
 		)
 		(property "L (mm)" "1.0"
-			(at 267.97 57.15 0)
+			(at 260.35 57.15 0)
 			(hide yes)
 			(effects
 				(font
@@ -15924,7 +15593,7 @@
 			)
 		)
 		(property "W (mm)" "0.5"
-			(at 267.97 59.69 0)
+			(at 260.35 59.69 0)
 			(hide yes)
 			(effects
 				(font
@@ -15934,7 +15603,7 @@
 			)
 		)
 		(property "H (mm)" "0.5"
-			(at 267.97 62.23 0)
+			(at 260.35 62.23 0)
 			(hide yes)
 			(effects
 				(font
@@ -15944,7 +15613,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.25"
-			(at 267.97 64.77 0)
+			(at 260.35 64.77 0)
 			(hide yes)
 			(effects
 				(font
@@ -15954,7 +15623,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 267.97 67.31 0)
+			(at 260.35 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -15964,7 +15633,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 267.97 69.85 0)
+			(at 260.35 69.85 0)
 			(hide yes)
 			(effects
 				(font
@@ -15974,7 +15643,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 255.27 44.45 0)
+			(at 247.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16204,124 +15873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diode:SS115LW")
-		(at 233.68 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "839fac7c-0461-4491-8542-c3815901db6e")
-		(property "Reference" "D15"
-			(at 232.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 225.044 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 221.488 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 228.6 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 223.266 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 219.71 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 226.822 38.1 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "A"
-			(uuid "98195e3f-ba95-4b80-9a98-51808cf2fa9a")
-		)
-		(pin "C"
-			(uuid "55cfd8a8-0b59-4bce-b8d0-8b43a10b0c99")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 34.29 102.87 270)
 		(unit 1)
@@ -16388,7 +15939,7 @@
 	)
 	(symbol
 		(lib_id "resistor:1206_R_560112132018")
-		(at 264.16 44.45 90)
+		(at 260.35 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16396,7 +15947,7 @@
 		(dnp no)
 		(uuid "8c3b6448-f1a3-4a40-85fb-d0330205805f")
 		(property "Reference" "R12"
-			(at 264.16 48.26 90)
+			(at 260.35 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16405,7 +15956,7 @@
 			)
 		)
 		(property "Value" "1206_R_560112132018"
-			(at 266.7 44.45 0)
+			(at 262.89 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -16414,7 +15965,7 @@
 			)
 		)
 		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 256.54 44.45 0)
+			(at 252.73 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -16423,7 +15974,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132018.pdf?ki"
-			(at 246.38 -7.62 0)
+			(at 242.57 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16432,7 +15983,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 264.16 44.45 0)
+			(at 260.35 38.1 0)
 			(hide yes)
 			(effects
 				(font
@@ -16441,7 +15992,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 248.92 -7.62 0)
+			(at 245.11 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16450,7 +16001,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 251.46 -7.62 0)
+			(at 247.65 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16459,7 +16010,7 @@
 			)
 		)
 		(property "Published Date" "20250214"
-			(at 254 -7.62 0)
+			(at 250.19 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16468,7 +16019,7 @@
 			)
 		)
 		(property "Match Code" "WRIS-RSKS"
-			(at 256.54 -7.62 0)
+			(at 252.73 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16477,7 +16028,7 @@
 			)
 		)
 		(property "Part Number" "560112132018"
-			(at 259.08 -7.62 0)
+			(at 255.27 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16486,7 +16037,7 @@
 			)
 		)
 		(property "Size" "1206_R"
-			(at 261.62 -7.62 0)
+			(at 257.81 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16495,7 +16046,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 264.16 -7.62 0)
+			(at 260.35 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16504,7 +16055,7 @@
 			)
 		)
 		(property "R" "10 kΩ"
-			(at 266.7 -7.62 0)
+			(at 262.89 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16513,7 +16064,7 @@
 			)
 		)
 		(property "Tol. R" "±1%"
-			(at 269.24 -7.62 0)
+			(at 265.43 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16522,7 +16073,7 @@
 			)
 		)
 		(property "PRated (mW)" "250.0"
-			(at 271.78 -7.62 0)
+			(at 267.97 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16531,7 +16082,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C)" "-100"
-			(at 274.32 -7.62 0)
+			(at 270.51 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16540,7 +16091,7 @@
 			)
 		)
 		(property "TCR (ppm/ °C).1" "100"
-			(at 276.86 -7.62 0)
+			(at 273.05 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16549,7 +16100,7 @@
 			)
 		)
 		(property "VE (V)" "200"
-			(at 279.4 -7.62 0)
+			(at 275.59 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16558,7 +16109,7 @@
 			)
 		)
 		(property "L (mm)" "3.1"
-			(at 281.94 -7.62 0)
+			(at 278.13 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16567,7 +16118,7 @@
 			)
 		)
 		(property "W (mm)" "1.6"
-			(at 284.48 -7.62 0)
+			(at 280.67 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16576,7 +16127,7 @@
 			)
 		)
 		(property "H (mm)" "0.6"
-			(at 287.02 -7.62 0)
+			(at 283.21 -13.97 0)
 			(hide yes)
 			(effects
 				(font
@@ -16585,7 +16136,7 @@
 			)
 		)
 		(property "Critical Parameter" "10 kΩ"
-			(at 261.62 41.91 0)
+			(at 257.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,124 +17920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diode:SS115LW")
-		(at 264.16 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6957dd4-f6e2-4e5a-abfd-3843bcbe2139")
-		(property "Reference" "D13"
-			(at 262.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 266.7 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 255.524 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 251.968 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 259.08 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 253.746 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 250.19 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 257.302 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "A"
-			(uuid "e4bfbcbe-0622-492b-990c-b14d5ccb9a33")
-		)
-		(pin "C"
-			(uuid "266b7195-9f68-4e38-b1a1-de191b6c2155")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor:1206_R_560112132007")
 		(at 156.21 64.77 0)
 		(unit 1)
@@ -18767,124 +18200,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "TP_POWER1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "diode:SS115LW")
-		(at 204.47 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f460c81d-1eaa-490b-8469-a5407c9c1e25")
-		(property "Reference" "D18"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 213.106 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 216.662 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 209.55 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 214.884 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 218.44 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 211.328 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "A"
-			(uuid "ae71ede4-db6e-44a4-8637-304d566d9ce4")
-		)
-		(pin "C"
-			(uuid "86156cba-edb3-4c53-bdbe-69f0c247a916")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D18")
 					(unit 1)
 				)
 			)

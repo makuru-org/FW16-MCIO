@@ -1,0 +1,6 @@
+(version 1)
+# Enforce same length for PCIe lanes
+(rule "PCIe"
+  (condition "A.NetClass == 'PCIe'")
+  (constraint skew (min 0.05mm) (max 0.05mm))
+  (severity error))
