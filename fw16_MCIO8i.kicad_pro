@@ -142,7 +142,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -643,6 +643,9 @@
       "GND": [
         "Power"
       ],
+      "Net-(D3-PadA)": [
+        "Power"
+      ],
       "Net-(D3-PadC)": [
         "Power"
       ],
@@ -650,6 +653,9 @@
         "Power"
       ],
       "Net-(D5-PadA)": [
+        "Power"
+      ],
+      "Net-(D6-PadA)": [
         "Power"
       ],
       "Net-(D6-PadC)": [
@@ -1047,6 +1053,72 @@
           "group_by": false,
           "label": "Part Number",
           "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Demoboard",
+          "name": "Demoboard",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Q (%)",
+          "name": "Q (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RISO",
+          "name": "RISO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fl (mm)",
+          "name": "Fl (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol. C",
+          "name": "Tol. C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DF (%)",
+          "name": "DF (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "C",
+          "name": "C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ceramic Type",
+          "name": "Ceramic Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VR (V (DC))",
+          "name": "VR (V (DC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": false
         }
       ],

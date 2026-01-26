@@ -105,6 +105,15 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "SS115LW"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "SS115LW_0_0"
 			(polyline
 				(pts

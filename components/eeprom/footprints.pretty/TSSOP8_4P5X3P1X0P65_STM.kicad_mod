@@ -64,6 +64,17 @@
 			)
 		)
 	)
+	(property "'FT Rotation Offset'" "90"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "dd33ce23-0d3c-4012-a83b-10f81f980cff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -2.3749 1.6764)
@@ -645,7 +656,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
