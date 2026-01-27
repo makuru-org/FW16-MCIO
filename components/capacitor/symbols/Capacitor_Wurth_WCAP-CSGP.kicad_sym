@@ -314944,6 +314944,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "885012208018"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "SMT"
 			(at 0 0 0)
 			(effects
