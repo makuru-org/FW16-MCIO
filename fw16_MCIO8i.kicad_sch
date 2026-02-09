@@ -396,6 +396,24 @@
 					(justify left)
 				)
 			)
+			(property "MPN" "885012208018"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C2178587"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "SMT"
 				(at 0 0 0)
 				(effects
@@ -804,7 +822,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C2061249"
+			(property "LCSC Part #" "C2061249"
 				(at 0 6.096 0)
 				(effects
 					(font
@@ -4275,6 +4293,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part #" "C4499806"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "G97R22312HR_0_0"
 				(rectangle
 					(start -11.43 54.61)
@@ -7481,7 +7508,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C28703254"
+			(property "LCSC Part #" "C26798316"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14080,7 +14107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C28703254"
+		(property "LCSC Part #" "C26798316"
 			(at 35.56 273.05 0)
 			(effects
 				(font
@@ -14548,6 +14575,15 @@
 			)
 		)
 		(property "MPN" "560112132036"
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C26798316"
 			(at 27.94 100.33 0)
 			(effects
 				(font
@@ -15706,6 +15742,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2061249"
+			(at 219.71 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "4610546d-0f2b-4518-9a0a-78ee23f6b2e7")
 		)
@@ -16070,7 +16115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "capacitor:C_Wurth_WCAP-CSGP-1206_H0.8"
+		(property "Footprint" "capacitor:C_Wurth_WCAP-CSGP-1206_H1.6"
 			(at 252.73 16.51 0)
 			(effects
 				(font
@@ -16323,6 +16368,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "885012208018"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2178587"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16820,6 +16883,15 @@
 		)
 		(property "MPN" "G97R22312HR"
 			(at 343.662 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4499806"
+			(at 344.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

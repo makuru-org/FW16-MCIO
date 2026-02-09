@@ -133962,6 +133962,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C26798316"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "SMT"
 			(at 0 0 0)
 			(effects
