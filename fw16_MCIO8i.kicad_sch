@@ -498,303 +498,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "diode:SS115LW"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -4.318 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SS115LW"
-				(at -4.064 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SS115LW:DIO_SS115LW"
-				(at 0 -8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "D2305"
-				(at 0 -12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Taiwan Semiconductor"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "SS14LW"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SS115LW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS115LW_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.016) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "eeprom:M24C32-FDW6TP"
+		(symbol "eeprom:BR24L32F-WE2"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "EEPROM"
-				(at 0 11.176 0)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.192 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "M24C32-FDW6TP"
-				(at 0 9.144 0)
+			(property "Value" "BR24L32F-WE2"
+				(at 0 8.128 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "eeprom:TSSOP8_4P5X3P1X0P65_STM"
-				(at -1.016 15.748 0)
+			(property "Footprint" "SOP8_ROM"
+				(at -0.254 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -803,8 +531,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/m24c32-w.pdf"
-				(at -1.27 13.208 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24lxxx-w-e.pdf"
+				(at -0.254 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -822,8 +550,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C2061249"
-				(at 0 6.096 0)
+			(property "MPN" "BR24L32F-WE2"
+				(at 0 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -831,7 +559,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "M24C32-FDW6TP"
+			(property "JLCPCB Part #" "C253183"
+				(at 0 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BR24L32F-WE2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -840,7 +577,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP8_4P5X3P1X0P65_STM TSSOP8_4P5X3P1X0P65_STM-M TSSOP8_4P5X3P1X0P65_STM-L"
+			(property "ki_fp_filters" "SOP8_ROM SOP8_ROM-M SOP8_ROM-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -849,11 +586,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "M24C32-FDW6TP_0_1"
-				(pin input line
+			(symbol "BR24L32F-WE2_0_1"
+				(pin unspecified line
 					(at -13.97 3.81 0)
 					(length 7.62)
-					(name "E0"
+					(name "A0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -868,10 +605,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 1.27 0)
 					(length 7.62)
-					(name "E1"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -886,10 +623,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 -1.27 0)
 					(length 7.62)
-					(name "E2"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -904,10 +641,28 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at -13.97 -3.81 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 13.97 3.81 180)
 					(length 7.62)
-					(name "VCC"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -922,10 +677,23 @@
 						)
 					)
 				)
-				(pin power_in line
+			)
+			(symbol "BR24L32F-WE2_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
 					(at 13.97 1.27 180)
 					(length 7.62)
-					(name "WC"
+					(name "WP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -969,37 +737,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "M24C32-FDW6TP_1_1"
-				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -13.97 -3.81 0)
-					(length 7.62)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3616,7 +3353,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at 17.78 -138.43 180)
 					(length 2.54)
 					(name "I2C_INT_ALW"
@@ -8259,6 +7996,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 96.52) (xy 24.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c24b09d-ad0a-4c13-8e66-b1e9dfc887ea")
+	)
+	(wire
+		(pts
 			(xy 361.95 85.09) (xy 359.41 85.09)
 		)
 		(stroke
@@ -8489,7 +8236,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 38.1) (xy 204.47 44.45)
+			(xy 204.47 36.83) (xy 204.47 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9459,6 +9206,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 194.31) (xy 78.74 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9cf1e9-bcda-4479-b78c-596f50bb1005")
+	)
+	(wire
+		(pts
 			(xy 204.47 49.53) (xy 205.74 49.53)
 		)
 		(stroke
@@ -9649,16 +9406,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 97.79) (xy 24.13 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f5b4b3-7140-468a-a859-2a5bbab9018e")
-	)
-	(wire
-		(pts
 			(xy 31.75 199.39) (xy 31.75 196.85)
 		)
 		(stroke
@@ -9719,7 +9466,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 38.1) (xy 207.01 38.1)
+			(xy 204.47 36.83) (xy 207.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9879,6 +9626,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 279.4) (xy 35.56 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adacb21-f690-4789-bf5a-7b0721ec7a5e")
+	)
+	(wire
+		(pts
 			(xy 359.41 87.63) (xy 368.3 87.63)
 		)
 		(stroke
@@ -9926,16 +9683,6 @@
 			(type default)
 		)
 		(uuid "9e8174b4-940d-4b25-b2e2-294ebcb43a36")
-	)
-	(wire
-		(pts
-			(xy 27.94 275.59) (xy 27.94 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e977056-cfbc-49e0-a72b-f4fedbeca2bf")
 	)
 	(wire
 		(pts
@@ -10859,16 +10606,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 90.17) (xy 27.94 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa19090e-5b09-46a6-a5b9-33dab04549b4")
-	)
-	(wire
-		(pts
 			(xy 160.02 40.64) (xy 185.42 40.64)
 		)
 		(stroke
@@ -11046,6 +10783,16 @@
 			(justify right bottom)
 		)
 		(uuid "1ee190d0-1be1-43e2-a928-559eee483223")
+	)
+	(label "I2C_PWR"
+		(at 78.74 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f7e95d3-a180-4494-b4f5-a0583341bde8")
 	)
 	(label "RX3+"
 		(at 320.04 95.25 180)
@@ -11497,6 +11244,16 @@
 		)
 		(uuid "aba88116-137a-4b3b-88c7-2524162cc512")
 	)
+	(label "I2C_PWR"
+		(at 229.87 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b28e9056-cd5f-434d-97f5-c344b16ec30c")
+	)
 	(label "TX3-"
 		(at 82.55 66.04 0)
 		(effects
@@ -11809,7 +11566,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 27.94 90.17 0)
+		(at 24.13 96.52 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11819,7 +11576,7 @@
 		)
 		(uuid "0647c960-5a8c-4dee-a049-0095fea46557")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.6844 90.17 0)
+			(at 24.13 90.7756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,29 +12028,29 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 27.94 275.59 90)
+		(at 33.02 279.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7900b575-2503-4b75-b9a5-83e28296e6b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 269.8456 90)
+			(at 27.2756 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 207.01 38.1 0)
+		(at 207.01 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12303,7 +12060,7 @@
 		)
 		(uuid "7cc630f3-6650-433c-9c51-75db0da6fa80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7544 38.1 0)
+			(at 212.7544 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,28 +12088,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_ALW"
-		(shape passive)
-		(at 229.87 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a14555c-caff-426a-addc-bc614cf7292a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.9528 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12968,7 +12703,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 205.74 38.1 0)
+		(at 205.74 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12977,7 +12712,7 @@
 		)
 		(uuid "8101740a-0a9e-4d47-b81f-fe9c1162dae9")
 		(property "Netclass" "Power"
-			(at 206.248 35.56 0)
+			(at 206.248 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +12721,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 115.57 -29.21 0)
+			(at 115.57 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,6 +13385,112 @@
 			(project ""
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eeprom:BR24L32F-WE2")
+		(at 219.71 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10874177-d122-4b41-a259-5d55bc732430")
+		(property "Reference" "EEPROM1"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "BR24L32F-WE2"
+			(at 219.71 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "eeprom:SOP8_ROM"
+			(at 219.456 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24lxxx-w-e.pdf"
+			(at 219.456 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BR24L32F-WE2"
+			(at 219.71 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C253183"
+			(at 219.71 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "44a2b95e-ee6b-463f-96b1-a88a2cad23b7")
+		)
+		(pin "6"
+			(uuid "caee4534-37ed-42b5-b84e-cfc113f24c00")
+		)
+		(pin "5"
+			(uuid "e6e1f2ee-2161-4a9b-a874-6f0ced9f3108")
+		)
+		(pin "4"
+			(uuid "2a0ddbb3-8135-430d-8f27-b38cec7c723f")
+		)
+		(pin "3"
+			(uuid "585d7d44-1bc5-4980-ae14-f411d8d937d4")
+		)
+		(pin "2"
+			(uuid "9ced46d5-1d5e-4750-8355-8b50af9f11be")
+		)
+		(pin "1"
+			(uuid "069542e0-74d5-406c-8468-10b61bfce83b")
+		)
+		(pin "8"
+			(uuid "174b9ae9-ab5c-45d0-9826-a5d4e8fef836")
+		)
+		(instances
+			(project "fw16_MCIO8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
+					(reference "EEPROM1")
 					(unit 1)
 				)
 			)
@@ -14774,7 +14615,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "expansion_bay:FXBeam"
@@ -15673,112 +15513,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eeprom:M24C32-FDW6TP")
-		(at 219.71 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801a7260-1d21-4804-8a80-36fc7daafdf3")
-		(property "Reference" "EEPROM1"
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "M24C32-FDW6TP"
-			(at 219.71 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "eeprom:TSSOP8_4P5X3P1X0P65_STM"
-			(at 218.694 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/m24c32-w.pdf"
-			(at 218.44 35.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C2061249"
-			(at 219.71 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2061249"
-			(at 219.71 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "4610546d-0f2b-4518-9a0a-78ee23f6b2e7")
-		)
-		(pin "8"
-			(uuid "f83b0955-3896-4bad-ad66-fbb7e450bd92")
-		)
-		(pin "4"
-			(uuid "8aac585b-3802-462f-9b79-ab819665397c")
-		)
-		(pin "5"
-			(uuid "cdfdb88b-41cd-442e-bf0d-04ac04079d3e")
-		)
-		(pin "3"
-			(uuid "04ebfe82-e809-436b-8725-bd079efe30b4")
-		)
-		(pin "2"
-			(uuid "5864884d-b5fc-4d5f-ad3f-9c79b5ec71da")
-		)
-		(pin "6"
-			(uuid "cf1759df-220a-4b41-b5ce-dec1bddbf7bc")
-		)
-		(pin "1"
-			(uuid "59a20db0-7888-4ae8-93b0-4cc5cbf4e263")
-		)
-		(instances
-			(project ""
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "EEPROM1")
 					(unit 1)
 				)
 			)
@@ -17143,133 +16877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diode:SS115LW")
-		(at 31.75 279.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1920c06-debe-4d03-a272-f09737633dc1")
-		(property "Reference" "D17"
-			(at 35.56 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 31.75 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 31.75 270.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 31.75 267.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 31.75 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 31.75 268.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 31.75 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 31.75 272.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SS115LW"
-			(at 31.75 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "7c29b211-73a8-4a5c-8a9c-aaed2ca20127")
-		)
-		(pin "C"
-			(uuid "439fae01-f451-41d6-96bf-e44bdf3f7426")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor:1206_R_560112132018")
 		(at 269.24 44.45 90)
 		(unit 1)
@@ -17502,133 +17109,6 @@
 			(project ""
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "diode:SS115LW")
-		(at 24.13 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3ce4cdc-da62-40ba-8b49-eb77b1d327d6")
-		(property "Reference" "D16"
-			(at 25.146 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS115LW"
-			(at 21.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "diode:DIO_SS115LW"
-			(at 32.766 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "D2305"
-			(at 36.322 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 29.21 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS14LW"
-			(at 34.544 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02mm"
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 30.988 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SS115LW"
-			(at 24.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "3d212196-5221-4868-bf8f-199348847004")
-		)
-		(pin "C"
-			(uuid "229c60fc-0277-455e-834b-60b97aaa448b")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "D16")
 					(unit 1)
 				)
 			)

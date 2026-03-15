@@ -523,6 +523,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/I2C_PWR": [
+        "Power"
+      ],
       "/PEX_CLK+": [
         "PCIe"
       ],
