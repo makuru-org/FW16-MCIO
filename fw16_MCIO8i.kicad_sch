@@ -112,392 +112,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "capacitor:1206_H1.6_885012208018"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1206_H1.6_885012208018"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012208018.pdf?ki"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "MLCCs 10 V(DC) ED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Published Date" "20251008"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Match Code" "WCAP-CSGP"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Size" "1206_H1.6"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "885012208018"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Capacitance" "10 µF"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Voltage" "10.0"
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "C" "10 µF"
-				(at 12.7 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Tol. C" "±10%"
-				(at 12.7 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "VR (V (DC))" "10.0"
-				(at 12.7 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature" "-55 °C up to +125 °C"
-				(at 12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DF (%)" "10"
-				(at 12.7 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "RISO" "0.01 GΩ"
-				(at 12.7 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Ceramic Type" "X7R Class II"
-				(at 12.7 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "L (mm)" "3.2"
-				(at 12.7 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "W (mm)" "1.6"
-				(at 12.7 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "H (mm)" "1.6"
-				(at 12.7 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Fl (mm)" "0.6"
-				(at 12.7 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Q (%)" "–"
-				(at 12.7 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Demoboard" "nan"
-				(at 12.7 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Critical Parameter" ""
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "MPN" "885012208018"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" "C2178587"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*WCAP-CSGP*1206*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1206_H1.6_885012208018_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1206_H1.6_885012208018_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "eeprom:BR24L32F-WE2"
 			(pin_names
 				(offset 0.254)
@@ -3317,7 +2931,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 17.78 -133.35 180)
 					(length 2.54)
 					(name "I2C_CLK_ALW"
@@ -6741,298 +6355,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "resistor:1206_R_560112132018"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1206_R_560112132018"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132018.pdf?ki"
-				(at 52.07 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Anti-Sulfur Thick Film Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 52.07 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 52.07 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Published Date" "20250214"
-				(at 52.07 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Match Code" "WRIS-RSKS"
-				(at 52.07 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "560112132018"
-				(at 52.07 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Size" "1206_R"
-				(at 52.07 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 52.07 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "R" "10 kΩ"
-				(at 52.07 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tol. R" "±1%"
-				(at 52.07 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PRated (mW)" "250.0"
-				(at 52.07 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "TCR (ppm/ °C)" "-100"
-				(at 52.07 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "TCR (ppm/ °C).1" "100"
-				(at 52.07 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "VE (V)" "200"
-				(at 52.07 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "L (mm)" "3.1"
-				(at 52.07 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "W (mm)" "1.6"
-				(at 52.07 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "H (mm)" "0.6"
-				(at 52.07 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Critical Parameter" "10 kΩ"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "560112132018"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" "C28703254"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*WRIS-RSKS*1206*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1206_R_560112132018_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1206_R_560112132018_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "resistor:1206_R_560112132036"
 			(pin_names
 				(hide yes)
@@ -7561,18 +6883,6 @@
 		(uuid "35e84b18-ccf8-485d-b42c-c7b32c436289")
 	)
 	(junction
-		(at 260.35 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3702373f-c637-4cfb-8f52-9b37e4cdcb2f")
-	)
-	(junction
-		(at 233.68 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a8fe4c0-864b-44e2-9845-e0d2d8662da2")
-	)
-	(junction
 		(at 31.75 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7637,12 +6947,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5af3155c-a497-47ef-a46f-464cb58f39fa")
-	)
-	(junction
-		(at 247.65 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a3c25c4-3042-4a93-8cd0-9c6f3f9113ff")
 	)
 	(junction
 		(at 31.75 209.55)
@@ -7729,12 +7033,6 @@
 		(uuid "a35c82af-cd6a-445a-956b-c6aa7f4e5161")
 	)
 	(junction
-		(at 260.35 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9a49042-548d-42de-b4d2-a8c4e3a6fded")
-	)
-	(junction
 		(at 35.56 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7763,12 +7061,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c69457f6-5775-4ed9-82d5-e8e381eb6b28")
-	)
-	(junction
-		(at 269.24 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8a3edf6-68f4-4271-9911-a9ccb8f9e077")
 	)
 	(junction
 		(at 31.75 114.3)
@@ -8476,16 +7768,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 31.75) (xy 233.68 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362ae389-b41f-4457-a708-6b418513de00")
-	)
-	(wire
-		(pts
 			(xy 31.75 142.24) (xy 31.75 139.7)
 		)
 		(stroke
@@ -8546,16 +7828,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 40.64) (xy 247.65 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc84ca3-c9b5-406b-9517-b79afef637ad")
-	)
-	(wire
-		(pts
 			(xy 361.95 54.61) (xy 359.41 54.61)
 		)
 		(stroke
@@ -8563,16 +7835,6 @@
 			(type default)
 		)
 		(uuid "3cc3214c-1832-423f-8c74-3c63283add4e")
-	)
-	(wire
-		(pts
-			(xy 260.35 31.75) (xy 269.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd9a2f5-1036-4b00-a7f9-dd4aeb46d71b")
 	)
 	(wire
 		(pts
@@ -8716,16 +7978,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 31.75) (xy 247.65 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468d8e13-e459-4e95-bee5-71637b84d34a")
-	)
-	(wire
-		(pts
 			(xy 31.75 149.86) (xy 38.1 149.86)
 		)
 		(stroke
@@ -8796,16 +8048,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 52.07) (xy 273.05 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5115dcf1-14e7-4458-8a6f-f7d9362868c5")
-	)
-	(wire
-		(pts
 			(xy 31.75 199.39) (xy 38.1 199.39)
 		)
 		(stroke
@@ -8853,16 +8095,6 @@
 			(type default)
 		)
 		(uuid "59dbb58c-13f7-4928-9409-a2f5a9d218a2")
-	)
-	(wire
-		(pts
-			(xy 260.35 41.91) (xy 260.35 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b23cb1e-f4df-4d12-8959-752094c5d1ee")
 	)
 	(wire
 		(pts
@@ -9076,16 +8308,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 49.53) (xy 260.35 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718f2a79-e2ed-4e80-86e5-c002110d1a23")
-	)
-	(wire
-		(pts
 			(xy 320.04 64.77) (xy 328.93 64.77)
 		)
 		(stroke
@@ -9196,16 +8418,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 31.75) (xy 260.35 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a99807d-0c8f-47b3-968d-762541e458cd")
-	)
-	(wire
-		(pts
 			(xy 73.66 194.31) (xy 78.74 194.31)
 		)
 		(stroke
@@ -9296,6 +8508,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 44.45) (xy 246.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d497f98-2e0f-4942-a056-a96ad7fee1a7")
+	)
+	(wire
+		(pts
 			(xy 73.66 217.17) (xy 81.28 217.17)
 		)
 		(stroke
@@ -9356,7 +8578,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 49.53) (xy 273.05 49.53)
+			(xy 233.68 49.53) (xy 246.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9533,16 +8755,6 @@
 			(type default)
 		)
 		(uuid "905c60e7-74c2-4ffe-b80e-2a605904d266")
-	)
-	(wire
-		(pts
-			(xy 260.35 31.75) (xy 260.35 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d55ed9-51a3-4e27-a3c1-63736df9c3b8")
 	)
 	(wire
 		(pts
@@ -9733,26 +8945,6 @@
 			(type default)
 		)
 		(uuid "a5182622-b584-4580-aec4-e1a97639ecf6")
-	)
-	(wire
-		(pts
-			(xy 269.24 31.75) (xy 269.24 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5dff618-9d34-480b-aa33-fe0cd6c476d4")
-	)
-	(wire
-		(pts
-			(xy 233.68 31.75) (xy 233.68 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e3fbe3-4d0c-4223-a70d-bea51f1b31e5")
 	)
 	(wire
 		(pts
@@ -10206,16 +9398,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 31.75) (xy 247.65 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd28c37c-a053-46af-9ba2-1f2b4212ebfd")
-	)
-	(wire
-		(pts
 			(xy 31.75 194.31) (xy 31.75 191.77)
 		)
 		(stroke
@@ -10476,16 +9658,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 48.26) (xy 269.24 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a1c2ae-c65f-4428-9945-3982a96a93b7")
-	)
-	(wire
-		(pts
 			(xy 31.75 196.85) (xy 31.75 194.31)
 		)
 		(stroke
@@ -10676,7 +9848,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 52.07) (xy 269.24 52.07)
+			(xy 233.68 52.07) (xy 246.38 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10703,6 +9875,16 @@
 			(justify right bottom)
 		)
 		(uuid "09124eb5-8fcb-4e51-a196-3c865e8da4a9")
+	)
+	(label "I2C_SDA"
+		(at 78.74 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f126b8-fb96-4923-ae4a-cd9dd5b01101")
 	)
 	(label "RX5-"
 		(at 320.04 113.03 180)
@@ -10914,6 +10096,16 @@
 		)
 		(uuid "43f8b783-42b9-4e98-aae1-0cb3941d19ca")
 	)
+	(label "I2C_SCL"
+		(at 78.74 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4882025a-d928-4fa6-b4c4-b2e24b1f27dd")
+	)
 	(label "RX7-"
 		(at 320.04 143.51 180)
 		(effects
@@ -10945,7 +10137,7 @@
 		(uuid "4ce21d06-e2ca-4699-8814-b2f4507231ae")
 	)
 	(label "I2C_SCL"
-		(at 273.05 49.53 0)
+		(at 246.38 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10955,7 +10147,7 @@
 		(uuid "4e071eb7-7ea6-4705-9d71-532befbe06dc")
 	)
 	(label "I2C_SDA"
-		(at 273.05 52.07 0)
+		(at 246.38 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10993,16 +10185,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e829a7c-c563-4ba2-9bbb-4e2c2963897e")
-	)
-	(label "I2C_SDA"
-		(at 78.74 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64389e7c-c57c-4fbf-afa3-304b5c2ec2ff")
 	)
 	(label "TX7+"
 		(at 368.3 140.97 0)
@@ -11194,15 +10376,15 @@
 		)
 		(uuid "997963c7-d1df-4561-952d-3508ae20d39d")
 	)
-	(label "I2C_SCL"
-		(at 78.74 191.77 0)
+	(label "I2C_PWR"
+		(at 246.38 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9d1d6715-6b63-48e9-a718-426ba95724fe")
+		(uuid "99b0a6c4-46f0-4a6e-b48c-011287f618d1")
 	)
 	(label "RX4+"
 		(at 82.55 115.57 0)
@@ -11243,16 +10425,6 @@
 			(justify right bottom)
 		)
 		(uuid "aba88116-137a-4b3b-88c7-2524162cc512")
-	)
-	(label "I2C_PWR"
-		(at 229.87 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b28e9056-cd5f-434d-97f5-c344b16ec30c")
 	)
 	(label "TX3-"
 		(at 82.55 66.04 0)
@@ -11775,28 +10947,6 @@
 		(uuid "37fa5ca2-569e-4da3-8890-544acada87c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 320.6456 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 245.11 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39158924-3d89-4b45-9b2a-8c133d5be123")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3656 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13007,7 +12157,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 238.76 31.75 0)
+		(at 240.03 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13016,7 +12166,7 @@
 		)
 		(uuid "f866c987-4c23-4196-b566-4c9fd0cdfdf6")
 		(property "Netclass" "Power"
-			(at 239.268 29.21 0)
+			(at 240.538 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +12175,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 148.59 -35.56 0)
+			(at 149.86 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +12532,7 @@
 			(uuid "f29eaab0-0599-44ae-9858-e6b8cc9df090")
 		)
 		(instances
-			(project ""
+			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R3")
 					(unit 1)
@@ -14440,7 +13590,7 @@
 			(uuid "1b130584-e766-49d4-b8d9-aabd519cf0a5")
 		)
 		(instances
-			(project ""
+			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R1")
 					(unit 1)
@@ -14601,7 +13751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb6bdee-de33-4a73-ad4c-51639d2fa3a3")
-		(property "Reference" "IN1"
+		(property "Reference" "FXBEAM1"
 			(at 55.88 31.75 0)
 			(effects
 				(font
@@ -14609,7 +13759,7 @@
 				)
 			)
 		)
-		(property "Value" "FXBEAM"
+		(property "Value" ""
 			(at 234.95 106.68 0)
 			(effects
 				(font
@@ -14617,7 +13767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "expansion_bay:FXBeam"
+		(property "Footprint" ""
 			(at 234.95 106.68 0)
 			(effects
 				(font
@@ -15089,9 +14239,9 @@
 			(uuid "2f87263f-85b1-4926-9c99-dc81f4ba5296")
 		)
 		(instances
-			(project ""
+			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "IN1")
+					(reference "FXBEAM1")
 					(unit 1)
 				)
 			)
@@ -15578,560 +14728,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "TP_SIGNAL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1206_R_560112132018")
-		(at 260.35 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c3b6448-f1a3-4a40-85fb-d0330205805f")
-		(property "Reference" "R12"
-			(at 260.35 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1206_R_560112132018"
-			(at 262.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132018.pdf?ki"
-			(at 242.57 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 260.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 245.11 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 247.65 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Published Date" "20250214"
-			(at 250.19 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Match Code" "WRIS-RSKS"
-			(at 252.73 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "560112132018"
-			(at 255.27 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "1206_R"
-			(at 257.81 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 260.35 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R" "10 kΩ"
-			(at 262.89 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol. R" "±1%"
-			(at 265.43 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRated (mW)" "250.0"
-			(at 267.97 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TCR (ppm/ °C)" "-100"
-			(at 270.51 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "100"
-			(at 273.05 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VE (V)" "200"
-			(at 275.59 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "L (mm)" "3.1"
-			(at 278.13 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at 280.67 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "H (mm)" "0.6"
-			(at 283.21 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Critical Parameter" "10 kΩ"
-			(at 257.81 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132018"
-			(at 260.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28703254"
-			(at 260.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a39d4da-e695-4eae-9560-c5ca341830ba")
-		)
-		(pin "1"
-			(uuid "a3141e88-0018-46af-8779-7d44fb1babae")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capacitor:1206_H1.6_885012208018")
-		(at 247.65 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9534a89e-f0ce-432d-a114-e6689000a12c")
-		(property "Reference" "C1"
-			(at 247.65 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1206_H1.6_885012208018"
-			(at 252.73 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "capacitor:C_Wurth_WCAP-CSGP-1206_H1.6"
-			(at 252.73 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012208018.pdf?ki"
-			(at 252.73 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCCs 10 V(DC) ED"
-			(at 247.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 252.73 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 252.73 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Published Date" "20251008"
-			(at 252.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Match Code" "WCAP-CSGP"
-			(at 252.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Size" "1206_H1.6"
-			(at 252.73 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "885012208018"
-			(at 240.792 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Capacitance" "10 µF"
-			(at 247.65 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "10.0"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "C" "10 µF"
-			(at 260.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tol. C" "±10%"
-			(at 260.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "VR (V (DC))" "10.0"
-			(at 260.35 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DF (%)" "10"
-			(at 260.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RISO" "0.01 GΩ"
-			(at 260.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Ceramic Type" "X7R Class II"
-			(at 260.35 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "L (mm)" "3.2"
-			(at 260.35 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at 260.35 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "H (mm)" "1.6"
-			(at 260.35 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Fl (mm)" "0.6"
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Q (%)" "–"
-			(at 260.35 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Demoboard" "nan"
-			(at 260.35 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 247.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "885012208018"
-			(at 247.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2178587"
-			(at 247.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9a51ae9-574e-4565-a437-b70bb95eae4d")
-		)
-		(pin "2"
-			(uuid "f7a286a8-374a-4edc-bb3d-6c961f4532fe")
-		)
-		(instances
-			(project ""
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16868,247 +15464,9 @@
 			(uuid "088cea56-71f6-4eba-8d3c-248aecf7e82d")
 		)
 		(instances
-			(project ""
+			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "MCIO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1206_R_560112132018")
-		(at 269.24 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2c3ef1f-ef7d-431f-ac99-1d7fed032344")
-		(property "Reference" "R11"
-			(at 269.24 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1206_R_560112132018"
-			(at 271.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 261.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132018.pdf?ki"
-			(at 251.46 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 269.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 254 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 256.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Published Date" "20250214"
-			(at 259.08 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Match Code" "WRIS-RSKS"
-			(at 261.62 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "560112132018"
-			(at 264.16 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "1206_R"
-			(at 266.7 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 269.24 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R" "10 kΩ"
-			(at 271.78 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol. R" "±1%"
-			(at 274.32 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRated (mW)" "250.0"
-			(at 276.86 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TCR (ppm/ °C)" "-100"
-			(at 279.4 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "100"
-			(at 281.94 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VE (V)" "200"
-			(at 284.48 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "L (mm)" "3.1"
-			(at 287.02 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at 289.56 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "H (mm)" "0.6"
-			(at 292.1 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Critical Parameter" "10 kΩ"
-			(at 266.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132018"
-			(at 269.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28703254"
-			(at 269.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef306473-a663-49e6-a88d-7f98b4cd3d46")
-		)
-		(pin "1"
-			(uuid "9cf64d03-de70-4ea2-afb2-ff7d6b4285f1")
-		)
-		(instances
-			(project ""
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "R11")
 					(unit 1)
 				)
 			)
