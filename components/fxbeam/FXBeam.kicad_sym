@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "FXBEAM"
+		(property "Reference" "IN"
 			(at 0 24.13 0)
 			(effects
 				(font
@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 179.07 -50.8 0)
+		(property "Value" "FXBEAM"
+			(at 0 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
