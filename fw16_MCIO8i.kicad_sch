@@ -339,7 +339,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b129293c-459e-48f0-b955-fe94d8ad35a8")
-		(property "Sheetname" "PCIe-Retimer"
+		(property "Sheetname" "PCIe_retimer"
 			(at 166.37 172.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -350,7 +350,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sub_schematics/PCIe-Retimer.kicad_sch"
+		(property "Sheetfile" "sub_schematics/PCIe_retimer.kicad_sch"
 			(at 166.37 212.6746 0)
 			(show_name no)
 			(do_not_autoplace no)

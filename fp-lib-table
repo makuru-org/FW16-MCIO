@@ -12,5 +12,5 @@
 	(lib (name "diode") (type "KiCad") (uri "${KIPRJMOD}/components/diode") (options "") (descr ""))
 	(lib (name "capacitor") (type "KiCad") (uri "${KIPRJMOD}/components/capacitor/footprints/Capacitor_SMD_Wurth.pretty") (options "") (descr ""))
 	(lib (name "step-down-converter-1.17V") (type "KiCad") (uri "${KIPRJMOD}/components/step-down-converter/TPS40303DRCR_1.17V/footprints.pretty") (options "") (descr ""))
-	(lib (name "step-down-converter-1.8V") (type "KiCad") (uri "${KIPRJMOD}/components/step-down-converter/TPS54612QPWPRQ1/footprints.pretty") (options "") (descr ""))
+	(lib (name "step-down-converter-1.8V") (type "KiCad") (uri "${KIPRJMOD}/components/step-down-converter/TPS62840YBGR_1.8V/footprints.pretty") (options "") (descr ""))
 )

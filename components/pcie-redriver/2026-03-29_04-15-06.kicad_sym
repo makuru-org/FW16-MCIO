@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACB0332A-IPC_A"
+		(property "Footprint" "pcie-redriver:ACB0332A-MFG"
 			(at -0.508 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)

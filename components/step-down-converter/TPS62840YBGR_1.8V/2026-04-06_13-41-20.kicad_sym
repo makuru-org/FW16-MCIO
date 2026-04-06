@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TPS40303DRCR"
+	(symbol "TPS62840YBGR"
 		(pin_names
 			(offset 0.254)
 		)
@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 13.97 0)
+			(at -0.254 7.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21,8 +21,8 @@
 				)
 			)
 		)
-		(property "Value" "TPS40303DRCR"
-			(at 0 11.43 0)
+		(property "Value" "TPS62840YBGR"
+			(at -0.254 4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,8 +31,8 @@
 				)
 			)
 		)
-		(property "Footprint" "DRC10_2P4X1P65"
-			(at 0 16.256 0)
+		(property "Footprint" "DSBGA6_1P4XP9_TEX"
+			(at -0.254 9.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,8 +43,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps40303"
-			(at -0.254 9.652 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps62840"
+			(at -0.254 3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -66,17 +66,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "TPS40303DRCR"
+		(property "ki_keywords" "TPS62840YBGR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +77,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "DRC10_2P4X1P65"
+		(property "ki_fp_filters" "DSBGA6_1P4XP9_TEX DSBGA6_1P4XP9_TEX-M DSBGA6_1P4XP9_TEX-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,18 +88,18 @@
 				)
 			)
 		)
-		(symbol "TPS40303DRCR_0_1"
-			(pin input line
-				(at -21.59 5.08 0)
+		(symbol "TPS62840YBGR_0_1"
+			(pin power_in line
+				(at 13.97 -5.08 180)
 				(length 7.62)
-				(name "VDD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,16 +108,16 @@
 				)
 			)
 			(pin input line
-				(at -21.59 0 0)
+				(at 13.97 -2.54 180)
 				(length 7.62)
-				(name "EN/SS"
+				(name "VOS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -135,17 +125,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 3.81 180)
+			(pin power_in line
+				(at -13.97 0 0)
 				(length 7.62)
-				(name "PGOOD"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -153,80 +143,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -21.59 -2.54 0)
-				(length 7.62)
-				(name "COMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -21.59 -5.08 0)
-				(length 7.62)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 -1.27 180)
-				(length 7.62)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 22.86 6.35 180)
-				(length 7.62)
-				(name "HDRV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 22.86 -3.81 180)
+			(pin power_in line
+				(at 13.97 0 180)
 				(length 7.62)
 				(name "SW"
 					(effects
@@ -235,7 +153,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -243,17 +161,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 -6.35 180)
+			(pin input line
+				(at -13.97 -5.08 0)
 				(length 7.62)
-				(name "LDRV/OC"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -261,35 +179,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 1.27 180)
+			(pin input line
+				(at -13.97 -2.54 0)
 				(length 7.62)
-				(name "BP"
+				(name "VSET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -298,10 +198,10 @@
 				)
 			)
 		)
-		(symbol "TPS40303DRCR_1_1"
+		(symbol "TPS62840YBGR_1_1"
 			(rectangle
-				(start -13.97 7.62)
-				(end 15.24 -7.62)
+				(start -6.35 1.27)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0)
 					(type solid)
