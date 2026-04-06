@@ -26554,4 +26554,50 @@
 			)
 		)
 	)
+	(sheet
+		(at 165.1 267.97)
+		(size 49.53 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9b0c216a-0114-4740-98ea-c977d48a6b33")
+		(property "Sheetname" "redriver power"
+			(at 165.1 267.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sub_schematics/redriver_power.kicad_sch"
+			(at 165.1 301.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fw16_MCIO8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/b129293c-459e-48f0-b955-fe94d8ad35a8"
+					(page "4")
+				)
+			)
+		)
+	)
 )
