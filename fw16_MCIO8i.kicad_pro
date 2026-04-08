@@ -1671,7 +1671,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "U2",
+    "used_designators": "M3-4,Rfbb2,Rcomp3-4,Lf_inpflt1-2,U2-3,Cin1,Cin3,Cb_inpflt1-3,Rd_inpflt1-2,Css2,Cbst2,Rpgood2,Rs2,Cf_inpflt1-3,Ccomp5-7,Cout_4-5,Cbyp2,Rfbt2,L1,L3,Cout1,Cout3,Cvcc2",
     "variants": []
   },
   "sheets": [
@@ -1692,7 +1692,7 @@
       "MCIO"
     ],
     [
-      "9b0c216a-0114-4740-98ea-c977d48a6b33",
+      "c30304df-3fc6-4616-b0bb-4ddaf654a20e",
       "PCIe_retimer_power"
     ]
   ],

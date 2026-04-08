@@ -12,16 +12,6 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 13.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS40303DRCR"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31,8 +21,18 @@
 				)
 			)
 		)
+		(property "Value" "TPS40303DRCR"
+			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(property "Footprint" "DRC10_2P4X1P65"
-			(at 0 16.256 0)
+			(at 0 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps40303"
-			(at -0.254 9.652 0)
+			(at -0.254 16.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

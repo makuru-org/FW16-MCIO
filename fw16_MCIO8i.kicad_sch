@@ -73,6 +73,16 @@
 	)
 	(bus
 		(pts
+			(xy 110.49 189.23) (xy 166.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d221fd-0a0c-4ffa-b171-b8f3f50e385f")
+	)
+	(bus
+		(pts
 			(xy 133.35 175.26) (xy 166.37 175.26)
 		)
 		(stroke
@@ -103,6 +113,16 @@
 	)
 	(bus
 		(pts
+			(xy 110.49 166.37) (xy 110.49 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f77dfcc-8aa0-4d3f-ad34-f5de29752fe0")
+	)
+	(bus
+		(pts
 			(xy 81.28 128.27) (xy 133.35 128.27)
 		)
 		(stroke
@@ -130,6 +150,16 @@
 			(type default)
 		)
 		(uuid "d0ee3e37-8b59-4c85-b3fa-bae301233217")
+	)
+	(bus
+		(pts
+			(xy 81.28 166.37) (xy 110.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c30700-c57d-480c-8222-9b2d24c05aa0")
 	)
 	(bus
 		(pts
@@ -399,6 +429,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PWR{3V3 5V}" passive
+			(at 166.37 189.23 180)
+			(uuid "d945120e-68e3-4378-ba4a-3fe8c1554ef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
