@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DSBGA6_1P4XP9_TEX"
+		(property "Footprint" "step-down-converter-1.8V:DSBGA6_1P4XP9_TEX"
 			(at -0.254 9.144 0)
 			(show_name no)
 			(do_not_autoplace no)

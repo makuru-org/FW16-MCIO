@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRC10_2P4X1P65"
+		(property "Footprint" "step-down-converter-1.17V:DRC10_2P4X1P65"
 			(at 0 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60,16 +60,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

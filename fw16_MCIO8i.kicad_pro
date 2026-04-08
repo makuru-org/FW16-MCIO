@@ -1605,6 +1605,66 @@
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT,30% (A)",
+          "name": "ISAT,30% (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (µH)",
+          "name": "L (µH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC typ. (mΩ)",
+          "name": "RDC typ. (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR (mA)",
+          "name": "IR (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC (mΩ)",
+          "name": "RDC (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT (mA)",
+          "name": "ISAT (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR 2 (mA)",
+          "name": "IR 2 (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IRP,40K (A)",
+          "name": "IRP,40K (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "fres (MHz)",
+          "name": "fres (MHz)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC max. (mΩ)",
+          "name": "RDC max. (mΩ)",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1671,7 +1731,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "M3-4,Rfbb2,Rcomp3-4,Lf_inpflt1-2,U2-3,Cin1,Cin3,Cb_inpflt1-3,Rd_inpflt1-2,Css2,Cbst2,Rpgood2,Rs2,Cf_inpflt1-3,Ccomp5-7,Cout_4-5,Cbyp2,Rfbt2,L1,L3,Cout1,Cout3,Cvcc2",
+    "used_designators": "Rs1,R11-19,U2-5,L1-4,M3-4,C1-19",
     "variants": []
   },
   "sheets": [
