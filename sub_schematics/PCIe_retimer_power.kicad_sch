@@ -2493,16 +2493,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 180.34) (xy 21.59 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a0e25a-27d2-4eb5-b5cc-11f93c88aeb8")
-	)
-	(wire
-		(pts
 			(xy 19.05 77.47) (xy 19.05 87.63)
 		)
 		(stroke
@@ -3373,16 +3363,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 167.64) (xy 21.59 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639d9615-cf9a-444e-bef9-59ae39a2e5b3")
-	)
-	(wire
-		(pts
 			(xy 115.57 152.4) (xy 115.57 156.21)
 		)
 		(stroke
@@ -3703,16 +3683,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 167.64) (xy 21.59 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc2b529-f530-4b6a-b1ae-87fa2f86eece")
-	)
-	(wire
-		(pts
 			(xy 64.77 154.94) (xy 62.23 154.94)
 		)
 		(stroke
@@ -3960,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "a16557f2-9a43-4e89-b9da-214baf49b100")
-	)
-	(wire
-		(pts
-			(xy 21.59 177.8) (xy 21.59 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fc046d-4f85-46bd-aac3-b9189ec1b096")
 	)
 	(wire
 		(pts
@@ -6510,88 +6470,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/b129293c-459e-48f0-b955-fe94d8ad35a8/c30304df-3fc6-4616-b0bb-4ddaf654a20e"
 					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 21.59 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d8dabaf-d0d1-4ad4-a230-ed6f52ec6073")
-		(property "Reference" "C?"
-			(at 25.4 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 25.4 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.5552 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 21.59 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bff1681e-3031-45f6-acbd-c19d89de9885")
-		)
-		(pin "1"
-			(uuid "86ff7161-6bb7-40ce-aba6-7d6890d78c82")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/b129293c-459e-48f0-b955-fe94d8ad35a8/c30304df-3fc6-4616-b0bb-4ddaf654a20e"
-					(reference "C?")
 					(unit 1)
 				)
 			)
