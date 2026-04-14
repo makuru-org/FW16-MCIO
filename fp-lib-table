@@ -11,6 +11,5 @@
 	(lib (name "fan-diode") (type "KiCad") (uri "${KIPRJMOD}/components/fan-diode") (options "") (descr ""))
 	(lib (name "diode") (type "KiCad") (uri "${KIPRJMOD}/components/diode") (options "") (descr ""))
 	(lib (name "capacitor") (type "KiCad") (uri "${KIPRJMOD}/components/capacitor/footprints/Capacitor_SMD_Wurth.pretty") (options "") (descr ""))
-	(lib (name "step-down-converter-1.17V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/TPS40303DRCR_1.17V/fp-lib-table") (options "") (descr ""))
-	(lib (name "step-down-converter-1.8V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/TPS62840YBGR_1.8V/fp-lib-table") (options "") (descr ""))
+	(lib (name "step-down-converter-1.17V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.17V/fp-lib-table") (options "") (descr ""))
 )

@@ -1,0 +1,882 @@
+
+**** 07/27/23 14:07:59 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LMQ644A2_Q1_STARTUP-Startup"  [ C:\Users\a0413388\Desktop\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\lmq644a2-q1_trans-pspicefile
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Startup.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lmq644a2_q1_trans.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 10n 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) 
+.INC "..\LMQ644A2_Q1_STARTUP.net" 
+
+
+
+**** INCLUDING LMQ644A2_Q1_STARTUP.net ****
+* source LMQ644A2-Q1_TRANS
+C_CVSNS1         0 VLOAD  150n  TC=0,0 
+L_LOUT2         N09104 VLOAD  2.8u  
+C_CBOOT2         N08863 N08859  100n  TC=0,0 
+C_CVIN2         0 VSUPPLY  10u  TC=0,0 
+R_RDCR2         N08863 N09104  5m TC=0,0 
+C_CVCC         0 VCC  1u  TC=0,0 
+R_RDCR1         N09228 N08905  5m TC=0,0 
+R_RLOAD1         VLOAD 0  {3.3/12} TC=0,0 
+V_VIN_SUPPLY         VSUPPLY 0  
++PWL 0 0 10u 12 1m 12 2m 12 3m 12 4m 12 5m 12 
+C_COUT1         0 N16820877  {(47u+22u)*2*0.7}  TC=0,0 
+L_LOUT1         N09228 VLOAD  2.8u  
+R_RT         N10059 0  39.2k TC=0,0 
+R_RPG1         VCC N09741  100k TC=0,0 
+R_RESR1         VLOAD N16820877  5m TC=0,0 
+C_CVIN1         0 VSUPPLY  10u  TC=0,0 
+C_CBOOT1         N08905 N08901  100n  TC=0,0 
+R_RCOMP         N09401 N167713240  5.3k TC=0,0 
+C_CSS         0 N16771441  0.1u  TC=0,0 
+C_CCOMP         0 N167713240  18n  TC=0,0 
+R_RFBT         VLOAD N16771799  100k TC=0,0 
+R_RFBB         N16771799 0  31.6k TC=0,0 
+C_CFF         N16771799 VLOAD  10p  TC=0,0 
+X_U2         VSUPPLY VSUPPLY VCC N08901 N08859 N10059 N08905 N08863 VCC VSUPPLY
++  VSUPPLY VLOAD N16771799 N09401 N16771441 N09741 N16771567 LMQ644A2_Q1_TRANS
+.PARAM  vin=13.5 iout=4 dualoutput=0 steady_state=0 vout=5
+
+**** RESUMING Startup.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file lmq644a2_q1_trans.ind for library file lmq644a2_q1_trans.lib.
+
+INFO(ORPSIM-15422): Making new index file lmq644a2_q1_trans.ind for library file lmq644a2_q1_trans.lib.
+
+Index has 99 entries from 1 file(s).
+
+**** 07/27/23 14:07:59 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LMQ644A2_Q1_STARTUP-Startup"  [ C:\Users\a0413388\Desktop\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\lmq644a2-q1_trans-pspicefile
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.D_D1       X_U2.X_UCOMMON1_U1225.D_D1 
+          IS    1.000000E-15    1.000000E-15 
+           N     .1              .1          
+          RS    5.000000E-03    5.000000E-03 
+          TT   10.000000E-12   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U761.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1169.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1226.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1230.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1229.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1227.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1168.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1231.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U717.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1228.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1170.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_UCOMMON1_U1171.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U643.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U1225.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U1224.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U1170.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U870.DD 
+          IS    1.000000E-15 
+          RS     .01         
+          TT   10.000000E-12 
+          VJ     .05         
+
+
+               X_U2.X_CORE1_U1227.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U22.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U1226.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U1147.DD 
+          IS    1.000000E-15 
+          RS     .01         
+          TT   10.000000E-12 
+          VJ     .05         
+
+
+               X_U2.X_CORE1_U1223.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE1_U1217.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_U1095.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U643.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U1225.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U1224.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U1170.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U870.DD 
+          IS    1.000000E-15 
+          RS     .01         
+          TT   10.000000E-12 
+          VJ     .05         
+
+
+               X_U2.X_CORE_U1227.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U22.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U1226.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U1147.DD 
+          IS    1.000000E-15 
+          RS     .01         
+          TT   10.000000E-12 
+          VJ     .05         
+
+
+               X_U2.X_CORE_U1223.D_D1 
+          IS    1.000000E-15 
+           N     .1          
+          RS    5.000000E-03 
+          TT   10.000000E-12 
+
+
+               X_U2.X_CORE_U1217.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+**** 07/27/23 14:07:59 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LMQ644A2_Q1_STARTUP-Startup"  [ C:\Users\a0413388\Desktop\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\lmq644a2-q1_trans-pspicefile
+
+
+ ****     Capacitor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               CBREAK          
+           C    1            
+
+
+**** 07/27/23 14:07:59 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LMQ644A2_Q1_STARTUP-Startup"  [ C:\Users\a0413388\Desktop\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\lmq644a2-q1_trans-pspicefile
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_UCOMMON1_S9._UCOMMON1_S9 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S12._UCOMMON1_S12 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S11._UCOMMON1_S11 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S3._UCOMMON1_S3 
+         RON    1            
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S7._UCOMMON1_S7 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S8._UCOMMON1_S8 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S10._UCOMMON1_S10 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S13._UCOMMON1_S13 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S4._UCOMMON1_S4 
+         RON    1            
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_UCOMMON1_S14._UCOMMON1_S14 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S19._CORE1_S19 
+         RON   40            
+        ROFF  100.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U2.X_CORE1_U1158.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_U1216.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S27._CORE1_S27 
+         RON    1.000000E-03 
+        ROFF   10.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_U1135.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S17._CORE1_S17 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S13._CORE1_S13 
+         RON     .04         
+        ROFF   10.000000E+06 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_U1186.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S15._CORE1_S15 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S25._CORE1_S25 
+         RON    1            
+        ROFF   10.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_U1159.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S26._CORE1_S26 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_U1214.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_U1171.S1 
+         RON     .1          
+        ROFF    1.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S21._CORE1_S21 
+         RON    1.000000E-03 
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S29._CORE1_S29 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S4._CORE1_S4 
+         RON   10            
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_U1197.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S9._CORE1_S9 
+         RON    1.000000E-03 
+        ROFF  100.000000E+06 
+         VON     .5          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S22._CORE1_S22 
+         RON     .025        
+        ROFF   10.000000E+06 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S20._CORE1_S20 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S3._CORE1_S3 
+         RON    1.000000E-03 
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S7._CORE1_S7 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_U1198.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S16._CORE1_S16 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE1_S28._CORE1_S28 
+         RON    1            
+        ROFF   10.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE1_S8._CORE1_S8       X_U2.X_U1096.S1 X_U2.X_S26._S26 
+         RON    1.000000E-03                     .1             1            
+        ROFF  100.000000E+06                    1.000000E+09  100.000000E+09 
+         VON     .6                              .75             .75         
+        VOFF     .4                              .25             .25         
+
+
+               X_U2.X_U1094.S1 X_U2.X_CORE_S19._CORE_S19 
+         RON     .1            40            
+        ROFF    1.000000E+09  100.000000E+06 
+         VON     .75             .8          
+        VOFF     .25             .2          
+
+
+               X_U2.X_CORE_U1158.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_U1216.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S27._CORE_S27 
+         RON    1.000000E-03 
+        ROFF   10.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_U1135.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S17._CORE_S17 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S13._CORE_S13 
+         RON     .04         
+        ROFF   10.000000E+06 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_U1186.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S15._CORE_S15 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S25._CORE_S25 
+         RON    1            
+        ROFF   10.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_U1159.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S26._CORE_S26 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_U1214.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_U1171.S1 
+         RON     .1          
+        ROFF    1.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S21._CORE_S21 
+         RON    1.000000E-03 
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S29._CORE_S29 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S4._CORE_S4 
+         RON   10            
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_U1197.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S9._CORE_S9 
+         RON    1.000000E-03 
+        ROFF  100.000000E+06 
+         VON     .5          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S22._CORE_S22 
+         RON     .025        
+        ROFF   10.000000E+06 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S20._CORE_S20 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S3._CORE_S3 
+         RON    1.000000E-03 
+        ROFF  100.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S7._CORE_S7 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_U1198.SM1 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S16._CORE_S16 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .6          
+        VOFF     .4          
+
+
+               X_U2.X_CORE_S28._CORE_S28 
+         RON    1            
+        ROFF   10.000000E+09 
+         VON     .75         
+        VOFF     .25         
+
+
+               X_U2.X_CORE_S8._CORE_S8 
+         RON    1.000000E-03 
+        ROFF  100.000000E+06 
+         VON     .6          
+        VOFF     .4          
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 07/27/23 14:07:59 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LMQ644A2_Q1_STARTUP-Startup"  [ C:\Users\a0413388\Desktop\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\lmq644a2-q1_trans-pspicefile
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          17
+  External (NCNODS)                 =        1204
+  Total (NUMNOD)                    =        1284
+
+Total device count (NUMEL)          =        1960
+  Capacitors (C)                    =         517
+  Diodes (D)                        =          80
+  VCVS (E)                          =         538
+  VCCS (G)                          =          32
+  CCVS (H)                          =           5
+  Current Sources (I)               =           2
+  Inductors (L)                     =           2
+  Resistors (R)                     =         615
+  VSwitches (S)                     =          67
+  Voltage Sources (V)               =         100
+
+Number of subcircuits (X)           =         386
+
+Matrix statistics:
+  Matrix size (NSTOP)               =        1929
+  Initial no. elements (NTTAR)      =        4936
+  No. elements w/ fillin (NTTBR)    =        4936
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      99.867
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.61
+  General setup                     =         .11
+  CMI setup                     =        0.00
+  Setup                             =         .02
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .06
+  License check-out time            =     2148.31
+  Total job time (using Solver 1)   =        1.72
+

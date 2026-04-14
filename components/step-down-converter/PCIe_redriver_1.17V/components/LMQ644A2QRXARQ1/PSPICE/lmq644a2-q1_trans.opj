@@ -1,0 +1,216 @@
+(ExpressProject "LMQ644A2-Q1_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2023 S009-[07/27/23]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library\lmq644a2_q1_trans.olb"
+        (Type "Schematic Library")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "61215")
+    (NoModify)
+    (File ".\lmq644a2-q1_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File
+       ".\lmq644a2-q1_trans-pspicefiles\lmq644a2_q1_startup\lmq644a2_q1_startup.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\lmq644a2-q1_trans-pspicefiles\lmq644a2_q1_startup\startup.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lmq644a2-q1_trans-pspicefiles\lmq644a2_q1_startup\startup.sim"
+        (DisplayName "LMQ644A2_Q1_STARTUP-Startup")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lmq644a2_q1_trans.lib"
+        (Type "Unknown"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (LMQ644A2_Q1_TRANS
+      (FullPartName "LMQ644A2_Q1_TRANS.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DESKTOP\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\LMQ644A2_Q1_TRANS.OLB")
+      (DeviceIndex "0"))
+    (AND4_BASIC_GEN
+      (FullPartName "AND4_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (ASYMMETRIC_DELAY
+      (FullPartName "ASYMMETRIC_DELAY.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (IPWL_S2P
+      (FullPartName "IPWL_S2P.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\SIM2PSPICE_ANALOG.OLB")
+      (DeviceIndex "0"))
+    (NAND2_BASIC_GEN
+      (FullPartName "NAND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (OR3_BASIC_GEN
+      (FullPartName "OR3_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (OR2_BASIC_GEN
+      (FullPartName "OR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (NOR2_BASIC_GEN
+      (FullPartName "NOR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (AND3_BASIC_GEN
+      (FullPartName "AND3_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (ONESHOT_S2P
+      (FullPartName "ONESHOT_S2P.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\SIM2PSPICE_DIGITAL.OLB")
+      (DeviceIndex "0"))
+    (ONE_SHOT
+      (FullPartName "ONE_SHOT.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (COMP_BASIC_GEN
+      (FullPartName "COMP_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (COMP_S2P
+      (FullPartName "COMP_S2P.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\SIM2PSPICE_DIGITAL.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (COMPHYS_BASIC_GEN
+      (FullPartName "COMPHYS_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (BUF_DELAY_BASIC_GEN
+      (FullPartName "BUF_DELAY_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (DFFSR_RHPBASIC_GEN
+      (FullPartName "DFFSR_RHPBASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (ASYMDLY_S2P
+      (FullPartName "ASYMDLY_S2P.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\SIM2PSPICE_MISC.OLB")
+      (DeviceIndex "0"))
+    (DFFPC_S2P
+      (FullPartName "DFFPC_S2P.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\SIM2PSPICE_DIGITAL.OLB")
+      (DeviceIndex "0"))
+    (Cbreak
+      (FullPartName "Cbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (D_S2P
+      (FullPartName "D_S2P.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\SIM2PSPICE_MISC.OLB")
+      (DeviceIndex "0"))
+    (INV_BASIC_GEN
+      (FullPartName "INV_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (AND2_BASIC_GEN
+      (FullPartName "AND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\A0413388\DOCUMENTS\EL_BSR\2 LMQ64480A0A2-Q1 (TWINTURBO)\PSPICE_MODEL\LMQ644A2-Q1_PSPICE_TRANS\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\lmq644a2-q1_trans.dsn")
+      (Path "Design Resources" ".\lmq644a2-q1_trans.dsn" "LMQ644A2_Q1_STARTUP")
+      (Path "Design Resources" ".\lmq644a2-q1_trans.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" ".\lmq644a2-q1_trans.dsn" "Design Cache" "R"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 389 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 845 24 438")
+        (Scroll "-108 -2")
+        (Zoom "39")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\A0413388\DESKTOP\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE\LMQ644A2-Q1_TRANS.DSN")
+      (Schematic "LMQ644A2_Q1_STARTUP")
+      (Page "PAGE1")))
+  (MPSSessionName "a0413388")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\a0413388\Desktop\LMQ644A2-Q1_PSPICE_TRANS_EXAMPLE"))

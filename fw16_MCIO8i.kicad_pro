@@ -1731,7 +1731,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "Rs1,R11-19,U2-5,L1-4,M3-4,C1-19",
+    "used_designators": "C1-19,M3-4,L1-4,U2-5,R11-19,#PWR1-14,Rs1",
     "variants": []
   },
   "sheets": [
@@ -1748,12 +1748,12 @@
       "PCIe_retimer"
     ],
     [
-      "82aaed48-f89e-4ddb-8b6a-ae1d907b7f39",
-      "MCIO"
-    ],
-    [
       "c30304df-3fc6-4616-b0bb-4ddaf654a20e",
       "PCIe_retimer_power"
+    ],
+    [
+      "82aaed48-f89e-4ddb-8b6a-ae1d907b7f39",
+      "MCIO"
     ]
   ],
   "text_variables": {
@@ -1764,6 +1764,33 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6002700,
+            "diff_pair_gap": 101600,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 230463
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 0
+          }
+        ],
+        "profile_name": "PCIe",
+        "target_impedance": 80.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }

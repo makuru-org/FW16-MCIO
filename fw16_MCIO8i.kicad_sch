@@ -73,6 +73,26 @@
 	)
 	(bus
 		(pts
+			(xy 81.28 168.91) (xy 110.49 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037b68a8-8093-4279-ab41-2e6ff678bc5d")
+	)
+	(bus
+		(pts
+			(xy 110.49 168.91) (xy 110.49 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fdcdf8-280e-4681-817d-18bc0c36b96d")
+	)
+	(bus
+		(pts
 			(xy 110.49 189.23) (xy 166.37 189.23)
 		)
 		(stroke
@@ -93,6 +113,16 @@
 	)
 	(bus
 		(pts
+			(xy 113.03 186.69) (xy 166.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de33812-03ba-4fdf-a9e2-bbeb0f953562")
+	)
+	(bus
+		(pts
 			(xy 130.81 130.81) (xy 130.81 177.8)
 		)
 		(stroke
@@ -100,6 +130,26 @@
 			(type default)
 		)
 		(uuid "7946ae73-b545-4ed9-b825-1612e02c91d3")
+	)
+	(bus
+		(pts
+			(xy 127 137.16) (xy 127 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b99a74-aa1b-4986-b1bf-c3a84bf38196")
+	)
+	(bus
+		(pts
+			(xy 81.28 137.16) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1f5b40-c90b-43d3-9dc6-68d9d52e5694")
 	)
 	(bus
 		(pts
@@ -113,16 +163,6 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 166.37) (xy 110.49 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f77dfcc-8aa0-4d3f-ad34-f5de29752fe0")
-	)
-	(bus
-		(pts
 			(xy 81.28 128.27) (xy 133.35 128.27)
 		)
 		(stroke
@@ -130,6 +170,16 @@
 			(type default)
 		)
 		(uuid "afdbc8fb-096b-4d3a-bf8e-3a4cf68bbf08")
+	)
+	(bus
+		(pts
+			(xy 127 181.61) (xy 166.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f06199-72a8-4b95-a72a-d197dbf6d1de")
 	)
 	(bus
 		(pts
@@ -153,13 +203,23 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 166.37) (xy 110.49 166.37)
+			(xy 81.28 166.37) (xy 113.03 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6c30700-c57d-480c-8222-9b2d24c05aa0")
+		(uuid "e747cce1-9147-42e3-9ed5-d71cda2ae24a")
+	)
+	(bus
+		(pts
+			(xy 113.03 166.37) (xy 113.03 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bc3fd7-d8ab-4208-bdc1-27d6e632fbc7")
 	)
 	(bus
 		(pts
@@ -242,7 +302,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -295,26 +355,6 @@
 				(justify right)
 			)
 		)
-		(pin "PEX_RST" input
-			(at 81.28 121.92 0)
-			(uuid "1cc3262e-6f3a-4054-b06d-33b89bd99fca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PEX{[SCL SDA]}" bidirectional
-			(at 81.28 124.46 0)
-			(uuid "4707dadc-13e5-4bfe-8fec-7d3d0df31fce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "A_TX{[0..7]- [0..7]+}" output
 			(at 81.28 130.81 0)
 			(uuid "b580d7b2-98c0-456e-87dc-c2e8538ff082")
@@ -338,6 +378,26 @@
 		(pin "PWR{3V3 5V}" passive
 			(at 81.28 168.91 0)
 			(uuid "f69826cf-2dfe-4229-b081-5cf6befff960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PEX.RST" bidirectional
+			(at 81.28 139.7 0)
+			(uuid "4c31bd09-50f7-46c3-8dc3-6638e04a6835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PEX{SCL SDA}" bidirectional
+			(at 81.28 137.16 0)
+			(uuid "da3d59f0-616c-4958-b73f-1ec51e853962")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,6 +494,36 @@
 		(pin "PWR{3V3 5V}" passive
 			(at 166.37 189.23 180)
 			(uuid "d945120e-68e3-4378-ba4a-3fe8c1554ef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PEXOUT{CLK- CLK+}" bidirectional
+			(at 214.63 189.23 0)
+			(uuid "6f6946c2-7329-403a-a036-e99350b3e256")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PEX{CLK- CLK+}" bidirectional
+			(at 166.37 186.69 180)
+			(uuid "5360e2bd-e73f-41f6-91bb-48af73b942be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PEX{SCL SDA}" bidirectional
+			(at 166.37 181.61 180)
+			(uuid "127fd122-9f4e-4030-9c73-1ad5136f0003")
 			(effects
 				(font
 					(size 1.27 1.27)
