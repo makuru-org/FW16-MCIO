@@ -1,0 +1,59 @@
+(ExpressProject "LM43600_AVG"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\LM43600pwp_avg.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\LM43600_avg.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\LM43600_avg-pspicefiles\loop_response\avg.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\LM43600_avg-pspicefiles\loop_response\avg.sim"
+        (DisplayName "Loop_Response-AVG")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm43600_avg.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LM43600PWP_AVG
+      (FullPartName "LM43600PWP_AVG.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\LM43600\RELEASE_SANKALP\PSPICE\LM43600_PSPICE_AVG\LM43600PWP_AVG.OLB")
+      (DeviceIndex "0"))
+    (LM46000PWP_AVG
+      (FullPartName "LM46000PWP_AVG.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\LM46000\ACTIVE_WORK_SANKALP\EXPERIMENTS\PSPICE\RELEASE\PSPICE\LM46000_PSPICE_AVG\LM46000PWP_AVG.OLB")
+      (DeviceIndex "0"))
+    (LM43600_AVG
+      (FullPartName "LM43600_AVG.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\LM43600\ACTIVE_WORK_SANKALP\EXPERIMENTS\QC\RELEASE_SANKALP\PSPICE\LM43600_PSPICE_AVG\LM43600_AVG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 211 0 420"))
+      (Tab 0)))
+  (MPSSessionName "x0211122")
+  (LastUsedLibraryBrowseDirectory
+     "C:\ELABTRANS_WS\ELABTRANS_DS\Part_Numbers\LM43600\Active_Work_Sankalp\EXPERIMENTS\PSPICE\Release\PSPICE\LM43600_PSPICE_AVG"))

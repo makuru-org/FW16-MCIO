@@ -12,5 +12,5 @@
 	(lib (name "capacitor") (type "KiCad") (uri "${KIPRJMOD}/components/capacitor/symbols/Capacitor_Wurth_WCAP-CSGP.kicad_sym") (options "") (descr ""))
 	(lib (name "fan-connector") (type "KiCad") (uri "${KIPRJMOD}/components/fan-connector/F3311A7H121004E200.kicad_sym") (options "") (descr ""))
 	(lib (name "step-down-converter-1.17V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.17V/sym-lib-table") (options "") (descr ""))
-	(lib (name "step-down-converter-1.8V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/TPS62840YBGR_1.8V/sym-lib-table") (options "") (descr "") (disabled))
+	(lib (name "step-down-converter-1.8V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.8V/sym-lib-table") (options "") (descr ""))
 )

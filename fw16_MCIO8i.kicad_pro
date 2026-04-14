@@ -249,12 +249,7 @@
     },
     "layer_pairs": [
       {
-        "bottomLayer": 2,
-        "enabled": true,
-        "topLayer": 0
-      },
-      {
-        "bottomLayer": 10,
+        "bottomLayer": 8,
         "enabled": true,
         "topLayer": 4
       }
@@ -1731,7 +1726,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "C1-19,M3-4,L1-4,U2-5,R11-19,#PWR1-14,Rs1",
+    "used_designators": "#PWR13",
     "variants": []
   },
   "sheets": [
@@ -1769,20 +1764,12 @@
         "enable_time_domain_tuning": true,
         "layer_entries": [
           {
-            "bottom_reference_layer": "In1.Cu",
-            "delay": 6002700,
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 7173100,
             "diff_pair_gap": 101600,
-            "signal_layer": "F.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 230463
-          },
-          {
-            "bottom_reference_layer": "In2.Cu",
-            "delay": 0,
-            "diff_pair_gap": 0,
-            "signal_layer": "In2.Cu",
+            "signal_layer": "In1.Cu",
             "top_reference_layer": "F.Cu",
-            "width": 0
+            "width": 153754
           }
         ],
         "profile_name": "PCIe",
