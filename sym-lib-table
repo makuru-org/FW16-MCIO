@@ -9,4 +9,5 @@
 	(lib (name "step-down-converter-1.8V") (type "Table") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.8V/sym-lib-table") (options "") (descr ""))
 	(lib (name "capacitors") (type "Table") (uri "${KIPRJMOD}/components/capacitors/sym-lib-table") (options "") (descr ""))
 	(lib (name "inductors") (type "Table") (uri "${KIPRJMOD}/components/inductors/sym-lib-table") (options "") (descr ""))
+	(lib (name "resistors") (type "Table") (uri "${KIPRJMOD}/components/resistors/sym-lib-table") (options "") (descr ""))
 )

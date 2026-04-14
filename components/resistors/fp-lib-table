@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "WRIS-RSKS") (type "KiCad") (uri "${KIPRJMOD}/components/resistors/WRIS-RSKS/footprints/Resistor_SMD_Wurth.pretty") (options "") (descr ""))
+)
