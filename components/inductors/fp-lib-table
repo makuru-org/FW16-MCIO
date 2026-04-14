@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "WE-PMCI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMCI/footprints/Inductor_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "WE-TPC") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-TPC/footprints/Inductor_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "WE-MAPI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-MAPI/footprints/Inductor_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "WE-PMI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMI/footprints/Inductor_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "WE-PMFI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMFI/footprints/Inductor_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "WE-XHMI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-XHMI/footprints/Inductor_SMD_Wurth.pretty") (options "") (descr ""))
+)

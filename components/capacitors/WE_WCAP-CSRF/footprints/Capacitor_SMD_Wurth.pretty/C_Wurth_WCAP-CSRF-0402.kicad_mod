@@ -1,0 +1,135 @@
+(footprint "C_Wurth_WCAP-CSRF-0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MLCCS High Frequency , body 1x0.5x0.5mm, https://www.we-online.com/en/components/products/WCAP-CSRF#/articles/WCAP-CSRF-0402")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "835cff7d-2aec-4b6e-a6a3-221b863a2149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Wurth_WCAP-CSRF-0402"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad3599a5-12b8-441f-b49d-3662f01fb5cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f2af8ac-6bec-4229-b9b3-54a45f63262b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2aed88b-b1d9-4c0a-98b6-b089fcfa3cb2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -0.51)
+		(end 0.5 -0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9723519d-c81e-44ef-b38e-ea2fcde9a1ea")
+	)
+	(fp_line
+		(start -0.5 0.51)
+		(end 0.5 0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b84cf5aa-991a-45c1-adac-9a962c1b2667")
+	)
+	(fp_rect
+		(start -0.9 -0.4)
+		(end 0.9 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "28d53142-ceeb-499a-bce0-a948925cff13")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ad106566-3aba-4ca4-86a4-eb0ff48fe30c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e93e73b-d465-46be-a62f-7d55e80c3647")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "85f85815-7754-455a-b572-e26b4d5783de")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb7939fd-25db-45db-acd4-04d2e68e4468")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/resistor_rf_cer/3dmodels/Capacitor_SMD_Wurth.3dshapes/C_Wurth_WCAP-CSRF-0402.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

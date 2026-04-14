@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "WE-PMCI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMCI/symbols/Inductor_Wurth_WE-PMCI.kicad_sym") (options "") (descr ""))
+	(lib (name "WE-TPC") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-TPC/symbols/Inductor_Wurth_WE-TPC.kicad_sym") (options "") (descr ""))
+	(lib (name "WE-MAPI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-MAPI/symbols/Inductor_Wurth_WE-MAPI.kicad_sym") (options "") (descr ""))
+	(lib (name "WE-PMI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMI/symbols/Inductor_Wurth_WE-PMI.kicad_sym") (options "") (descr ""))
+	(lib (name "WE-PMFI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMFI/symbols/Inductor_Wurth_WE-PMFI.kicad_sym") (options "") (descr ""))
+	(lib (name "WE-XHMI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-XHMI/symbols/Inductor_Wurth_WE-XHMI.kicad_sym") (options "") (descr ""))
+)
