@@ -1,4 +1,4 @@
-(fp_lib_table
+(sym_lib_table
 	(version 7)
-	(lib (name "WRIS-RSKS") (type "KiCad") (uri "${KIPRJMOD}/components/resistors/WRIS-RSKS/symbols/Resistor_Wurth_WRIS-RSKS.kicad_sym") (options "") (descr ""))
+	(lib (name "WE_WRIS-RSKS") (type "KiCad") (uri "${KIPRJMOD}/components/resistors/WRIS-RSKS/symbols/Resistor_Wurth_WRIS-RSKS.kicad_sym") (options "") (descr ""))
 )

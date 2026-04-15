@@ -1,4 +1,4 @@
-(fp_lib_table
+(sym_lib_table
 	(version 7)
 	(lib (name "WE-PMCI") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-PMCI/symbols/Inductor_Wurth_WE-PMCI.kicad_sym") (options "") (descr ""))
 	(lib (name "WE-TPC") (type "KiCad") (uri "${KIPRJMOD}/components/inductors/WE-TPC/symbols/Inductor_Wurth_WE-TPC.kicad_sym") (options "") (descr ""))
