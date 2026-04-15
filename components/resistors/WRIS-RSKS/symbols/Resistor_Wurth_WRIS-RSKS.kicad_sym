@@ -12,9 +12,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -2.032 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -242,9 +242,9 @@
 			)
 		)
 		(property "Critical Parameter" "0 Ω"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,9 +3576,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -2.032 2.032 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,9 +3806,9 @@
 			)
 		)
 		(property "Critical Parameter" "1 kΩ"
-			(at 0 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,9 +5844,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,9 +6074,9 @@
 			)
 		)
 		(property "Critical Parameter" "100 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28200,7 +28200,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28220,7 +28220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28430,7 +28430,7 @@
 			)
 		)
 		(property "Critical Parameter" "330 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41808,7 +41808,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -1.524 0 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -41818,7 +41818,7 @@
 			)
 		)
 		(property "Value" "0402_560112110130"
-			(at 0 2.54 0)
+			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -41828,7 +41828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41851,7 +41851,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 0 4.318 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42038,7 +42038,7 @@
 			)
 		)
 		(property "Critical Parameter" "18.2 kΩ"
-			(at 0 -2.286 0)
+			(at 0 -2.032 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -48612,9 +48612,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -1.778 0 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48632,7 +48632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48842,9 +48842,9 @@
 			)
 		)
 		(property "Critical Parameter" "300 kΩ"
-			(at 0 -2.032 0)
+			(at 0 -2.286 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69348,9 +69348,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -1.778 0 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69368,7 +69368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69580,7 +69580,7 @@
 		(property "Critical Parameter" "215 kΩ"
 			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88140,9 +88140,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -1.778 0 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88160,7 +88160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0603_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0603_R"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -88372,7 +88372,7 @@
 		(property "Critical Parameter" "6.8 kΩ"
 			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94944,9 +94944,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -1.778 0 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94964,7 +94964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0603_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0603_R"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -95174,9 +95174,9 @@
 			)
 		)
 		(property "Critical Parameter" "56 kΩ"
-			(at 0 -2.286 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109848,9 +109848,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -2.032 2.032 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109868,7 +109868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0603_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0603_R"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110078,9 +110078,9 @@
 			)
 		)
 		(property "Critical Parameter" "1 MΩ"
-			(at 0 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110496,9 +110496,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -2.286 2.032 0)
+			(at 0 5.08 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110726,9 +110726,9 @@
 			)
 		)
 		(property "Critical Parameter" "1 MΩ"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164280,9 +164280,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at -1.778 0 0)
+			(at 0 5.08 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164510,9 +164510,9 @@
 			)
 		)
 		(property "Critical Parameter" "100 kΩ"
-			(at 0 -2.286 0)
+			(at 0 -7.62 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

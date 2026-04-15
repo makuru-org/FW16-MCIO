@@ -9,7 +9,7 @@
 		(at 0 -1.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c21cb986-7123-402c-9e18-88dd87eb6706")
+		(uuid "19d0da4c-3407-421b-b03c-a080818a9e03")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77a04eb9-b08a-4fd4-9379-ce6ec53b6b7c")
+		(uuid "010c2ae6-8ee2-46b0-baad-5fbb260b9938")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "97a6b0b1-0d69-4b02-9c76-425b738e5fea")
+		(uuid "dc89289a-c982-42a8-bbca-cf6b8909fd1b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fd77d2f8-44fb-46fd-8f05-cf4c832f6bc0")
+		(uuid "61476abc-f7ba-40a1-9b7c-af68cf568015")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "61129db9-b3a8-4e7a-8985-0dbdb79278f3")
+		(uuid "1d8273be-055e-411c-a51a-d020714aaef4")
 	)
 	(fp_line
 		(start -0.3 0.41)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7fa5253e-0b95-4b5b-9230-6c431f9faad3")
+		(uuid "617995e7-c91a-4a62-a3d7-0b6a3e25535c")
 	)
 	(fp_rect
 		(start -0.475 -0.3)
@@ -83,7 +83,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0684a2e2-de00-4fdd-a0a3-76cd0458a641")
+		(uuid "bd6fd9ea-6e0b-4229-a110-be21bb68dca3")
 	)
 	(fp_rect
 		(start -0.3 -0.15)
@@ -94,13 +94,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "1a2711fc-8ddc-4c24-80b5-4f788b1c4b78")
+		(uuid "a758a968-832f-4333-b9af-e491b519b1f5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f2864ffa-61fe-4356-bf55-082d74776b78")
+		(uuid "b22cae5c-6e5d-436c-9392-126284f3b2c9")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -112,13 +112,13 @@
 		(at -0.22 0)
 		(size 0.21 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a582ac6d-3010-40c0-898e-7d8fc5300af9")
+		(uuid "b5a011bc-bf4b-4d98-8da2-973b832c085f")
 	)
 	(pad "2" smd rect
 		(at 0.22 0)
 		(size 0.21 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "98ba8aef-82f1-4f26-ba15-7d0375b24b7f")
+		(uuid "5ee3d1f1-00dc-4d6d-a9ce-12d2c3e1d8d6")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/components/resistor_rf_cer/3dmodels/Capacitor_SMD_Wurth.3dshapes/C_Wurth_WCAP-CSRF-0201.step"

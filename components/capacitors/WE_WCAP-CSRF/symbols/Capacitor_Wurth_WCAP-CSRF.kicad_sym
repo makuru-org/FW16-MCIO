@@ -2766,9 +2766,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 5.08 5.08 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2899,6 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,9 +2907,9 @@
 			)
 		)
 		(property "Capacitance" "4.7 pF"
-			(at 0.508 -2.032 0)
+			(at 5.08 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,9 +2918,9 @@
 			)
 		)
 		(property "Voltage" "25"
-			(at 0.508 -4.572 0)
+			(at 5.08 -2.54 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

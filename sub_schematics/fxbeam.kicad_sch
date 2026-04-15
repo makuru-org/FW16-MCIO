@@ -5,6 +5,654 @@
 	(uuid "5c42d515-eca0-4385-9d83-3c97f6ddc761")
 	(paper "A3" portrait)
 	(lib_symbols
+		(symbol "WE_WRIS-RSKS:0402_560112110001"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.032 2.032 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402_560112110001"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Anti-Sulfur Thick Film Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 52.07 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 52.07 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Published Date" "20250214"
+				(at 52.07 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Match Code" "WRIS-RSKS"
+				(at 52.07 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "560112110001"
+				(at 52.07 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Size" "0402"
+				(at 52.07 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 52.07 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "R" "0 Ω"
+				(at 52.07 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tol. R" "+0.05Ω/-0Ω"
+				(at 52.07 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PRated (mW)" "62.5"
+				(at 52.07 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TCR (ppm/ °C)" "–"
+				(at 52.07 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TCR (ppm/ °C).1" "–"
+				(at 52.07 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VE (V)" "–"
+				(at 52.07 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "L (mm)" "1.0"
+				(at 52.07 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "W (mm)" "0.5"
+				(at 52.07 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "H (mm)" "0.35"
+				(at 52.07 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Critical Parameter" "0 Ω"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WRIS-RSKS*0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402_560112110001_0_1"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_560112110001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WE_WRIS-RSKS:0402_560112110088"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402_560112110088"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110088.pdf?ki"
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Anti-Sulfur Thick Film Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 52.07 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 52.07 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Published Date" "20250214"
+				(at 52.07 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Match Code" "WRIS-RSKS"
+				(at 52.07 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "560112110088"
+				(at 52.07 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Size" "0402"
+				(at 52.07 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 52.07 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "R" "330 kΩ"
+				(at 52.07 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tol. R" "±1%"
+				(at 52.07 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PRated (mW)" "100.0"
+				(at 52.07 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TCR (ppm/ °C)" "-100"
+				(at 52.07 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TCR (ppm/ °C).1" "100"
+				(at 52.07 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VE (V)" "50"
+				(at 52.07 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "L (mm)" "1.0"
+				(at 52.07 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "W (mm)" "0.5"
+				(at 52.07 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "H (mm)" "0.35"
+				(at 52.07 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Critical Parameter" "330 kΩ"
+				(at 0 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WRIS-RSKS*0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402_560112110088_0_1"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_560112110088_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "eeprom:BR24L32F-WE2"
 			(pin_names
 				(offset 0.254)
@@ -3278,242 +3926,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fan-diode:ES15DLW"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ES15DLW"
-				(at -5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ES15DLW:SODFL3718X102N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTREV" "C2103"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Taiwan Semiconductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.02 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MPN" "ES15DLW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ES15DLW_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3629,698 +4041,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "resistor:1206_R_560112132007"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1206_R_560112132007"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
-				(at 52.07 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Anti-Sulfur Thick Film Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 52.07 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 52.07 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Published Date" "20250214"
-				(at 52.07 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Match Code" "WRIS-RSKS"
-				(at 52.07 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "560112132007"
-				(at 52.07 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Size" "1206_R"
-				(at 52.07 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 52.07 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R" "0 Ω"
-				(at 52.07 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tol. R" "+0.05Ω/-0Ω"
-				(at 52.07 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PRated (mW)" "250.0"
-				(at 52.07 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C)" "–"
-				(at 52.07 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C).1" "–"
-				(at 52.07 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VE (V)" "–"
-				(at 52.07 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "L (mm)" "3.1"
-				(at 52.07 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "W (mm)" "1.6"
-				(at 52.07 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "H (mm)" "0.6"
-				(at 52.07 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Critical Parameter" "0 Ω"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "560112132007"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part #" "C25268462"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WRIS-RSKS*1206*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1206_R_560112132007_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1206_R_560112132007_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "resistor:1206_R_560112132036"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1206_R_560112132036"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132036.pdf?ki"
-				(at 52.07 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Anti-Sulfur Thick Film Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 52.07 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 52.07 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Published Date" "20250214"
-				(at 52.07 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Match Code" "WRIS-RSKS"
-				(at 52.07 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "560112132036"
-				(at 52.07 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Size" "1206_R"
-				(at 52.07 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 52.07 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R" "330 kΩ"
-				(at 52.07 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tol. R" "±1%"
-				(at 52.07 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PRated (mW)" "250.0"
-				(at 52.07 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C)" "-100"
-				(at 52.07 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TCR (ppm/ °C).1" "100"
-				(at 52.07 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VE (V)" "200"
-				(at 52.07 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "L (mm)" "3.1"
-				(at 52.07 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "W (mm)" "1.6"
-				(at 52.07 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "H (mm)" "0.6"
-				(at 52.07 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Critical Parameter" "330 kΩ"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "560112132036"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part #" "C26798316"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WRIS-RSKS*1206*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1206_R_560112132036_0_1"
-				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1206_R_560112132036_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 100.33 294.64)
@@ -4422,6 +4142,12 @@
 		(uuid "a84d11d2-bdc9-4c08-ae14-b7f7ec45e766")
 	)
 	(junction
+		(at 17.78 316.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "051d7926-c297-4fba-a387-d71fa71d9412")
+	)
+	(junction
 		(at 52.07 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4500,12 +4226,6 @@
 		(uuid "2e860772-5f10-4f41-83cd-6df30c64d024")
 	)
 	(junction
-		(at 19.05 316.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34b3effb-db04-46f5-9cd6-9cdc69dfb1be")
-	)
-	(junction
 		(at 124.46 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4522,6 +4242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ac82b91-0538-4654-b5e9-ac73e9137cdd")
+	)
+	(junction
+		(at 17.78 318.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d4068d2-78da-4edc-b20e-170a71d1c430")
 	)
 	(junction
 		(at 52.07 154.94)
@@ -4590,12 +4316,6 @@
 		(uuid "6b4fa0df-ffec-4f7a-8b76-18209f1521e8")
 	)
 	(junction
-		(at 19.05 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e43e5d1-3a23-47b3-a53f-fdf0aa6d6be9")
-	)
-	(junction
 		(at 124.46 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4648,6 +4368,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a231e17-01d4-4b93-96b0-9ab34dd35330")
+	)
+	(junction
+		(at 17.78 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d444ff4-5e8c-4592-9173-82ed3904aa02")
 	)
 	(junction
 		(at 52.07 129.54)
@@ -4726,12 +4452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4310b3a-afbc-46ad-bfb9-c4c9d5cce626")
-	)
-	(junction
-		(at 19.05 311.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d43ff5d7-8bff-46c3-9cbf-e766a70718d9")
 	)
 	(junction
 		(at 100.33 162.56)
@@ -5231,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 309.88) (xy 142.24 309.88)
+			(xy 133.35 309.88) (xy 158.75 309.88)
 		)
 		(stroke
 			(width 0)
@@ -5338,6 +5058,16 @@
 			(type default)
 		)
 		(uuid "0b0e0c10-1972-4852-b92e-d1292ff435ba")
+	)
+	(wire
+		(pts
+			(xy 17.78 313.69) (xy 20.32 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b60e54d-43df-4117-bade-94f0cd7d61d8")
 	)
 	(wire
 		(pts
@@ -5549,16 +5279,6 @@
 		)
 		(uuid "20205623-535b-4d12-ab03-13695cc3eb80")
 	)
-	(wire
-		(pts
-			(xy 152.4 334.01) (xy 158.75 334.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20362e14-107b-432f-a119-6451b7838d62")
-	)
 	(bus
 		(pts
 			(xy 111.76 43.18) (xy 111.76 45.72)
@@ -5711,7 +5431,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 334.01) (xy 142.24 334.01)
+			(xy 133.35 334.01) (xy 158.75 334.01)
 		)
 		(stroke
 			(width 0)
@@ -5828,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "3a18f4b2-3536-4b74-ae20-c85aebea3386")
+	)
+	(wire
+		(pts
+			(xy 17.78 321.31) (xy 17.78 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b380e39-685c-4e09-a8e9-73636fad029f")
 	)
 	(bus
 		(pts
@@ -6039,16 +5769,6 @@
 		)
 		(uuid "51f9c9db-46f9-44dd-b3c6-66edfba997dc")
 	)
-	(wire
-		(pts
-			(xy 152.4 309.88) (xy 158.75 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53507abd-476b-475b-9e38-f86931e23be3")
-	)
 	(bus
 		(pts
 			(xy 111.76 143.51) (xy 111.76 148.59)
@@ -6131,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 316.23) (xy 20.32 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc7eebf-ac71-413e-9493-199497090699")
-	)
-	(wire
-		(pts
 			(xy 123.19 334.01) (xy 124.46 334.01)
 		)
 		(stroke
@@ -6201,7 +5911,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 311.15) (xy 20.32 311.15)
+			(xy 17.78 311.15) (xy 20.32 311.15)
 		)
 		(stroke
 			(width 0)
@@ -6258,16 +5968,6 @@
 			(type default)
 		)
 		(uuid "63f9bea4-1f44-418e-8583-e56ad5c9ef7b")
-	)
-	(wire
-		(pts
-			(xy 20.32 318.77) (xy 19.05 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6477498f-d2c0-4ed7-8c30-5553fff24e83")
 	)
 	(bus
 		(pts
@@ -6341,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 313.69) (xy 19.05 316.23)
+			(xy 17.78 313.69) (xy 17.78 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6368,16 +6068,6 @@
 			(type default)
 		)
 		(uuid "6fa216ac-aa1c-45ed-96ce-e68b29277a4a")
-	)
-	(wire
-		(pts
-			(xy 19.05 303.53) (xy 19.05 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fda5419-4fd2-470c-b16b-e6b9c6a48736")
 	)
 	(wire
 		(pts
@@ -6438,16 +6128,6 @@
 			(type default)
 		)
 		(uuid "785a3090-0e08-463d-9f3f-10fa774c6bce")
-	)
-	(wire
-		(pts
-			(xy 19.05 303.53) (xy 21.59 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7953ba78-d0f0-497e-9c7b-5ddc7a18ed4e")
 	)
 	(wire
 		(pts
@@ -6578,16 +6258,6 @@
 			(type default)
 		)
 		(uuid "868c4f49-a885-4ba4-906e-6fff47306ae4")
-	)
-	(wire
-		(pts
-			(xy 19.05 313.69) (xy 20.32 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f65328-09ac-4a6e-b295-a35fcbc61959")
 	)
 	(wire
 		(pts
@@ -6881,7 +6551,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 311.15) (xy 19.05 313.69)
+			(xy 17.78 316.23) (xy 20.32 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac030296-2244-4c06-9d35-f248757946e3")
+	)
+	(wire
+		(pts
+			(xy 17.78 311.15) (xy 17.78 313.69)
 		)
 		(stroke
 			(width 0)
@@ -7078,6 +6758,16 @@
 			(type default)
 		)
 		(uuid "bf0e7c6d-92ab-4593-9637-41b6cc2c6807")
+	)
+	(wire
+		(pts
+			(xy 17.78 318.77) (xy 20.32 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1274b5e-9448-4ae1-b547-0f1b7e94be3f")
 	)
 	(wire
 		(pts
@@ -7481,7 +7171,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 316.23) (xy 19.05 318.77)
+			(xy 17.78 316.23) (xy 17.78 318.77)
 		)
 		(stroke
 			(width 0)
@@ -8579,7 +8269,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 19.05 303.53 0)
+		(at 17.78 311.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8588,7 +8278,7 @@
 		)
 		(uuid "56142cb9-ad05-4f5c-8ae1-a13f9930fee5")
 		(property "Net Class" "Power"
-			(at 19.05 299.466 0)
+			(at 17.78 307.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8599,7 +8289,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -71.12 236.22 0)
+			(at -72.39 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8607,41 +8297,6 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 153.67 334.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e073e1a-52e9-44db-a37f-f10451a1da11")
-		(property "Net Class" "Power"
-			(at 153.67 338.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 63.5 401.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8855,42 +8510,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 153.67 309.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf5e9e7b-cf85-4834-86e5-5853d5f8da84")
-		(property "Net Class" "Power"
-			(at 153.67 314.198 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 63.5 377.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 135.89 309.88 180)
+		(at 148.59 309.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8899,7 +8519,7 @@
 		)
 		(uuid "d4768afc-d52c-4310-97f7-cc86b851063b")
 		(property "Net Class" "Power"
-			(at 135.89 314.198 0)
+			(at 148.59 314.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8910,7 +8530,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 45.72 377.19 0)
+			(at 58.42 377.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8958,7 +8578,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 135.89 334.01 180)
+		(at 148.59 334.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8967,7 +8587,7 @@
 		)
 		(uuid "f73c0708-2436-4983-86c0-9319378f205f")
 		(property "Net Class" "Power"
-			(at 135.89 338.328 0)
+			(at 148.59 338.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8978,13 +8598,279 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 45.72 401.32 0)
+			(at 58.42 401.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
+		(at 129.54 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bc4c2d2-0aeb-4fda-a1bb-3b41f0b94e41")
+		(property "Reference" "R9"
+			(at 124.46 332.486 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402_560112110001"
+			(at 129.54 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+			(at 129.54 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
+			(at 181.61 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Anti-Sulfur Thick Film Resistors"
+			(at 129.54 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 181.61 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 181.61 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" "20250214"
+			(at 181.61 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" "WRIS-RSKS"
+			(at 181.61 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "560112110001"
+			(at 181.61 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" "0402"
+			(at 181.61 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 181.61 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "R" "0 Ω"
+			(at 181.61 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "+0.05Ω/-0Ω"
+			(at 181.61 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRated (mW)" "62.5"
+			(at 181.61 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C)" "–"
+			(at 181.61 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C).1" "–"
+			(at 181.61 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VE (V)" "–"
+			(at 181.61 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "1.0"
+			(at 181.61 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "W (mm)" "0.5"
+			(at 181.61 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "H (mm)" "0.35"
+			(at 181.61 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" "0 Ω"
+			(at 129.54 331.47 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ddfb1d8-cc84-4887-a71d-6107721a884f")
+		)
+		(pin "1"
+			(uuid "2736bda7-cba7-4308-b158-4f967133672d")
+		)
+		(instances
+			(project "fw16_MCIO8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
+					(reference "R9")
+					(unit 1)
 				)
 			)
 		)
@@ -9062,294 +8948,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1206_R_560112132036")
-		(at 48.26 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ba83ca1-e0af-43c4-8360-9c54deddc352")
-		(property "Reference" "R19"
-			(at 48.26 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1206_R_560112132036"
-			(at 48.26 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 48.26 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132036.pdf?ki"
-			(at -3.81 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 48.26 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at -3.81 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at -3.81 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Published Date" "20250214"
-			(at -3.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Match Code" "WRIS-RSKS"
-			(at -3.81 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "560112132036"
-			(at -3.81 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" "1206_R"
-			(at -3.81 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at -3.81 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R" "330 kΩ"
-			(at -3.81 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "±1%"
-			(at -3.81 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRated (mW)" "250.0"
-			(at -3.81 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C)" "-100"
-			(at -3.81 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "100"
-			(at -3.81 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VE (V)" "200"
-			(at -3.81 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "3.1"
-			(at -3.81 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at -3.81 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" "0.6"
-			(at -3.81 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Critical Parameter" "330 kΩ"
-			(at 48.26 95.758 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132036"
-			(at 48.26 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C26798316"
-			(at 48.26 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "17a77fd0-77ce-413c-b014-fb388c9ca1a6")
-		)
-		(pin "1"
-			(uuid "5d30761c-43b3-4867-9465-3927b5a1feea")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9508,721 +9106,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1206_R_560112132036")
-		(at 55.88 270.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "211b66d1-1ebc-430f-bcd7-9f5d67611400")
-		(property "Reference" "R2"
-			(at 55.88 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1206_R_560112132036"
-			(at 58.42 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 48.26 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132036.pdf?ki"
-			(at 38.1 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 55.88 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 40.64 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 43.18 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Published Date" "20250214"
-			(at 45.72 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Match Code" "WRIS-RSKS"
-			(at 48.26 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "560112132036"
-			(at 50.8 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" "1206_R"
-			(at 53.34 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 55.88 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R" "330 kΩ"
-			(at 58.42 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "±1%"
-			(at 60.96 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRated (mW)" "250.0"
-			(at 63.5 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C)" "-100"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "100"
-			(at 68.58 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VE (V)" "200"
-			(at 71.12 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "3.1"
-			(at 73.66 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at 76.2 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" "0.6"
-			(at 78.74 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Critical Parameter" "330 kΩ"
-			(at 57.912 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132036"
-			(at 55.88 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C26798316"
-			(at 55.88 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1caea9c6-6f3c-4e98-86ae-7986c231369b")
-		)
-		(pin "1"
-			(uuid "521e99a7-a457-4af3-baa0-4653fdb9e176")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fan-diode:ES15DLW")
-		(at 147.32 309.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2cde84dd-07fb-4f6e-8612-b734611e7bdd")
-		(property "Reference" "D6"
-			(at 144.78 311.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ES15DLW"
-			(at 147.32 307.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fan-diode:SODFL3718X102N"
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "C2103"
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02 mm"
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "ES15DLW"
-			(at 147.32 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "f075b7de-4c99-44e2-8a6d-7f4a9f3d036e")
-		)
-		(pin "C"
-			(uuid "391dfb1a-5d54-4f02-96d2-57659e566cb9")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1206_R_560112132007")
-		(at 129.54 326.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "31a7f2c0-53f4-4e07-912a-fefaa7d6a6d6")
-		(property "Reference" "R7"
-			(at 124.714 327.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1206_R_560112132007"
-			(at 129.54 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 129.54 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
-			(at 181.61 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 129.54 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 181.61 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 181.61 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Published Date" "20250214"
-			(at 181.61 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Match Code" "WRIS-RSKS"
-			(at 181.61 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "560112132007"
-			(at 181.61 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" "1206_R"
-			(at 181.61 323.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 181.61 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R" "0 Ω"
-			(at 181.61 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "+0.05Ω/-0Ω"
-			(at 181.61 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRated (mW)" "250.0"
-			(at 181.61 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C)" "–"
-			(at 181.61 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "–"
-			(at 181.61 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VE (V)" "–"
-			(at 181.61 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "3.1"
-			(at 181.61 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at 181.61 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" "0.6"
-			(at 181.61 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Critical Parameter" "0 Ω"
-			(at 129.54 326.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
-			(at 129.54 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3d30fe18-8990-47a4-97e8-f969b18e5c73")
-		)
-		(pin "1"
-			(uuid "e9353bfe-4304-491e-9cca-e5ae27d9e875")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10746,7 +9629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1206_R_560112132007")
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
 		(at 129.54 302.26 0)
 		(unit 1)
 		(body_style 1)
@@ -10757,16 +9640,16 @@
 		(dnp no)
 		(uuid "3f5405dd-f571-4a7e-97c0-6f78c0c80412")
 		(property "Reference" "R3"
-			(at 124.46 303.53 0)
+			(at 124.46 303.276 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1206_R_560112132007"
+		(property "Value" "0402_560112110001"
 			(at 129.54 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -10777,7 +9660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 129.54 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -10788,7 +9671,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
 			(at 181.61 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +9737,7 @@
 				)
 			)
 		)
-		(property "Part Number" "560112132007"
+		(property "Part Number" "560112110001"
 			(at 181.61 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -10865,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Size" "1206_R"
+		(property "Size" "0402"
 			(at 181.61 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -10909,7 +9792,7 @@
 				)
 			)
 		)
-		(property "PRated (mW)" "250.0"
+		(property "PRated (mW)" "62.5"
 			(at 181.61 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -10953,7 +9836,7 @@
 				)
 			)
 		)
-		(property "L (mm)" "3.1"
+		(property "L (mm)" "1.0"
 			(at 181.61 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -10964,7 +9847,7 @@
 				)
 			)
 		)
-		(property "W (mm)" "1.6"
+		(property "W (mm)" "0.5"
 			(at 181.61 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -10975,7 +9858,7 @@
 				)
 			)
 		)
-		(property "H (mm)" "0.6"
+		(property "H (mm)" "0.35"
 			(at 181.61 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -10987,31 +9870,9 @@
 			)
 		)
 		(property "Critical Parameter" "0 Ω"
-			(at 129.794 302.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
 			(at 129.54 302.26 0)
-			(hide yes)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,295 +9974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1206_R_560112132007")
-		(at 129.54 334.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41abd148-8624-4f35-9c72-be6a4792a406")
-		(property "Reference" "R10"
-			(at 124.968 335.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1206_R_560112132007"
-			(at 129.54 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 129.54 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
-			(at 181.61 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 129.54 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 181.61 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 181.61 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Published Date" "20250214"
-			(at 181.61 323.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Match Code" "WRIS-RSKS"
-			(at 181.61 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "560112132007"
-			(at 181.61 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" "1206_R"
-			(at 181.61 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 181.61 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R" "0 Ω"
-			(at 181.61 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "+0.05Ω/-0Ω"
-			(at 181.61 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRated (mW)" "250.0"
-			(at 181.61 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C)" "–"
-			(at 181.61 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "–"
-			(at 181.61 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VE (V)" "–"
-			(at 181.61 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "3.1"
-			(at 181.61 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "W (mm)" "1.6"
-			(at 181.61 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" "0.6"
-			(at 181.61 356.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Critical Parameter" "0 Ω"
-			(at 129.54 334.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
-			(at 129.54 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77cf63be-0256-4de9-a0f3-bd8493bb27e9")
-		)
-		(pin "1"
-			(uuid "ff77e588-2e0e-4bf1-8ca5-13f83d3922a1")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1206_R_560112132007")
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
 		(at 129.54 328.93 0)
 		(unit 1)
 		(body_style 1)
@@ -11410,18 +9983,18 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "524079cf-2970-4030-a9d8-0e1034573031")
+		(uuid "541e206a-121c-495f-b57b-575e0192046a")
 		(property "Reference" "R8"
-			(at 124.714 330.2 0)
+			(at 124.46 329.946 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1206_R_560112132007"
+		(property "Value" "0402_560112110001"
 			(at 129.54 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -11432,7 +10005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 129.54 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -11443,7 +10016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
 			(at 181.61 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -11509,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Part Number" "560112132007"
+		(property "Part Number" "560112110001"
 			(at 181.61 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -11520,7 +10093,7 @@
 				)
 			)
 		)
-		(property "Size" "1206_R"
+		(property "Size" "0402"
 			(at 181.61 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -11564,7 +10137,7 @@
 				)
 			)
 		)
-		(property "PRated (mW)" "250.0"
+		(property "PRated (mW)" "62.5"
 			(at 181.61 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -11608,7 +10181,7 @@
 				)
 			)
 		)
-		(property "L (mm)" "3.1"
+		(property "L (mm)" "1.0"
 			(at 181.61 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -11619,7 +10192,7 @@
 				)
 			)
 		)
-		(property "W (mm)" "1.6"
+		(property "W (mm)" "0.5"
 			(at 181.61 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -11630,7 +10203,7 @@
 				)
 			)
 		)
-		(property "H (mm)" "0.6"
+		(property "H (mm)" "0.35"
 			(at 181.61 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -11644,29 +10217,7 @@
 		(property "Critical Parameter" "0 Ω"
 			(at 129.54 328.93 0)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
-			(at 129.54 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,10 +10225,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d360b6a-b076-45cc-b4d9-a6ff6d7058e1")
+			(uuid "30038cd6-c930-4c4f-8e04-ad5e68c04a0d")
 		)
 		(pin "1"
-			(uuid "fee7b04e-6b20-46f4-aa5d-957e527e325c")
+			(uuid "9a6d5cc5-34e5-40d4-9f4f-9af2339470e8")
 		)
 		(instances
 			(project "fw16_MCIO8i"
@@ -11689,7 +10240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1206_R_560112132007")
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
 		(at 129.54 304.8 0)
 		(unit 1)
 		(body_style 1)
@@ -11700,16 +10251,16 @@
 		(dnp no)
 		(uuid "56e32e4d-1d3d-4bcb-b23b-6f587ab18c21")
 		(property "Reference" "R4"
-			(at 124.46 306.07 0)
+			(at 124.46 305.816 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1206_R_560112132007"
+		(property "Value" "0402_560112110001"
 			(at 129.54 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -11720,7 +10271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 129.54 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +10282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
 			(at 181.61 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -11797,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Part Number" "560112132007"
+		(property "Part Number" "560112110001"
 			(at 181.61 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -11808,7 +10359,7 @@
 				)
 			)
 		)
-		(property "Size" "1206_R"
+		(property "Size" "0402"
 			(at 181.61 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -11852,7 +10403,7 @@
 				)
 			)
 		)
-		(property "PRated (mW)" "250.0"
+		(property "PRated (mW)" "62.5"
 			(at 181.61 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -11896,7 +10447,7 @@
 				)
 			)
 		)
-		(property "L (mm)" "3.1"
+		(property "L (mm)" "1.0"
 			(at 181.61 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -11907,7 +10458,7 @@
 				)
 			)
 		)
-		(property "W (mm)" "1.6"
+		(property "W (mm)" "0.5"
 			(at 181.61 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -11918,7 +10469,7 @@
 				)
 			)
 		)
-		(property "H (mm)" "0.6"
+		(property "H (mm)" "0.35"
 			(at 181.61 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -11930,31 +10481,9 @@
 			)
 		)
 		(property "Critical Parameter" "0 Ω"
-			(at 129.794 304.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
 			(at 129.54 304.8 0)
-			(hide yes)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 304.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +10507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 303.53 0)
+		(at 17.78 321.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11989,7 +10518,7 @@
 		(fields_autoplaced yes)
 		(uuid "64695048-a20f-4287-8712-a8bc701d0ff5")
 		(property "Reference" "#PWR05"
-			(at 21.59 309.88 0)
+			(at 17.78 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12000,7 +10529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 308.61 0)
+			(at 17.78 326.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12010,7 +10539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 303.53 0)
+			(at 17.78 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12021,7 +10550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 303.53 0)
+			(at 17.78 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12032,7 +10561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 303.53 0)
+			(at 17.78 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12055,7 +10584,539 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1206_R_560112132007")
+		(lib_id "WE_WRIS-RSKS:0402_560112110088")
+		(at 55.88 270.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b6468e2-c670-4e24-8943-dcfda5654570")
+		(property "Reference" "R19"
+			(at 55.88 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402_560112110088"
+			(at 58.42 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+			(at 48.26 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110088.pdf?ki"
+			(at 38.1 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Anti-Sulfur Thick Film Resistors"
+			(at 55.88 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 40.64 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 43.18 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" "20250214"
+			(at 45.72 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" "WRIS-RSKS"
+			(at 48.26 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "560112110088"
+			(at 50.8 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" "0402"
+			(at 53.34 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 55.88 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "R" "330 kΩ"
+			(at 58.42 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "±1%"
+			(at 60.96 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRated (mW)" "100.0"
+			(at 63.5 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C)" "-100"
+			(at 66.04 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C).1" "100"
+			(at 68.58 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VE (V)" "50"
+			(at 71.12 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "1.0"
+			(at 73.66 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "W (mm)" "0.5"
+			(at 76.2 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "H (mm)" "0.35"
+			(at 78.74 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" "330 kΩ"
+			(at 57.912 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67e7db92-fb2d-4d02-921c-1afbf1f51008")
+		)
+		(pin "2"
+			(uuid "b7438fcd-ee24-4b8b-a922-8a6d8bc2c2e1")
+		)
+		(instances
+			(project "fw16_MCIO8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
+		(at 129.54 334.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70d90981-08f8-451f-be6f-5c23028c810c")
+		(property "Reference" "R10"
+			(at 124.46 335.026 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402_560112110001"
+			(at 129.54 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+			(at 129.54 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
+			(at 181.61 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Anti-Sulfur Thick Film Resistors"
+			(at 129.54 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 181.61 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 181.61 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" "20250214"
+			(at 181.61 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" "WRIS-RSKS"
+			(at 181.61 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "560112110001"
+			(at 181.61 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" "0402"
+			(at 181.61 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 181.61 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "R" "0 Ω"
+			(at 181.61 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "+0.05Ω/-0Ω"
+			(at 181.61 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRated (mW)" "62.5"
+			(at 181.61 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C)" "–"
+			(at 181.61 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C).1" "–"
+			(at 181.61 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VE (V)" "–"
+			(at 181.61 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "1.0"
+			(at 181.61 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "W (mm)" "0.5"
+			(at 181.61 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "H (mm)" "0.35"
+			(at 181.61 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" "0 Ω"
+			(at 129.54 334.01 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6945ed42-6c11-42ff-8539-5c5c99545a48")
+		)
+		(pin "1"
+			(uuid "37743b32-23d6-4089-8cf8-57cd2708bcea")
+		)
+		(instances
+			(project "fw16_MCIO8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
 		(at 129.54 309.88 0)
 		(unit 1)
 		(body_style 1)
@@ -12066,16 +11127,16 @@
 		(dnp no)
 		(uuid "75a036be-8191-4995-88a1-36a0509d473d")
 		(property "Reference" "R6"
-			(at 124.714 311.15 0)
+			(at 124.46 310.896 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1206_R_560112132007"
+		(property "Value" "0402_560112110001"
 			(at 129.54 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -12086,7 +11147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 129.54 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -12097,7 +11158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
 			(at 181.61 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -12163,7 +11224,7 @@
 				)
 			)
 		)
-		(property "Part Number" "560112132007"
+		(property "Part Number" "560112110001"
 			(at 181.61 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -12174,7 +11235,7 @@
 				)
 			)
 		)
-		(property "Size" "1206_R"
+		(property "Size" "0402"
 			(at 181.61 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -12218,7 +11279,7 @@
 				)
 			)
 		)
-		(property "PRated (mW)" "250.0"
+		(property "PRated (mW)" "62.5"
 			(at 181.61 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -12262,7 +11323,7 @@
 				)
 			)
 		)
-		(property "L (mm)" "3.1"
+		(property "L (mm)" "1.0"
 			(at 181.61 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -12273,7 +11334,7 @@
 				)
 			)
 		)
-		(property "W (mm)" "1.6"
+		(property "W (mm)" "0.5"
 			(at 181.61 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -12284,7 +11345,7 @@
 				)
 			)
 		)
-		(property "H (mm)" "0.6"
+		(property "H (mm)" "0.35"
 			(at 181.61 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -12296,31 +11357,9 @@
 			)
 		)
 		(property "Critical Parameter" "0 Ω"
-			(at 129.54 310.134 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
 			(at 129.54 309.88 0)
-			(hide yes)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,8 +11461,8 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1206_R_560112132007")
-		(at 129.54 331.47 0)
+		(lib_id "WE_WRIS-RSKS:0402_560112110088")
+		(at 48.26 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12431,9 +11470,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8d70d2a0-89b3-4e5e-83b8-053d35fcd0b2")
-		(property "Reference" "R9"
-			(at 124.714 332.486 0)
+		(uuid "8a0cbbdf-e4ac-4ac5-afa6-d3492708527a")
+		(property "Reference" "R2"
+			(at 48.26 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12442,8 +11481,8 @@
 				)
 			)
 		)
-		(property "Value" "1206_R_560112132007"
-			(at 129.54 334.01 0)
+		(property "Value" "0402_560112110088"
+			(at 48.26 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12453,8 +11492,8 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
-			(at 129.54 323.85 0)
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,8 +11503,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
-			(at 181.61 313.69 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110088.pdf?ki"
+			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12476,7 +11515,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfur Thick Film Resistors"
-			(at 129.54 331.47 0)
+			(at 48.26 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12487,7 +11526,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 181.61 316.23 0)
+			(at 100.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12498,7 +11537,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 181.61 318.77 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12509,7 +11548,7 @@
 			)
 		)
 		(property "Published Date" "20250214"
-			(at 181.61 321.31 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12520,7 +11559,7 @@
 			)
 		)
 		(property "Match Code" "WRIS-RSKS"
-			(at 181.61 323.85 0)
+			(at 100.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,8 +11569,8 @@
 				)
 			)
 		)
-		(property "Part Number" "560112132007"
-			(at 181.61 326.39 0)
+		(property "Part Number" "560112110088"
+			(at 100.33 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12541,8 +11580,8 @@
 				)
 			)
 		)
-		(property "Size" "1206_R"
-			(at 181.61 328.93 0)
+		(property "Size" "0402"
+			(at 100.33 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12553,7 +11592,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 181.61 331.47 0)
+			(at 100.33 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12563,8 +11602,8 @@
 				)
 			)
 		)
-		(property "R" "0 Ω"
-			(at 181.61 334.01 0)
+		(property "R" "330 kΩ"
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12574,8 +11613,8 @@
 				)
 			)
 		)
-		(property "Tol. R" "+0.05Ω/-0Ω"
-			(at 181.61 336.55 0)
+		(property "Tol. R" "±1%"
+			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12585,8 +11624,8 @@
 				)
 			)
 		)
-		(property "PRated (mW)" "250.0"
-			(at 181.61 339.09 0)
+		(property "PRated (mW)" "100.0"
+			(at 100.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12596,8 +11635,8 @@
 				)
 			)
 		)
-		(property "TCR (ppm/ °C)" "–"
-			(at 181.61 341.63 0)
+		(property "TCR (ppm/ °C)" "-100"
+			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12607,8 +11646,8 @@
 				)
 			)
 		)
-		(property "TCR (ppm/ °C).1" "–"
-			(at 181.61 344.17 0)
+		(property "TCR (ppm/ °C).1" "100"
+			(at 100.33 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12618,8 +11657,8 @@
 				)
 			)
 		)
-		(property "VE (V)" "–"
-			(at 181.61 346.71 0)
+		(property "VE (V)" "50"
+			(at 100.33 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12629,8 +11668,8 @@
 				)
 			)
 		)
-		(property "L (mm)" "3.1"
-			(at 181.61 349.25 0)
+		(property "L (mm)" "1.0"
+			(at 100.33 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12640,8 +11679,8 @@
 				)
 			)
 		)
-		(property "W (mm)" "1.6"
-			(at 181.61 351.79 0)
+		(property "W (mm)" "0.5"
+			(at 100.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12651,8 +11690,8 @@
 				)
 			)
 		)
-		(property "H (mm)" "0.6"
-			(at 181.61 354.33 0)
+		(property "H (mm)" "0.35"
+			(at 100.33 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12662,8 +11701,8 @@
 				)
 			)
 		)
-		(property "Critical Parameter" "0 Ω"
-			(at 129.54 331.724 0)
+		(property "Critical Parameter" "330 kΩ"
+			(at 48.26 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12671,39 +11710,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "560112132007"
-			(at 129.54 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86342641-2956-4b21-a025-de0b23892b0c")
 		)
 		(pin "1"
-			(uuid "b5bfb6c1-833d-49b6-b868-4c61f079dd44")
+			(uuid "3a7ed11a-cd03-40dc-a4d1-455a1c7da93c")
+		)
+		(pin "2"
+			(uuid "03b69ccf-e755-4e40-8ea2-6b37f2fabbb0")
 		)
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12874,6 +11891,272 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
 					(reference "FAN_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
+		(at 129.54 326.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7f7d33e-0786-418e-85a7-ef6e8fd26a9d")
+		(property "Reference" "R7"
+			(at 124.46 327.406 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402_560112110001"
+			(at 129.54 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
+			(at 129.54 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
+			(at 181.61 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Anti-Sulfur Thick Film Resistors"
+			(at 129.54 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 181.61 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 181.61 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" "20250214"
+			(at 181.61 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" "WRIS-RSKS"
+			(at 181.61 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "560112110001"
+			(at 181.61 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" "0402"
+			(at 181.61 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 181.61 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "R" "0 Ω"
+			(at 181.61 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "+0.05Ω/-0Ω"
+			(at 181.61 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRated (mW)" "62.5"
+			(at 181.61 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C)" "–"
+			(at 181.61 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCR (ppm/ °C).1" "–"
+			(at 181.61 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VE (V)" "–"
+			(at 181.61 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "1.0"
+			(at 181.61 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "W (mm)" "0.5"
+			(at 181.61 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "H (mm)" "0.35"
+			(at 181.61 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" "0 Ω"
+			(at 129.54 326.39 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6d97cc7-3e39-465d-b67f-c8053f09da76")
+		)
+		(pin "1"
+			(uuid "3964ca13-068e-4474-9086-47a36483543a")
+		)
+		(instances
+			(project "fw16_MCIO8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13129,7 +12412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1206_R_560112132007")
+		(lib_id "WE_WRIS-RSKS:0402_560112110001")
 		(at 129.54 307.34 0)
 		(unit 1)
 		(body_style 1)
@@ -13142,14 +12425,14 @@
 		(property "Reference" "R5"
 			(at 124.46 308.356 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1206_R_560112132007"
+		(property "Value" "0402_560112110001"
 			(at 129.54 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -13160,7 +12443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 129.54 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -13171,7 +12454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112132007.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/560112110001.pdf?ki"
 			(at 181.61 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -13237,7 +12520,7 @@
 				)
 			)
 		)
-		(property "Part Number" "560112132007"
+		(property "Part Number" "560112110001"
 			(at 181.61 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -13248,7 +12531,7 @@
 				)
 			)
 		)
-		(property "Size" "1206_R"
+		(property "Size" "0402"
 			(at 181.61 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -13292,7 +12575,7 @@
 				)
 			)
 		)
-		(property "PRated (mW)" "250.0"
+		(property "PRated (mW)" "62.5"
 			(at 181.61 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -13336,7 +12619,7 @@
 				)
 			)
 		)
-		(property "L (mm)" "3.1"
+		(property "L (mm)" "1.0"
 			(at 181.61 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -13347,7 +12630,7 @@
 				)
 			)
 		)
-		(property "W (mm)" "1.6"
+		(property "W (mm)" "0.5"
 			(at 181.61 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -13358,7 +12641,7 @@
 				)
 			)
 		)
-		(property "H (mm)" "0.6"
+		(property "H (mm)" "0.35"
 			(at 181.61 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -13372,29 +12655,7 @@
 		(property "Critical Parameter" "0 Ω"
 			(at 129.54 307.34 0)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112132007"
-			(at 129.54 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25268462"
-			(at 129.54 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13533,146 +12794,6 @@
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
 					(reference "EEPROM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fan-diode:ES15DLW")
-		(at 147.32 334.01 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de3f7b25-6c57-4ba9-95d6-035d29718a8c")
-		(property "Reference" "D3"
-			(at 144.78 332.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ES15DLW"
-			(at 147.32 336.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fan-diode:SODFL3718X102N"
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "C2103"
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.02 mm"
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "ES15DLW"
-			(at 147.32 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "eb51ad1b-bc73-4d10-b888-822a388868f4")
-		)
-		(pin "C"
-			(uuid "442c803a-1ab5-4100-865a-f34961a044f4")
-		)
-		(instances
-			(project "fw16_MCIO8i"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "D3")
 					(unit 1)
 				)
 			)
