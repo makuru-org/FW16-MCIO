@@ -6465,9 +6465,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.254 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,6 +6598,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,9 +6607,9 @@
 			)
 		)
 		(property "Capacitance" "100 nF"
-			(at 5.08 0 0)
+			(at 0.762 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,9 +6618,9 @@
 			)
 		)
 		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+			(at 0.762 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48758,7 +48759,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "6.3"
+		(property "Voltage" "6.3 V"
 			(at 1.27 -4.572 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -60217,9 +60218,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60350,6 +60351,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60358,9 +60360,9 @@
 			)
 		)
 		(property "Capacitance" "15 nF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60368,10 +60370,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61937,9 +61939,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.254 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62070,6 +62072,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62078,9 +62081,9 @@
 			)
 		)
 		(property "Capacitance" "68 nF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62089,9 +62092,9 @@
 			)
 		)
 		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+			(at 0 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62367,9 +62370,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62500,6 +62503,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62508,9 +62512,9 @@
 			)
 		)
 		(property "Capacitance" "100 nF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62518,10 +62522,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88597,9 +88601,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88730,6 +88734,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88738,9 +88743,9 @@
 			)
 		)
 		(property "Capacitance" "4.7 pF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88748,10 +88753,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145358,9 +145363,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145491,6 +145496,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145499,9 +145505,9 @@
 			)
 		)
 		(property "Capacitance" "150 nF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145509,10 +145515,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -3.556 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287688,9 +287694,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.254 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287821,6 +287827,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287829,9 +287836,9 @@
 			)
 		)
 		(property "Capacitance" "10 pF"
-			(at 5.08 0 0)
+			(at 0.508 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287840,9 +287847,9 @@
 			)
 		)
 		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+			(at 0.508 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362078,9 +362085,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362211,6 +362218,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362219,9 +362227,9 @@
 			)
 		)
 		(property "Capacitance" "47 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362229,10 +362237,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.064 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400778,9 +400786,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.254 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400911,6 +400919,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400919,9 +400928,9 @@
 			)
 		)
 		(property "Capacitance" "1 µF"
-			(at 5.08 0 0)
+			(at 0.508 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400930,9 +400939,9 @@
 			)
 		)
 		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+			(at 0.508 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408948,9 +408957,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409081,6 +409090,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409089,9 +409099,9 @@
 			)
 		)
 		(property "Capacitance" "10 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409099,10 +409109,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3576,9 +3576,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -2.032 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,9 +3806,9 @@
 			)
 		)
 		(property "Critical Parameter" "1 kΩ"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48612,9 +48612,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -1.778 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48842,9 +48842,9 @@
 			)
 		)
 		(property "Critical Parameter" "300 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69348,9 +69348,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -1.778 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69578,9 +69578,9 @@
 			)
 		)
 		(property "Critical Parameter" "215 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88140,9 +88140,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -1.778 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88370,9 +88370,9 @@
 			)
 		)
 		(property "Critical Parameter" "6.8 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94944,9 +94944,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -1.778 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95174,9 +95174,9 @@
 			)
 		)
 		(property "Critical Parameter" "56 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.286 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109848,9 +109848,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -2.032 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110078,9 +110078,9 @@
 			)
 		)
 		(property "Critical Parameter" "1 MΩ"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110496,9 +110496,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -2.286 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110726,9 +110726,9 @@
 			)
 		)
 		(property "Critical Parameter" "1 MΩ"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164280,9 +164280,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -1.778 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164510,9 +164510,9 @@
 			)
 		)
 		(property "Critical Parameter" "100 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.286 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
