@@ -4,7 +4,7 @@
 @General:
 ProfileName= "trans" 
 ProfileFile= "trans.sim" 
-Connectivity= "STEADYSTATE_IBB.net" 
+Connectivity= "Steady_State.net" 
 NetlistFile= "trans.cir" 
 DataFile= "trans.dat" 
 OutFile= "trans.out" 
@@ -14,9 +14,9 @@ Notes=
 @End General
 @Analysis: 0 1
 +0 0 0 0 
-+0 "1.34m" 
++0 "63u" 
 +1 "" 
-+2 "1.3m" 
++2 "61u" 
 +3 "20n" 
 +4 "" 
 +5 "" 
@@ -110,12 +110,8 @@ SaveFile 0 ""
 @End Analysis
 @Analysis: 11 1
 + 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-+ ABSTOL "1n"
-+ ITL1 "1500"
-+ ITL2 "40"
-+ ITL4 "50"
-+ RELTOL "0.002"
-+ VNTOL "10.0u"
++ ABSTOL "1.0n"
++ ITL4 "40"
 + 0 0 0 0 0 0 0 0 0
 @End Analysis
 @Analysis: 12 0

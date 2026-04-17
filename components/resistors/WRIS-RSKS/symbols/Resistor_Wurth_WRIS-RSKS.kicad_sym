@@ -6168,9 +6168,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-0402"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-0402"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,9 +6398,9 @@
 			)
 		)
 		(property "Critical Parameter" "10 kΩ"
-			(at 0 -7.62 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
