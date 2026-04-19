@@ -552,6 +552,108 @@
       "/I2C_PWR": [
         "Power"
       ],
+      "/MCIO/B_RX.0+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.0-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.1+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.1-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.2+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.2-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.3+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.3-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.4+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.4-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.5+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.5-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.6+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.6-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.7+": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX.7-": [
+        "PCIe"
+      ],
+      "/MCIO/B_RX{[0..7]- [0..7]+}": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.0+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.0-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.1+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.1-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.2+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.2-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.3+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.3-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.4+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.4-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.5+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.5-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.6+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.6-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.7+": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX.7-": [
+        "PCIe"
+      ],
+      "/MCIO/B_TX{[0..7]- [0..7]+}": [
+        "PCIe"
+      ],
       "/PCIe-Retimer/A_RX.0+": [
         "PCIe"
       ],
@@ -1780,7 +1882,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "U2-3,R1,R11-16,L1-3,C1-20,#PWR1,#PWR13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1797,7 +1899,7 @@
       "PCIe_retimer"
     ],
     [
-      "c30304df-3fc6-4616-b0bb-4ddaf654a20e",
+      "d41f1d80-4685-4c45-b8ae-6b22442d3c76",
       "PCIe_retimer_power"
     ],
     [

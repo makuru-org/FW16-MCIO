@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "step-down-converter-1.8V") (type "KiCad") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.8V/TPS62802/KiCADv6/2026-04-17_01-47-09.kicad_sym") (options "") (descr ""))
+	(lib (name "step-down-converter-1.8V") (type "KiCad") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.8V/TPS62802/2026-04-17_01-47-09.kicad_sym") (options "") (descr ""))
 )

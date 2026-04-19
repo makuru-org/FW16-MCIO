@@ -133,7 +133,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -17.78 0)
+				(at -25.4 5.08 0)
 				(length 5.08)
 				(name "A_PEX_TX2N"
 					(effects
@@ -151,7 +151,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -27.94 0)
+				(at -25.4 15.24 0)
 				(length 5.08)
 				(name "A_PEX_TX0N"
 					(effects
@@ -169,7 +169,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -73.66 0)
+				(at 25.4 15.24 180)
 				(length 5.08)
 				(name "A_PEX_RX0N"
 					(effects
@@ -187,7 +187,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -63.5 0)
+				(at 25.4 5.08 180)
 				(length 5.08)
 				(name "A_PEX_RX2N"
 					(effects
@@ -205,7 +205,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -5.08 0)
+				(at -25.4 -7.62 0)
 				(length 5.08)
 				(name "A_PEX_TX4N"
 					(effects
@@ -223,7 +223,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -50.8 0)
+				(at 25.4 -7.62 180)
 				(length 5.08)
 				(name "A_PEX_RX4N"
 					(effects
@@ -241,7 +241,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -2.54 0)
+				(at -25.4 -10.16 0)
 				(length 5.08)
 				(name "A_PEX_TX4P"
 					(effects
@@ -259,7 +259,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -48.26 0)
+				(at 25.4 -10.16 180)
 				(length 5.08)
 				(name "A_PEX_RX4P"
 					(effects
@@ -277,7 +277,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 0 0)
+				(at -25.4 -12.7 0)
 				(length 5.08)
 				(name "A_PEX_TX5N"
 					(effects
@@ -295,7 +295,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -45.72 0)
+				(at 25.4 -12.7 180)
 				(length 5.08)
 				(name "A_PEX_RX5N"
 					(effects
@@ -313,7 +313,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 2.54 0)
+				(at -25.4 -15.24 0)
 				(length 5.08)
 				(name "A_PEX_TX5P"
 					(effects
@@ -331,7 +331,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -43.18 0)
+				(at 25.4 -15.24 180)
 				(length 5.08)
 				(name "A_PEX_RX5P"
 					(effects
@@ -349,7 +349,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 5.08 0)
+				(at -25.4 -17.78 0)
 				(length 5.08)
 				(name "A_PEX_TX6N"
 					(effects
@@ -367,7 +367,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -40.64 0)
+				(at 25.4 -17.78 180)
 				(length 5.08)
 				(name "A_PEX_RX6N"
 					(effects
@@ -385,7 +385,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 7.62 0)
+				(at -25.4 -20.32 0)
 				(length 5.08)
 				(name "A_PEX_TX6P"
 					(effects
@@ -403,7 +403,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -38.1 0)
+				(at 25.4 -20.32 180)
 				(length 5.08)
 				(name "A_PEX_RX6P"
 					(effects
@@ -421,7 +421,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 10.16 0)
+				(at -25.4 -22.86 0)
 				(length 5.08)
 				(name "A_PEX_TX7N"
 					(effects
@@ -439,7 +439,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -35.56 0)
+				(at 25.4 -22.86 180)
 				(length 5.08)
 				(name "A_PEX_RX7N"
 					(effects
@@ -457,7 +457,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 12.7 0)
+				(at -25.4 -25.4 0)
 				(length 5.08)
 				(name "A_PEX_TX7P"
 					(effects
@@ -475,7 +475,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -33.02 0)
+				(at 25.4 -25.4 180)
 				(length 5.08)
 				(name "A_PEX_RX7P"
 					(effects
@@ -493,7 +493,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -5.08 180)
+				(at 25.4 -55.88 180)
 				(length 5.08)
 				(name "B_PEX_RX4N"
 					(effects
@@ -511,7 +511,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -50.8 180)
+				(at -25.4 -55.88 0)
 				(length 5.08)
 				(name "B_PEX_TX4N"
 					(effects
@@ -529,7 +529,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -2.54 180)
+				(at 25.4 -58.42 180)
 				(length 5.08)
 				(name "B_PEX_RX4P"
 					(effects
@@ -547,7 +547,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 7.62 180)
+				(at 25.4 -68.58 180)
 				(length 5.08)
 				(name "B_PEX_RX6P"
 					(effects
@@ -565,7 +565,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -38.1 180)
+				(at -25.4 -68.58 0)
 				(length 5.08)
 				(name "B_PEX_TX6P"
 					(effects
@@ -583,7 +583,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -48.26 180)
+				(at -25.4 -58.42 0)
 				(length 5.08)
 				(name "B_PEX_TX4P"
 					(effects
@@ -601,7 +601,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 5.08 180)
+				(at 25.4 -66.04 180)
 				(length 5.08)
 				(name "B_PEX_RX6N"
 					(effects
@@ -619,7 +619,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -40.64 180)
+				(at -25.4 -66.04 0)
 				(length 5.08)
 				(name "B_PEX_TX6N"
 					(effects
@@ -637,7 +637,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 0 180)
+				(at 25.4 -60.96 180)
 				(length 5.08)
 				(name "B_PEX_RX5N"
 					(effects
@@ -655,7 +655,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 10.16 180)
+				(at 25.4 -71.12 180)
 				(length 5.08)
 				(name "B_PEX_RX7N"
 					(effects
@@ -673,7 +673,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -35.56 180)
+				(at -25.4 -71.12 0)
 				(length 5.08)
 				(name "B_PEX_TX7N"
 					(effects
@@ -691,7 +691,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -45.72 180)
+				(at -25.4 -60.96 0)
 				(length 5.08)
 				(name "B_PEX_TX5N"
 					(effects
@@ -709,7 +709,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 2.54 180)
+				(at 25.4 -63.5 180)
 				(length 5.08)
 				(name "B_PEX_RX5P"
 					(effects
@@ -727,7 +727,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 12.7 180)
+				(at 25.4 -73.66 180)
 				(length 5.08)
 				(name "B_PEX_RX7P"
 					(effects
@@ -745,7 +745,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -33.02 180)
+				(at -25.4 -73.66 0)
 				(length 5.08)
 				(name "B_PEX_TX7P"
 					(effects
@@ -763,7 +763,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -43.18 180)
+				(at -25.4 -63.5 0)
 				(length 5.08)
 				(name "B_PEX_TX4P"
 					(effects
@@ -781,7 +781,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -15.24 0)
+				(at -25.4 2.54 0)
 				(length 5.08)
 				(name "A_PEX_TX2P"
 					(effects
@@ -799,7 +799,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -25.4 0)
+				(at -25.4 12.7 0)
 				(length 5.08)
 				(name "A_PEX_TX0P"
 					(effects
@@ -817,7 +817,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -71.12 0)
+				(at 25.4 12.7 180)
 				(length 5.08)
 				(name "A_PEX_RX0P"
 					(effects
@@ -835,7 +835,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -60.96 0)
+				(at 25.4 2.54 180)
 				(length 5.08)
 				(name "A_PEX_RX2P"
 					(effects
@@ -853,7 +853,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -20.32 0)
+				(at -25.4 7.62 0)
 				(length 5.08)
 				(name "A_PEX_TX1P"
 					(effects
@@ -871,7 +871,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -66.04 0)
+				(at 25.4 7.62 180)
 				(length 5.08)
 				(name "A_PEX_RX1P"
 					(effects
@@ -889,7 +889,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -12.7 0)
+				(at -25.4 0 0)
 				(length 5.08)
 				(name "A_PEX_TX3N"
 					(effects
@@ -907,7 +907,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -22.86 0)
+				(at -25.4 10.16 0)
 				(length 5.08)
 				(name "A_PEX_TX1N"
 					(effects
@@ -925,7 +925,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -68.58 0)
+				(at 25.4 10.16 180)
 				(length 5.08)
 				(name "A_PEX_RX1N"
 					(effects
@@ -943,7 +943,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -58.42 0)
+				(at 25.4 0 180)
 				(length 5.08)
 				(name "A_PEX_RX3N"
 					(effects
@@ -961,7 +961,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -10.16 0)
+				(at -25.4 -2.54 0)
 				(length 5.08)
 				(name "A_PEX_TX3P"
 					(effects
@@ -979,7 +979,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -55.88 0)
+				(at 25.4 -2.54 180)
 				(length 5.08)
 				(name "A_PEX_RX3P"
 					(effects
@@ -997,7 +997,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -27.94 180)
+				(at 25.4 -33.02 180)
 				(length 5.08)
 				(name "B_PEX_RX0N"
 					(effects
@@ -1015,7 +1015,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -73.66 180)
+				(at -25.4 -33.02 0)
 				(length 5.08)
 				(name "B_PEX_TX0N"
 					(effects
@@ -1033,7 +1033,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -25.4 180)
+				(at 25.4 -35.56 180)
 				(length 5.08)
 				(name "B_PEX_RX0P"
 					(effects
@@ -1051,7 +1051,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -71.12 180)
+				(at -25.4 -35.56 0)
 				(length 5.08)
 				(name "B_PEX_TX0P"
 					(effects
@@ -1069,7 +1069,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -22.86 180)
+				(at 25.4 -38.1 180)
 				(length 5.08)
 				(name "B_PEX_RX1N"
 					(effects
@@ -1087,7 +1087,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -68.58 180)
+				(at -25.4 -38.1 0)
 				(length 5.08)
 				(name "B_PEX_TX1N"
 					(effects
@@ -1105,7 +1105,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -20.32 180)
+				(at 25.4 -40.64 180)
 				(length 5.08)
 				(name "B_PEX_RX1P"
 					(effects
@@ -1123,7 +1123,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -66.04 180)
+				(at -25.4 -40.64 0)
 				(length 5.08)
 				(name "B_PEX_TX1P"
 					(effects
@@ -1141,7 +1141,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -17.78 180)
+				(at 25.4 -43.18 180)
 				(length 5.08)
 				(name "B_PEX_RX2N"
 					(effects
@@ -1159,7 +1159,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -63.5 180)
+				(at -25.4 -43.18 0)
 				(length 5.08)
 				(name "B_PEX_TX2N"
 					(effects
@@ -1177,7 +1177,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -15.24 180)
+				(at 25.4 -45.72 180)
 				(length 5.08)
 				(name "B_PEX_RX2P"
 					(effects
@@ -1195,7 +1195,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -60.96 180)
+				(at -25.4 -45.72 0)
 				(length 5.08)
 				(name "B_PEX_TX2P"
 					(effects
@@ -1213,7 +1213,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -12.7 180)
+				(at 25.4 -48.26 180)
 				(length 5.08)
 				(name "B_PEX_RX3N"
 					(effects
@@ -1231,7 +1231,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -58.42 180)
+				(at -25.4 -48.26 0)
 				(length 5.08)
 				(name "B_PEX_TX3N"
 					(effects
@@ -1249,7 +1249,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -10.16 180)
+				(at 25.4 -50.8 180)
 				(length 5.08)
 				(name "B_PEX_RX3P"
 					(effects
@@ -1267,7 +1267,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -55.88 180)
+				(at -25.4 -50.8 0)
 				(length 5.08)
 				(name "B_PEX_TX3P"
 					(effects
