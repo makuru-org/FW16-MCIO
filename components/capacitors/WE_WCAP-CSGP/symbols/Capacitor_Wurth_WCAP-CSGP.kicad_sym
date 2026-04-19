@@ -445,9 +445,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0201"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-0201"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -578,6 +578,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,9 +587,9 @@
 			)
 		)
 		(property "Capacitance" "47 pF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,10 +597,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "50.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "50.0 V"
+			(at 0 -4.064 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50326,9 +50327,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50348,7 +50349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0402"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-0402"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50459,6 +50460,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50467,9 +50469,9 @@
 			)
 		)
 		(property "Capacitance" "1 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50477,10 +50479,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.064 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54196,9 +54198,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54218,7 +54220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0402"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-0402"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54329,6 +54331,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54337,9 +54340,9 @@
 			)
 		)
 		(property "Capacitance" "10 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54347,10 +54350,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0.254 -4.064 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87736,9 +87739,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87758,7 +87761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_Fl0.35_R"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-0603_Fl0.35_R"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87869,6 +87872,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87877,9 +87881,9 @@
 			)
 		)
 		(property "Capacitance" "10 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87887,10 +87891,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "25.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "25.0 V"
+			(at 0 -4.064 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368096,9 +368100,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368118,7 +368122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-1206_H1.6"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -368229,6 +368233,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368237,9 +368242,9 @@
 			)
 		)
 		(property "Capacitance" "22 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368247,10 +368252,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.064 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374976,9 +374981,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374998,7 +375003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1206_H1.6"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-1206_H1.6"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -375109,6 +375114,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375117,9 +375123,9 @@
 			)
 		)
 		(property "Capacitance" "1 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375127,10 +375133,10 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "100.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "100.0 V"
+			(at 0 -4.572 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408946,7 +408952,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -408968,7 +408974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.0"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-1210_H2.0"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -409079,6 +409085,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409087,7 +409094,7 @@
 			)
 		)
 		(property "Capacitance" "10 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -409097,8 +409104,8 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+		(property "Voltage" "10.0 V"
+			(at 0 -4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -415826,7 +415833,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 5.08 5.08 0)
+			(at 0.508 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -415848,7 +415855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "WE_WCAP-CSGP:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 5.08 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -415959,6 +415966,7 @@
 			(at 5.08 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415967,7 +415975,7 @@
 			)
 		)
 		(property "Capacitance" "22 µF"
-			(at 5.08 0 0)
+			(at 0 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -415978,7 +415986,7 @@
 			)
 		)
 		(property "Voltage" "10.0"
-			(at 5.08 -2.54 0)
+			(at 0 -4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

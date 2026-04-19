@@ -3578,7 +3578,7 @@
 		(property "Reference" "R"
 			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3808,7 @@
 		(property "Critical Parameter" "1 kΩ"
 			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69350,7 +69350,7 @@
 		(property "Reference" "R"
 			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69580,7 +69580,7 @@
 		(property "Critical Parameter" "215 kΩ"
 			(at 0 -2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)

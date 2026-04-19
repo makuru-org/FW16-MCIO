@@ -1,6 +1,7 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "WE_WCAP-CSRF") (type "KiCad") (uri "${KIPRJMOD}/components/capacitors/WE_WCAP-CSRF/symbols/Capacitor_Wurth_WCAP-CSRF.kicad_sym") (options "") (descr ""))
-	(lib (name "WE_WCAP-PHSE") (type "KiCad") (uri "${KIPRJMOD}/components/capacitors/WE_WCAP-PHSE/symbols/Capacitor_Wurth_WCAP-PHSE.kicad_sym") (options "") (descr ""))
 	(lib (name "WE_WCAP-CSGP") (type "KiCad") (uri "${KIPRJMOD}/components/capacitors/WE_WCAP-CSGP/symbols/Capacitor_Wurth_WCAP-CSGP.kicad_sym") (options "") (descr ""))
+	(lib (name "WE_WCAP-CSRF") (type "KiCad") (uri "${KIPRJMOD}/components/capacitors/WE_WCAP-CSRF/symbols/Capacitor_Wurth_WCAP-CSRF.kicad_sym") (options "") (descr ""))
+	(lib (name "WE_WCAP-PHGP") (type "KiCad") (uri "${KIPRJMOD}/components/capacitors/WE_WCAP-PHGP/symbols/Capacitor_Wurth_WCAP-PHGP.kicad_sym") (options "") (descr ""))
+	(lib (name "WE_WCAP-PHSE") (type "KiCad") (uri "${KIPRJMOD}/components/capacitors/WE_WCAP-PHSE/symbols/Capacitor_Wurth_WCAP-PHSE.kicad_sym") (options "") (descr ""))
 )

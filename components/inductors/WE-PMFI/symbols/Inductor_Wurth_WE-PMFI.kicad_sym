@@ -1536,9 +1536,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at 0 5.08 0)
+			(at -2.286 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-PMFI-201610"
+		(property "Footprint" "WE-PMFI:L_Wurth_WE-PMFI-201610"
 			(at 12.7 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1761,14 +1761,13 @@
 			)
 		)
 		(property "Critical Parameter" "3.3 µH"
-			(at 0 -5.08 0)
+			(at 0 -1.27 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "ki_keywords" "SMT"

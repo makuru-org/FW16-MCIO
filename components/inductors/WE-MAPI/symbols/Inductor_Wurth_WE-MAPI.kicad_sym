@@ -2476,9 +2476,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at 0 5.08 0)
+			(at -2.032 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +2496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-1610"
+		(property "Footprint" "WE-MAPI:L_Wurth_WE-MAPI-1610"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,9 +2673,9 @@
 			)
 		)
 		(property "Critical Parameter" "1.5 µH"
-			(at 0 -5.08 0)
+			(at 0 -1.27 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,9 +3532,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at 0 5.08 0)
+			(at 0 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-2010"
+		(property "Footprint" "WE-MAPI:L_Wurth_WE-MAPI-2010"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3729,9 +3729,9 @@
 			)
 		)
 		(property "Critical Parameter" "0.47 µH"
-			(at 0 -5.08 0)
+			(at 0 -1.016 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,9 +7052,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at 0 5.08 0)
+			(at -2.286 1.778 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-2508"
+		(property "Footprint" "WE-MAPI:L_Wurth_WE-MAPI-2508"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,9 +7249,9 @@
 			)
 		)
 		(property "Critical Parameter" "0.47 µH"
-			(at 0 -5.08 0)
+			(at 0 -1.016 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15852,9 +15852,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at 0 5.08 0)
+			(at 0 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +15872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-2512"
+		(property "Footprint" "WE-MAPI:L_Wurth_WE-MAPI-2512"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16049,9 +16049,9 @@
 			)
 		)
 		(property "Critical Parameter" "0.47 µH"
-			(at 0 -5.08 0)
+			(at 0 -1.016 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
