@@ -81,6 +81,16 @@
 		)
 		(uuid "037b68a8-8093-4279-ab41-2e6ff678bc5d")
 	)
+	(wire
+		(pts
+			(xy 236.22 132.08) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043add69-0382-4e93-9865-e7198fcaf258")
+	)
 	(bus
 		(pts
 			(xy 110.49 168.91) (xy 110.49 189.23)
@@ -90,6 +100,16 @@
 			(type default)
 		)
 		(uuid "04fdcdf8-280e-4681-817d-18bc0c36b96d")
+	)
+	(bus
+		(pts
+			(xy 238.76 129.54) (xy 238.76 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcbb471-7482-46ab-a74f-081b3a31f536")
 	)
 	(bus
 		(pts
@@ -121,6 +141,26 @@
 		)
 		(uuid "24d221fd-0a0c-4ffa-b171-b8f3f50e385f")
 	)
+	(wire
+		(pts
+			(xy 330.2 180.34) (xy 236.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41934a36-e040-41e8-84cf-8fa6ab18c5c7")
+	)
+	(bus
+		(pts
+			(xy 81.28 129.54) (xy 238.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1e0b49-fa10-4d2e-85b6-d6aa3bf335bd")
+	)
 	(bus
 		(pts
 			(xy 113.03 186.69) (xy 166.37 186.69)
@@ -141,6 +181,16 @@
 		)
 		(uuid "68978f11-0fd9-420c-9513-db0e18c54ea6")
 	)
+	(wire
+		(pts
+			(xy 236.22 180.34) (xy 236.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773c8a07-a460-4328-9f11-5ac91a0ae175")
+	)
 	(bus
 		(pts
 			(xy 81.28 127) (xy 241.3 127)
@@ -150,6 +200,16 @@
 			(type default)
 		)
 		(uuid "ac0a0f8b-2071-4fa3-a2eb-63e3381ad9e8")
+	)
+	(bus
+		(pts
+			(xy 238.76 177.8) (xy 330.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e5de6b-3063-447a-8643-2eb2980f329f")
 	)
 	(bus
 		(pts
@@ -229,6 +289,26 @@
 				(justify left)
 			)
 		)
+		(pin "PEX{SCL SDA}" output
+			(at 330.2 177.8 180)
+			(uuid "94691672-9711-4cf9-aad2-cfcf89d3c455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PEX.RST" bidirectional
+			(at 330.2 180.34 180)
+			(uuid "8960b5fa-2e33-4910-9ff4-bae93bd709be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
@@ -296,7 +376,7 @@
 			)
 		)
 		(pin "PEX.RST" bidirectional
-			(at 81.28 139.7 0)
+			(at 81.28 132.08 0)
 			(uuid "4c31bd09-50f7-46c3-8dc3-6638e04a6835")
 			(effects
 				(font
@@ -306,7 +386,7 @@
 			)
 		)
 		(pin "PEX{SCL SDA}" output
-			(at 81.28 137.16 0)
+			(at 81.28 129.54 0)
 			(uuid "da3d59f0-616c-4958-b73f-1ec51e853962")
 			(effects
 				(font

@@ -4190,12 +4190,6 @@
 		(uuid "13be5fc2-3941-4ec5-b8e5-d6e071dacbf8")
 	)
 	(junction
-		(at 111.76 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15b65f80-e826-442b-9620-742dfaed65ee")
-	)
-	(junction
 		(at 52.07 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4206,6 +4200,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "195440f7-5865-433d-878a-48668e702ba8")
+	)
+	(junction
+		(at 111.76 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6eb98f-8d8f-4b3c-9743-debd9bf31600")
 	)
 	(junction
 		(at 52.07 209.55)
@@ -5205,6 +5205,16 @@
 		)
 		(uuid "16a588e1-8721-46b8-b92b-0796c5717bd4")
 	)
+	(bus
+		(pts
+			(xy 111.76 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17563aee-e9ce-426e-971a-1858d58c4398")
+	)
 	(wire
 		(pts
 			(xy 93.98 196.85) (xy 107.95 196.85)
@@ -5884,16 +5894,6 @@
 			(type default)
 		)
 		(uuid "6378a200-3d76-450d-a951-2d7c34885699")
-	)
-	(bus
-		(pts
-			(xy 111.76 88.9) (xy 111.76 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e5e85b-8515-4ac9-a3f6-a10c0f676956")
 	)
 	(wire
 		(pts
@@ -6627,6 +6627,16 @@
 	)
 	(bus
 		(pts
+			(xy 111.76 88.9) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa404ed1-87b1-48d5-b930-ca25d2969a9d")
+	)
+	(bus
+		(pts
 			(xy 111.76 133.35) (xy 111.76 130.81)
 		)
 		(stroke
@@ -6854,16 +6864,6 @@
 			(type default)
 		)
 		(uuid "c73cd8c4-c886-42d2-99f8-05d2e2a74cef")
-	)
-	(bus
-		(pts
-			(xy 111.76 88.9) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75dc4c7-8053-439c-8d4a-6751eccaf724")
 	)
 	(wire
 		(pts
@@ -7505,6 +7505,16 @@
 		)
 		(uuid "540df72a-c83c-41ba-994b-d2cf31bd5748")
 	)
+	(label "PCI{RX[0..7]- RX[0..7]+ TX[0..7]- TX[0..7]+}"
+		(at 116.84 88.9 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e6dcc3d-f32f-49c5-85ec-fabee35c1c50")
+	)
 	(label "I2C{SDA SCL PWR}"
 		(at 73.66 323.85 0)
 		(effects
@@ -7915,16 +7925,6 @@
 		)
 		(uuid "db981b1e-51ea-4cd3-8149-8c9e6c53b802")
 	)
-	(label "PCI{RX[0..7]- RX[0..7]+ TX[0..7]- TX[0..7]+}"
-		(at 111.76 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de781291-42b1-42d2-b232-3cca944ddf20")
-	)
 	(label "PCI.RX1-"
 		(at 107.95 135.89 180)
 		(effects
@@ -8001,14 +8001,14 @@
 	)
 	(hierarchical_label "PCI{RX[0..7]- RX[0..7]+ TX[0..7]- TX[0..7]+}"
 		(shape bidirectional)
-		(at 114.3 88.9 0)
+		(at 118.11 88.9 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f018a9cc-ecf0-4a0d-aed2-9d270f087511")
+		(uuid "f1a6a594-e613-4b2a-b8ec-8db2b1b252a3")
 	)
 	(rule_area
 		(exclude_from_sim no)

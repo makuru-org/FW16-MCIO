@@ -2086,7 +2086,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "U1,IN1,EEPROM1,C1-5,R1-10,FAN_L1,MCIO1,FAN_R1,#PWR1-9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

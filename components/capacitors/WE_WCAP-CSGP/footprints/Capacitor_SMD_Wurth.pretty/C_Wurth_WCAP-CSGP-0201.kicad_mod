@@ -5,24 +5,12 @@
 	(layer "F.Cu")
 	(descr "MLCCs General Purpose, body 0.6x0.3x0.3mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 	(tags "SMT")
-	(property "Reference" "REF**"
-		(at 0 -1.3 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "316f31f1-ccbb-4204-9d32-14650fae9e33")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "C_Wurth_WCAP-CSGP-0201"
 		(at 0 1.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c38e195b-955b-4b6b-9f61-1619fbb17d99")
+		(uuid "e9018bb5-eae2-4f74-87ea-7626a44bc0a3")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +22,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9adb239f-d3b2-4cd2-ab64-cebfefcd02a6")
+		(uuid "d089c573-5b4b-4d48-801c-172233b40a6c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,10 +33,21 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ac15f33-c0dc-44d4-bb0d-b1091d8097aa")
+		(uuid "124d1f54-61ee-447e-a250-7fa9d65ba20c")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at -0.8 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eeea3ab8-7f09-488a-a62a-b4cf410b4de6")
+		(effects
+			(font
+				(size 0.5 0.5)
 			)
 		)
 	)
@@ -62,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f72b10bd-b2aa-4aad-8de8-4a636f1c57a5")
+		(uuid "698d8aa9-2a83-44fa-a460-d387e1b0dfd3")
 	)
 	(fp_line
 		(start -0.3 0.41)
@@ -72,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5037c799-3990-40fd-b1d7-39d569566237")
+		(uuid "29258a25-8a3c-42b3-9169-8575a894235f")
 	)
 	(fp_rect
 		(start -0.475 -0.3)
@@ -83,7 +82,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a112259a-9c3a-4340-8a71-ebbd0f57cebc")
+		(uuid "412a86af-cc42-4c33-8c46-884c2ca268a0")
 	)
 	(fp_rect
 		(start -0.3 -0.15)
@@ -94,31 +93,19 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "738adba1-f5a4-41d1-86c1-4571784d3cf6")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "a906228e-7b0e-4d58-8c8c-9ad5eb275b78")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
-			)
-		)
+		(uuid "4a455fcc-8747-40b3-958a-792375e74c05")
 	)
 	(pad "1" smd rect
 		(at -0.22 0)
 		(size 0.21 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "83439348-e516-42eb-a021-8d56abcdc1fb")
+		(uuid "bdcd25b6-4db0-4172-b76f-9ac8ead44657")
 	)
 	(pad "2" smd rect
 		(at 0.22 0)
 		(size 0.21 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "31cafb19-8a1c-46d1-a48a-751d7ce5a2c7")
+		(uuid "7c94b8ba-24a4-43f6-8d6b-6d1febb7e10a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/components/capacitors/WE_WCAP-CSGP/3dmodels/Capacitor_SMD_Wurth.3dshapes/C_Wurth_WCAP-CSGP-0201.step"
