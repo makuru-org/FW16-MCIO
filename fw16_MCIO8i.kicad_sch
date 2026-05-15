@@ -103,6 +103,16 @@
 	)
 	(bus
 		(pts
+			(xy 241.3 127) (xy 241.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24138ee5-eb82-456e-a96b-763fe7ce5be7")
+	)
+	(bus
+		(pts
 			(xy 110.49 189.23) (xy 166.37 189.23)
 		)
 		(stroke
@@ -110,16 +120,6 @@
 			(type default)
 		)
 		(uuid "24d221fd-0a0c-4ffa-b171-b8f3f50e385f")
-	)
-	(bus
-		(pts
-			(xy 133.35 175.26) (xy 166.37 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "329ee46c-7fbf-4acd-938a-45d4dc0ee8bf")
 	)
 	(bus
 		(pts
@@ -133,93 +133,23 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 177.8) (xy 330.2 177.8)
+			(xy 330.2 175.26) (xy 241.3 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5df8879b-6d01-4f1b-bce8-24f3d1552d6d")
+		(uuid "68978f11-0fd9-420c-9513-db0e18c54ea6")
 	)
 	(bus
 		(pts
-			(xy 130.81 130.81) (xy 130.81 177.8)
+			(xy 81.28 127) (xy 241.3 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7946ae73-b545-4ed9-b825-1612e02c91d3")
-	)
-	(bus
-		(pts
-			(xy 127 137.16) (xy 127 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b99a74-aa1b-4986-b1bf-c3a84bf38196")
-	)
-	(bus
-		(pts
-			(xy 81.28 137.16) (xy 127 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1f5b40-c90b-43d3-9dc6-68d9d52e5694")
-	)
-	(bus
-		(pts
-			(xy 133.35 128.27) (xy 133.35 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccd870d-0e77-4a3d-8e26-ee852decd3f1")
-	)
-	(bus
-		(pts
-			(xy 214.63 175.26) (xy 330.2 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade9ece9-cb37-4152-b41a-0545c59216c0")
-	)
-	(bus
-		(pts
-			(xy 81.28 128.27) (xy 133.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afdbc8fb-096b-4d3a-bf8e-3a4cf68bbf08")
-	)
-	(bus
-		(pts
-			(xy 127 181.61) (xy 166.37 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f06199-72a8-4b95-a72a-d197dbf6d1de")
-	)
-	(bus
-		(pts
-			(xy 130.81 177.8) (xy 166.37 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0de348a-0351-492d-86c3-d52b707d8c9d")
+		(uuid "ac0a0f8b-2071-4fa3-a2eb-63e3381ad9e8")
 	)
 	(bus
 		(pts
@@ -241,19 +171,9 @@
 		)
 		(uuid "e9bc3fd7-d8ab-4208-bdc1-27d6e632fbc7")
 	)
-	(bus
-		(pts
-			(xy 81.28 130.81) (xy 130.81 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39d132f-a7ad-4bf3-90f7-23646c615531")
-	)
 	(sheet
 		(at 330.2 172.72)
-		(size 41.91 39.37)
+		(size 46.99 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -289,29 +209,19 @@
 				(justify left top)
 			)
 		)
-		(pin "B_RX{[0..7]- [0..7]+}" output
-			(at 330.2 175.26 180)
-			(uuid "c057e565-e324-4f68-ad11-24eaba4365d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "B_TX{[0..7]- [0..7]+}" input
-			(at 330.2 177.8 180)
-			(uuid "0cde0110-a45b-4a19-b774-b3189a8865e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PEXOUT{CLK- CLK+}" bidirectional
+		(pin "PEX_RETIME{CLK- CLK+}" input
 			(at 330.2 189.23 180)
-			(uuid "8fdaed38-dccc-4464-8a6f-efa77fb36eb9")
+			(uuid "3624a650-7730-419a-b37c-8ca671b04b99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCI{RX[0..7]- RX[0..7]+ TX[0..7]- TX[0..7]+}" bidirectional
+			(at 330.2 175.26 180)
+			(uuid "d069d6ff-f3c2-4bf7-98f5-71c8b8058883")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,8 +238,8 @@
 		)
 	)
 	(sheet
-		(at 36.83 115.57)
-		(size 44.45 111.76)
+		(at 34.29 115.57)
+		(size 46.99 111.76)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -344,7 +254,7 @@
 		)
 		(uuid "8477da45-41b5-48a1-9c5b-2402988eb1f4")
 		(property "Sheetname" "fxbeam"
-			(at 36.83 114.8584 0)
+			(at 34.29 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -355,7 +265,7 @@
 			)
 		)
 		(property "Sheetfile" "sub_schematics/fxbeam.kicad_sch"
-			(at 36.83 227.9146 0)
+			(at 34.29 227.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -365,27 +275,7 @@
 				(justify left top)
 			)
 		)
-		(pin "A_RX{[0..7]- [0..7]+}" output
-			(at 81.28 128.27 0)
-			(uuid "6e717425-661d-4f31-8938-59da905e4a10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A_TX{[0..7]- [0..7]+}" input
-			(at 81.28 130.81 0)
-			(uuid "b580d7b2-98c0-456e-87dc-c2e8538ff082")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PEX{CLK- CLK+}" bidirectional
+		(pin "PEX{CLK- CLK+}" output
 			(at 81.28 166.37 0)
 			(uuid "810c6c9a-2db6-4486-8bc4-2031c16bd97d")
 			(effects
@@ -415,9 +305,19 @@
 				(justify right)
 			)
 		)
-		(pin "PEX{SCL SDA}" bidirectional
+		(pin "PEX{SCL SDA}" output
 			(at 81.28 137.16 0)
 			(uuid "da3d59f0-616c-4958-b73f-1ec51e853962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCI{RX[0..7]- RX[0..7]+ TX[0..7]- TX[0..7]+}" bidirectional
+			(at 81.28 127 0)
+			(uuid "bd7947e9-ea5d-4d79-b191-63808059aabd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +349,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b129293c-459e-48f0-b955-fe94d8ad35a8")
-		(property "Sheetname" "PCIe_retimer"
+		(property "Sheetname" "PCIe-clk-mux"
 			(at 166.37 172.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -471,49 +371,19 @@
 				(justify left top)
 			)
 		)
-		(pin "A_RX{[0..7]- [0..7]+}" input
-			(at 166.37 175.26 180)
-			(uuid "85dc6270-0028-4c4b-85c3-531ae550eba5")
+		(pin "PEX{CLK- CLK+}" output
+			(at 166.37 186.69 180)
+			(uuid "04e563fb-ae04-4979-a19b-f1f60116eb8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "A_TX{[0..7]- [0..7]+}" output
-			(at 166.37 177.8 180)
-			(uuid "01720a9d-e20c-4118-bfe7-e41fe9869b01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "B_RX{[0..7]- [0..7]+}" input
-			(at 214.63 175.26 0)
-			(uuid "cdb01468-9213-478c-bdbc-becb7291def4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "B_TX{[0..7]- [0..7]+}" output
-			(at 214.63 177.8 0)
-			(uuid "157e8b20-ceab-4203-9e56-53a12b6bbc01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "PWR{3V3 5V}" passive
 			(at 166.37 189.23 180)
-			(uuid "d945120e-68e3-4378-ba4a-3fe8c1554ef3")
+			(uuid "cdc62259-1b1c-4eb9-9f70-9b951d2bb199")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,34 +391,14 @@
 				(justify left)
 			)
 		)
-		(pin "PEXOUT{CLK- CLK+}" bidirectional
+		(pin "PEX_RETIME{CLK- CLK+}" output
 			(at 214.63 189.23 0)
-			(uuid "6f6946c2-7329-403a-a036-e99350b3e256")
+			(uuid "dd017a19-ec4f-437d-b3e7-3e861633c39e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "PEX{CLK- CLK+}" bidirectional
-			(at 166.37 186.69 180)
-			(uuid "5360e2bd-e73f-41f6-91bb-48af73b942be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PEX{SCL SDA}" bidirectional
-			(at 166.37 181.61 180)
-			(uuid "127fd122-9f4e-4030-9c73-1ad5136f0003")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

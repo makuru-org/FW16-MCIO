@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "step-down-converter-1.17V") (type "KiCad") (uri "${KIPRJMOD}/components/step-down-converter/PCIe_redriver_1.17V/components/LMQ644A2QRXARQ1/2026-04-14_12-12-11.kicad_sym") (options "") (descr ""))
-)

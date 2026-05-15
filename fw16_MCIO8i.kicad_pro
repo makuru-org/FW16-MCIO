@@ -654,6 +654,102 @@
       "/MCIO/B_TX{[0..7]- [0..7]+}": [
         "PCIe"
       ],
+      "/MCIO/PCI.RX0+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX0-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX1+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX1-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX2+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX2-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX3+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX3-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX4+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX4-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX5+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX5-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX6+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX6-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX7+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.RX7-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX0+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX0-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX1+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX1-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX2+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX2-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX3+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX3-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX4+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX4-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX5+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX5-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX6+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX6-": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX7+": [
+        "PCIe"
+      ],
+      "/MCIO/PCI.TX7-": [
+        "PCIe"
+      ],
       "/PCIe-Retimer/A_RX.0+": [
         "PCIe"
       ],
@@ -857,6 +953,18 @@
       ],
       "/PCIe-Retimer/B_TX{[0..7]- [0..7]+}": [
         "PCIe"
+      ],
+      "/PCIe-clk-mux/PEX.CLK+": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/PEX.CLK-": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/PWR.3V3": [
+        "Power"
+      ],
+      "/PCIe-clk-mux/PWR.5V": [
+        "Power"
       ],
       "/PCIe_retimer/A_RX.0+": [
         "PCIe"
@@ -1172,6 +1280,102 @@
       ],
       "/fxbeam/12V_PWR": [
         "Power"
+      ],
+      "/fxbeam/A_RX.0+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.0-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.1+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.1-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.2+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.2-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.3+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.3-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.4+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.4-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.5+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.5-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.6+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.6-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.7+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_RX.7-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.0+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.0-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.1+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.1-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.2+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.2-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.3+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.3-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.4+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.4-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.5+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.5-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.6+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.6-": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.7+": [
+        "PCIe"
+      ],
+      "/fxbeam/A_TX.7-": [
+        "PCIe"
       ],
       "/fxbeam/PEX.CLK+": [
         "PCIe"
@@ -1882,7 +2086,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,IN1,EEPROM1,C1-5,R1-10,FAN_L1,MCIO1,FAN_R1,#PWR1-9",
     "variants": []
   },
   "sheets": [
@@ -1896,11 +2100,7 @@
     ],
     [
       "b129293c-459e-48f0-b955-fe94d8ad35a8",
-      "PCIe_retimer"
-    ],
-    [
-      "d41f1d80-4685-4c45-b8ae-6b22442d3c76",
-      "PCIe_retimer_power"
+      "PCIe-clk-mux"
     ],
     [
       "82aaed48-f89e-4ddb-8b6a-ae1d907b7f39",
