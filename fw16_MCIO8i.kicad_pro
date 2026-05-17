@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -66,6 +82,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
+        "assertion_failure": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -118,15 +135,16 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "via_diameter": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -143,13 +161,13 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1016,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.01524,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -197,8 +215,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.05
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,8 +249,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.3
+          "diameter": 0.3,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -520,22 +537,22 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "tuning_profile": "",
-        "via_diameter": 0.55,
-        "via_drill": 0.3,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.1252,
+        "clearance": 0.1016,
         "name": "PCIe",
         "pcb_color": "rgb(255, 0, 255)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 255)",
-        "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.3
+        "tuning_profile": "PCIe",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
       },
       {
+        "clearance": 0.1016,
         "name": "Power",
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 0,
@@ -1453,6 +1470,9 @@
     "netclass_patterns": []
   },
   "pcbnew": {
+    "find_by_properties": {
+      "recent_queries": []
+    },
     "last_paths": {
       "gencad": "",
       "idf": "",
@@ -2134,19 +2154,19 @@
           },
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5814200,
+            "delay": 5713800,
             "diff_pair_gap": 101600,
             "signal_layer": "F.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 217199
+            "top_reference_layer": "F.Cu",
+            "width": 132600
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5814200,
-            "diff_pair_gap": 101600,
+            "delay": 0,
+            "diff_pair_gap": 0,
             "signal_layer": "B.Cu",
-            "top_reference_layer": "In4.Cu",
-            "width": 217199
+            "top_reference_layer": "UNDEFINED",
+            "width": 2147483647
           },
           {
             "bottom_reference_layer": "UNDEFINED",
@@ -2169,7 +2189,7 @@
         "target_impedance": 85.0,
         "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 0
+        "via_prop_delay": 6500000
       }
     ]
   }
