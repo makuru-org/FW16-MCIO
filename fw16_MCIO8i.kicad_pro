@@ -767,6 +767,12 @@
       "/MCIO/PCI.TX7-": [
         "PCIe"
       ],
+      "/MCIO/PEX_RETIME.CLK+": [
+        "PCIe"
+      ],
+      "/MCIO/PEX_RETIME.CLK-": [
+        "PCIe"
+      ],
       "/PCIe-Retimer/A_RX.0+": [
         "PCIe"
       ],
@@ -969,6 +975,12 @@
         "PCIe"
       ],
       "/PCIe-Retimer/B_TX{[0..7]- [0..7]+}": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/CLK+": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/CLK-": [
         "PCIe"
       ],
       "/PCIe-clk-mux/PEX.CLK+": [

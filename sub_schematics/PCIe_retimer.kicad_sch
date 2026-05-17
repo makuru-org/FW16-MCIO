@@ -1493,6 +1493,16 @@
 		)
 		(uuid "34b8ccee-6607-473f-abee-b868f42bb63a")
 	)
+	(label "CLK-"
+		(at 196.85 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c91f3f-7b43-44e6-bfbc-8bd69517358b")
+	)
 	(label "PEX_RETIME.CLK+"
 		(at 212.09 172.72 0)
 		(effects
@@ -1502,6 +1512,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c50d65c-621f-4009-8e32-5a40019afa2d")
+	)
+	(label "CLK+"
+		(at 196.85 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e1fd286-31be-4d39-b847-4365d15e549c")
 	)
 	(label "PEX_RETIME.CLK-"
 		(at 212.09 180.34 0)
@@ -1523,6 +1543,16 @@
 		)
 		(uuid "82bff847-0607-44b9-884d-b7c470ab2d77")
 	)
+	(label "CLK+"
+		(at 171.45 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c394c292-115d-41a1-8b98-97b522a61e0d")
+	)
 	(label "PEX.CLK-"
 		(at 157.48 179.07 180)
 		(effects
@@ -1532,6 +1562,16 @@
 			(justify right bottom)
 		)
 		(uuid "d0043151-07aa-4c5b-9406-f5caacd63ea5")
+	)
+	(label "CLK-"
+		(at 171.45 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2765e7c-87dd-42c8-9d3a-47f1d4caf545")
 	)
 	(label "PWR.3V3"
 		(at 157.48 167.64 180)
@@ -1575,6 +1615,171 @@
 			(justify right)
 		)
 		(uuid "37e9e4f9-7837-47f9-aeab-c95e20d3f68e")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 167.64 168.91) (xy 170.18 168.91) (xy 170.18 180.34) (xy 167.64 180.34)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "23c0d128-a40a-42a6-9fdd-e949607e0822")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 212.09 167.64) (xy 214.63 167.64) (xy 214.63 182.88) (xy 212.09 182.88)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "329f2405-d4e7-49e9-9ab6-479e5c159d46")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 198.12 166.37) (xy 200.66 166.37) (xy 200.66 181.61) (xy 198.12 181.61)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "51a79c8a-b0c5-4d25-85d4-6f29e9a8b8fe")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 199.39 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e0e4620-ac8d-497c-a2e0-fa6689e52a65")
+		(property "Net Class" "PCIe"
+			(at 200.0885 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 90.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 213.36 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d43747-878b-4ccf-912b-735ef7404123")
+		(property "Net Class" "PCIe"
+			(at 214.0585 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 168.91 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "953f283e-22f5-4f09-bc85-11dbb0a9a220")
+		(property "Net Class" "PCIe"
+			(at 169.6085 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 59.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(netclass_flag ""
 		(length 2.54)
