@@ -2,6 +2,6 @@
 # Enforce same length for PCIe lanes
 (rule "PCIe"
   (condition "A.NetClass == 'PCIe'")
-  (constraint skew (max 5ps))
+  (constraint skew (min -2ps) (opt 0ps) (max 2ps)(within_diff_pairs))
   # (constraint length (min 450ps) (opt 500ps) (max 550ps))
   (severity error))
