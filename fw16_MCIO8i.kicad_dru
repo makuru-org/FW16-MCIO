@@ -3,5 +3,5 @@
 (rule "PCIe"
   (condition "A.NetClass == 'PCIe'")
   (constraint skew (max 5ps))
-  (constraint length (min 450ps) (opt 500ps) (max 550ps))
+  # (constraint length (min 450ps) (opt 500ps) (max 550ps))
   (severity error))

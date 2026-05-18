@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.7
+          "height": 0.8,
+          "width": 0.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -164,10 +164,10 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1016,
         "min_via_annular_width": 0.0,
-        "min_via_diameter": 0.35,
+        "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.01524,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -983,6 +983,18 @@
       "/PCIe-clk-mux/CLK-": [
         "PCIe"
       ],
+      "/PCIe-clk-mux/CLKIN+": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/CLKIN-": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/CLKOUT+": [
+        "PCIe"
+      ],
+      "/PCIe-clk-mux/CLKOUT-": [
+        "PCIe"
+      ],
       "/PCIe-clk-mux/PEX.CLK+": [
         "PCIe"
       ],
@@ -1587,12 +1599,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -1937,7 +1943,7 @@
           "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2058,8 +2064,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "MPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -2118,7 +2124,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "EEPROM2",
     "variants": []
   },
   "sheets": [

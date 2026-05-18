@@ -66,6 +66,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C3613417"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SY75602ATWL-TR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "SY75602ATWL-TR"
 			(at 0 0 0)
 			(show_name no)
