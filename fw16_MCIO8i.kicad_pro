@@ -62,8 +62,8 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.2,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -2156,51 +2156,51 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In2.Cu",
-            "delay": 6935300,
-            "diff_pair_gap": 109765,
+            "delay": 6883000,
+            "diff_pair_gap": 152400,
             "signal_layer": "In1.Cu",
             "top_reference_layer": "F.Cu",
-            "width": 101600
+            "width": 105900
           },
           {
             "bottom_reference_layer": "B.Cu",
-            "delay": 6935300,
-            "diff_pair_gap": 109765,
+            "delay": 6883000,
+            "diff_pair_gap": 152400,
             "signal_layer": "In4.Cu",
             "top_reference_layer": "In3.Cu",
-            "width": 101600
+            "width": 105900
           },
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5713800,
-            "diff_pair_gap": 101600,
+            "delay": 5725600,
+            "diff_pair_gap": 152400,
             "signal_layer": "F.Cu",
             "top_reference_layer": "F.Cu",
-            "width": 132600
+            "width": 138400
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 0,
-            "diff_pair_gap": 0,
+            "delay": 5725600,
+            "diff_pair_gap": 152400,
             "signal_layer": "B.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 2147483647
+            "top_reference_layer": "In4.Cu",
+            "width": 138400
           },
           {
-            "bottom_reference_layer": "UNDEFINED",
-            "delay": 0,
-            "diff_pair_gap": 0,
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6824200,
+            "diff_pair_gap": 152400,
             "signal_layer": "In2.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 2147483647
+            "top_reference_layer": "F.Cu",
+            "width": 105900
           },
           {
-            "bottom_reference_layer": "UNDEFINED",
-            "delay": 0,
-            "diff_pair_gap": 0,
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6824200,
+            "diff_pair_gap": 152400,
             "signal_layer": "In3.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 2147483647
+            "top_reference_layer": "In2.Cu",
+            "width": 105900
           }
         ],
         "profile_name": "PCIe",
