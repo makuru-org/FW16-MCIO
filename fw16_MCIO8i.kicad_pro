@@ -1472,6 +1472,18 @@
       "Net-(EEPROM1-VCC)": [
         "Power"
       ],
+      "Net-(FAN1-Pad1)": [
+        "Power"
+      ],
+      "Net-(FAN1-Pad4)": [
+        "Power"
+      ],
+      "Net-(FAN2-Pad1)": [
+        "Power"
+      ],
+      "Net-(FAN2-Pad4)": [
+        "Power"
+      ],
       "Net-(FAN_L1-Pad1)": [
         "Power"
       ],
@@ -1931,7 +1943,7 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -2058,6 +2070,12 @@
           "label": "RESR (mΩ)",
           "name": "RESR (mΩ)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #'",
+          "name": "JLCPCB Part #'",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -2065,7 +2083,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
-      "sort_field": "MPN"
+      "sort_field": "JLCPCB Part #"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

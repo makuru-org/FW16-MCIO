@@ -130,7 +130,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C4499806"
+			(property "JLCPCB Part #" "C4499806"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4910,7 +4910,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C4499806"
+		(property "JLCPCB Part #" "C4499806"
 			(at 80.01 87.63 0)
 			(hide yes)
 			(show_name no)

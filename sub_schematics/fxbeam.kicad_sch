@@ -3734,7 +3734,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
+			(property "Reference" "FAN"
 				(at -5.08 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3749,6 +3749,7 @@
 				(at -5.08 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3756,7 +3757,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "F3311A7H121004E200:AMPHENOL_F3311A7H121004E200"
+			(property "Footprint" "fan-connector:AMPHENOL_F3311A7H121004E200"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3861,7 +3862,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C3169422"
+			(property "JLCPCB Part #" "C3169422"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11899,7 +11900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f401537-7c46-47dd-b182-df4eb4f24d14")
-		(property "Reference" "FAN_R1"
+		(property "Reference" "FAN2"
 			(at 118.11 337.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11911,7 +11912,8 @@
 			)
 		)
 		(property "Value" "F3311A7H121004E200"
-			(at 105.918 318.008 90)
+			(at 118.11 321.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12004,7 +12006,7 @@
 			)
 		)
 		(property "MPN" "F3311A7H121004E200"
-			(at 113.284 353.568 0)
+			(at 113.03 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12028,7 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC Part #" "C3169422"
+		(property "JLCPCB Part #" "C3169422"
 			(at 113.03 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -12052,7 +12054,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "FAN_R1")
+					(reference "FAN2")
 					(unit 1)
 				)
 			)
@@ -12436,7 +12438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbc4a96d-8aee-48b0-9f06-d08b6e1b0264")
-		(property "Reference" "FAN_L1"
+		(property "Reference" "FAN1"
 			(at 118.11 313.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12448,7 +12450,8 @@
 			)
 		)
 		(property "Value" "F3311A7H121004E200"
-			(at 105.918 295.148 90)
+			(at 118.11 297.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12541,7 +12544,7 @@
 			)
 		)
 		(property "MPN" "F3311A7H121004E200"
-			(at 113.284 329.438 0)
+			(at 113.03 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12563,7 +12566,7 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC Part #" "C3169422"
+		(property "JLCPCB Part #" "C3169422"
 			(at 113.03 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12592,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "FAN_L1")
+					(reference "FAN1")
 					(unit 1)
 				)
 			)
