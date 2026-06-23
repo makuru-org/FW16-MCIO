@@ -7,5 +7,5 @@
 	(lib (name "resistors_ext") (type "Table") (uri "${KIPRJMOD}/components/resistors/sym-lib-table") (options "") (descr ""))
 	(lib (name "inductors_ext") (type "Table") (uri "${KIPRJMOD}/components/inductors/sym-lib-table") (options "") (descr ""))
 	(lib (name "capacitors_ext") (type "Table") (uri "${KIPRJMOD}/components/capacitors/sym-lib-table") (options "") (descr ""))
-	(lib (name "pcie-clk-mux") (type "KiCad") (uri "${KIPRJMOD}/components/pcie-clk-mux/2026-05-15_18-37-07.kicad_sym") (options "") (descr ""))
+	(lib (name "pcie-clk-buffer") (type "KiCad") (uri "${KIPRJMOD}/components/pcie-clk-buffer/2026-05-15_18-37-07.kicad_sym") (options "") (descr ""))
 )

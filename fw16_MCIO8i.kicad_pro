@@ -251,6 +251,10 @@
         {
           "diameter": 0.3,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -537,15 +541,15 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "clearance": 0.1016,
         "name": "PCIe",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": "PCIe",
         "via_diameter": 0.35,
@@ -553,12 +557,24 @@
       },
       {
         "clearance": 0.1016,
+        "name": "PCIeCLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(128, 77, 0)",
+        "tuning_profile": "PCIeCLK",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1016,
         "name": "Power",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.3,
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -996,10 +1012,10 @@
         "PCIe"
       ],
       "/PCIe-clk-mux/PEX.CLK+": [
-        "PCIe"
+        "PCIeCLK"
       ],
       "/PCIe-clk-mux/PEX.CLK-": [
-        "PCIe"
+        "PCIeCLK"
       ],
       "/PCIe-clk-mux/PWR.3V3": [
         "Power"
@@ -1500,6 +1516,18 @@
         "Power"
       ],
       "Net-(IN1-5V_ALW-PadPK7)": [
+        "Power"
+      ],
+      "unconnected-(R10-Pad1)": [
+        "Power"
+      ],
+      "unconnected-(R3-Pad1)": [
+        "Power"
+      ],
+      "unconnected-(R6-Pad1)": [
+        "Power"
+      ],
+      "unconnected-(R7-Pad1)": [
         "Power"
       ]
     },
@@ -2142,7 +2170,7 @@
         "uuid": "50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
       }
     ],
-    "used_designators": "EEPROM2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -2178,7 +2206,7 @@
             "diff_pair_gap": 152400,
             "signal_layer": "In1.Cu",
             "top_reference_layer": "F.Cu",
-            "width": 105900
+            "width": 105918
           },
           {
             "bottom_reference_layer": "B.Cu",
@@ -2186,43 +2214,101 @@
             "diff_pair_gap": 152400,
             "signal_layer": "In4.Cu",
             "top_reference_layer": "In3.Cu",
-            "width": 105900
+            "width": 105918
           },
           {
-            "bottom_reference_layer": "In1.Cu",
-            "delay": 5725600,
-            "diff_pair_gap": 152400,
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 5538200,
+            "diff_pair_gap": 101600,
             "signal_layer": "F.Cu",
-            "top_reference_layer": "F.Cu",
-            "width": 138400
+            "top_reference_layer": "UNDEFINED",
+            "width": 111760
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5725600,
-            "diff_pair_gap": 152400,
+            "delay": 5538200,
+            "diff_pair_gap": 101600,
             "signal_layer": "B.Cu",
-            "top_reference_layer": "In4.Cu",
-            "width": 138400
+            "top_reference_layer": "In3.Cu",
+            "width": 111760
           },
           {
             "bottom_reference_layer": "In3.Cu",
             "delay": 6824200,
-            "diff_pair_gap": 152400,
+            "diff_pair_gap": 50000000,
             "signal_layer": "In2.Cu",
             "top_reference_layer": "F.Cu",
-            "width": 105900
+            "width": 50000000
           },
           {
             "bottom_reference_layer": "B.Cu",
             "delay": 6824200,
-            "diff_pair_gap": 152400,
+            "diff_pair_gap": 50000000,
             "signal_layer": "In3.Cu",
             "top_reference_layer": "In2.Cu",
-            "width": 105900
+            "width": 50000000
           }
         ],
         "profile_name": "PCIe",
         "target_impedance": 85.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 6500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 6883000,
+            "diff_pair_gap": 304800,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 102616
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6883000,
+            "diff_pair_gap": 304800,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 102616
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 5568500,
+            "diff_pair_gap": 152400,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 120396
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5568500,
+            "diff_pair_gap": 152400,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 120396
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6824200,
+            "diff_pair_gap": 50000000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 50000000
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6824200,
+            "diff_pair_gap": 50000000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 50000000
+          }
+        ],
+        "profile_name": "PCIeCLK",
+        "target_impedance": 90.0,
         "type": 1,
         "via_overrides": [],
         "via_prop_delay": 6500000

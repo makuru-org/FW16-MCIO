@@ -7,5 +7,5 @@
 	(lib (name "capacitors_ext") (type "Table") (uri "${KIPRJMOD}/components/capacitors/fp-lib-table") (options "") (descr ""))
 	(lib (name "inductors_ext") (type "Table") (uri "${KIPRJMOD}/components/inductors/fp-lib-table") (options "") (descr ""))
 	(lib (name "resistors_ext") (type "Table") (uri "${KIPRJMOD}/components/resistors/fp-lib-table") (options "") (descr ""))
-	(lib (name "pcie-clk-mux") (type "KiCad") (uri "${KIPRJMOD}/components/pcie-clk-mux/footprints.pretty") (options "") (descr ""))
+	(lib (name "pcie-clk-buffer") (type "KiCad") (uri "${KIPRJMOD}/components/pcie-clk-buffer/footprints.pretty") (options "") (descr ""))
 )

@@ -148761,9 +148761,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at -2.032 2.032 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148781,7 +148781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-1206_W"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148991,9 +148991,31 @@
 			)
 		)
 		(property "Critical Parameter" "0 Ω"
-			(at 0 -7.62 0)
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "560112132007"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25268462"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149024,8 +149046,8 @@
 		)
 		(symbol "1206_R_560112132007_0_1"
 			(rectangle
-				(start -2.54 -1.016)
-				(end 2.54 1.016)
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -158157,9 +158179,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158177,7 +158199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-RSKS-1206_R"
+		(property "Footprint" "WE_WRIS-RSKS:R_Wurth_WRIS-RSKS-1206_W"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -158387,9 +158409,31 @@
 			)
 		)
 		(property "Critical Parameter" "330 kΩ"
-			(at 0 -7.62 0)
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "560112132036"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C26798316"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)

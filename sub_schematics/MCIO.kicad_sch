@@ -49,7 +49,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.amphenol-cs.com/product/g97r22312hr.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1077,24 +1077,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at -15.24 46.99 0)
-					(length 5.08)
-					(name "PER0+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -15.24 44.45 0)
 					(length 5.08)
@@ -1502,24 +1484,6 @@
 						)
 					)
 					(number "A35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 -36.83 0)
-					(length 5.08)
-					(name "PER7+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A36"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2051,6 +2015,24 @@
 				)
 			)
 			(symbol "G97R22312HR_1_0"
+				(pin output line
+					(at -15.24 46.99 0)
+					(length 5.08)
+					(name "PER0-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -15.24 36.83 0)
 					(length 5.08)
@@ -2206,6 +2188,24 @@
 						)
 					)
 					(number "A30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -36.83 0)
+					(length 5.08)
+					(name "PER7-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A36"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3701,7 +3701,17 @@
 		)
 		(uuid "fc26e194-e939-4540-940c-de228d872ad4")
 	)
-	(label "PCI.TX5+"
+	(label "PCI.RX2+"
+		(at 46.99 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "005df313-3db8-4678-b1dc-359688f662b3")
+	)
+	(label "PCI.TX5-"
 		(at 113.03 93.98 180)
 		(effects
 			(font
@@ -3711,7 +3721,7 @@
 		)
 		(uuid "14066fbb-ba00-4b7b-84eb-3feeebf4db7c")
 	)
-	(label "PCI.TX6+"
+	(label "PCI.TX6-"
 		(at 113.03 116.84 180)
 		(effects
 			(font
@@ -3731,7 +3741,17 @@
 		)
 		(uuid "18ba2de9-3216-410d-a63d-25e8a5417df2")
 	)
-	(label "PCI.RX6+"
+	(label "PCI.RX0+"
+		(at 46.99 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc1bd40-2a04-4525-aee5-2fb62f5f57ec")
+	)
+	(label "PCI.RX6-"
 		(at 46.99 116.84 0)
 		(effects
 			(font
@@ -3741,7 +3761,7 @@
 		)
 		(uuid "20963b6b-7ae5-476d-a34a-9c83f4ec8aa2")
 	)
-	(label "PCI.TX4-"
+	(label "PCI.TX4+"
 		(at 113.03 83.82 180)
 		(effects
 			(font
@@ -3761,7 +3781,17 @@
 		)
 		(uuid "3524fd1f-17a7-4a62-ae81-e2880d37c2d0")
 	)
-	(label "PCI.TX0+"
+	(label "PCI.RX1+"
+		(at 46.99 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37853417-6201-4144-8a23-a37512d29374")
+	)
+	(label "PCI.TX0-"
 		(at 113.03 40.64 180)
 		(effects
 			(font
@@ -3781,7 +3811,7 @@
 		)
 		(uuid "4bcad999-82f5-47c0-8c55-f9a74d4325b8")
 	)
-	(label "PCI.RX6-"
+	(label "PCI.RX6+"
 		(at 46.99 114.3 0)
 		(effects
 			(font
@@ -3801,7 +3831,7 @@
 		)
 		(uuid "58fe26ea-1c42-426e-bf9f-97cb3625b1a1")
 	)
-	(label "PCI.TX6-"
+	(label "PCI.TX6+"
 		(at 113.03 114.3 180)
 		(effects
 			(font
@@ -3811,7 +3841,7 @@
 		)
 		(uuid "5d0b95ab-9595-4862-83e7-b10bf1c3fd2d")
 	)
-	(label "PCI.TX7+"
+	(label "PCI.TX7-"
 		(at 113.03 124.46 180)
 		(effects
 			(font
@@ -3821,7 +3851,17 @@
 		)
 		(uuid "5de0ec9e-691e-4d29-98d9-a33cf2554ec5")
 	)
-	(label "PCI.TX2+"
+	(label "PCI.RX0-"
+		(at 46.99 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6172cbb3-c2eb-4320-84dc-dd23736be811")
+	)
+	(label "PCI.TX2-"
 		(at 113.03 71.12 180)
 		(effects
 			(font
@@ -3831,7 +3871,17 @@
 		)
 		(uuid "64194f1b-cf2c-4f47-a1f6-9f478052a821")
 	)
-	(label "PCI.TX1+"
+	(label "PCI.RX2-"
+		(at 46.99 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65390730-b120-462c-9e5e-da3b0307fba8")
+	)
+	(label "PCI.TX1-"
 		(at 113.03 48.26 180)
 		(effects
 			(font
@@ -3841,7 +3891,7 @@
 		)
 		(uuid "69b27869-91a1-4cc2-8829-4f64e763e897")
 	)
-	(label "PCI.RX7+"
+	(label "PCI.RX7-"
 		(at 46.99 124.46 0)
 		(effects
 			(font
@@ -3851,7 +3901,7 @@
 		)
 		(uuid "6d76d5cb-cfdc-4025-95e8-b9b57d19b948")
 	)
-	(label "PCI.RX5-"
+	(label "PCI.RX5+"
 		(at 46.99 91.44 0)
 		(effects
 			(font
@@ -3861,7 +3911,7 @@
 		)
 		(uuid "78610b44-37c3-415b-b1fe-7cebea4b0f51")
 	)
-	(label "PCI.RX4+"
+	(label "PCI.RX4-"
 		(at 46.99 86.36 0)
 		(effects
 			(font
@@ -3871,7 +3921,7 @@
 		)
 		(uuid "7cdcc23b-4823-43bc-b141-14a5a200179a")
 	)
-	(label "PCI.TX3+"
+	(label "PCI.TX3-"
 		(at 113.03 78.74 180)
 		(effects
 			(font
@@ -3881,17 +3931,7 @@
 		)
 		(uuid "7df0b890-014d-4683-88c9-48b702671b5a")
 	)
-	(label "PCI.RX2+"
-		(at 46.99 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e36447a-8ee1-47fd-9eea-52fc30ecc5e9")
-	)
-	(label "PCI.RX4-"
+	(label "PCI.RX4+"
 		(at 46.99 83.82 0)
 		(effects
 			(font
@@ -3901,7 +3941,7 @@
 		)
 		(uuid "80d4850f-e57e-4419-ab19-9f984147dd0e")
 	)
-	(label "PCI.TX3-"
+	(label "PCI.TX3+"
 		(at 113.03 76.2 180)
 		(effects
 			(font
@@ -3911,37 +3951,7 @@
 		)
 		(uuid "8593c368-3ab4-4b59-9a96-8df6b801ad93")
 	)
-	(label "PCI.RX0+"
-		(at 46.99 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8866e146-e5d5-43be-bd40-dbfb0dfe3cce")
-	)
-	(label "PCI.RX1+"
-		(at 46.99 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c0b75a1-884f-4278-9993-4d398c1ebb3d")
-	)
-	(label "PCI.RX0-"
-		(at 46.99 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9119e626-96f0-4b22-8b64-9a262cac58ea")
-	)
-	(label "PCI.TX7-"
+	(label "PCI.TX7+"
 		(at 113.03 121.92 180)
 		(effects
 			(font
@@ -3961,7 +3971,7 @@
 		)
 		(uuid "94c608c6-d595-45eb-bcdc-36cb750f073c")
 	)
-	(label "PCI.TX5-"
+	(label "PCI.TX5+"
 		(at 113.03 91.44 180)
 		(effects
 			(font
@@ -3971,17 +3981,7 @@
 		)
 		(uuid "9f52ae39-e50f-43fe-8694-7f2ce3a88898")
 	)
-	(label "PEX.SCL"
-		(at 102.87 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1c806be-c45c-461c-8d85-12ef5410fd73")
-	)
-	(label "PCI.TX0-"
+	(label "PCI.TX0+"
 		(at 113.03 38.1 180)
 		(effects
 			(font
@@ -3991,7 +3991,7 @@
 		)
 		(uuid "aaf64714-bc1a-4847-b6e5-aa84fac557ef")
 	)
-	(label "PCI.TX4+"
+	(label "PCI.TX4-"
 		(at 113.03 86.36 180)
 		(effects
 			(font
@@ -4001,7 +4001,7 @@
 		)
 		(uuid "b3fdd9e0-0d21-405d-8454-f8b7b28e0d0f")
 	)
-	(label "PCI.RX5+"
+	(label "PCI.RX5-"
 		(at 46.99 93.98 0)
 		(effects
 			(font
@@ -4011,7 +4011,17 @@
 		)
 		(uuid "b43d9ebb-3def-43bf-81d9-76cfeca88699")
 	)
-	(label "PCI.RX3-"
+	(label "PEX.SDA"
+		(at 102.87 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "befe3d85-d2a5-4b47-b5d9-9a33c797f2c7")
+	)
+	(label "PCI.RX3+"
 		(at 46.99 76.2 0)
 		(effects
 			(font
@@ -4021,7 +4031,7 @@
 		)
 		(uuid "c49f1ac5-3945-431b-b851-3cbc8b682899")
 	)
-	(label "PCI.TX1-"
+	(label "PCI.TX1+"
 		(at 113.03 45.72 180)
 		(effects
 			(font
@@ -4031,27 +4041,17 @@
 		)
 		(uuid "ca3f663a-9e0e-4a28-b601-71b7031d70db")
 	)
-	(label "PCI.RX1-"
-		(at 46.99 45.72 0)
+	(label "PEX.SCL"
+		(at 102.87 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d0a2b96b-60b6-4770-828d-0f1588afee4e")
+		(uuid "cf6f2354-ffc8-4e46-a671-eb33d296492d")
 	)
-	(label "PEX.SDA"
-		(at 102.87 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3270baf-ca41-408a-b1ef-1dbc9976408a")
-	)
-	(label "PCI.TX2-"
+	(label "PCI.TX2+"
 		(at 113.03 68.58 180)
 		(effects
 			(font
@@ -4061,7 +4061,7 @@
 		)
 		(uuid "ded10bac-c5d8-43c4-9f09-1fcb800bf4b5")
 	)
-	(label "PCI.RX7-"
+	(label "PCI.RX7+"
 		(at 46.99 121.92 0)
 		(effects
 			(font
@@ -4071,17 +4071,17 @@
 		)
 		(uuid "df683071-8ceb-4c41-b273-ded3a3331647")
 	)
-	(label "PCI.RX2-"
-		(at 46.99 68.58 0)
+	(label "PCI.RX1-"
+		(at 46.99 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "eb0e849d-7194-4c2c-adf8-8764ec476b06")
+		(uuid "e5ea5325-5132-40e1-a01b-8f072bf66697")
 	)
-	(label "PCI.RX3+"
+	(label "PCI.RX3-"
 		(at 46.99 78.74 0)
 		(effects
 			(font
@@ -4829,7 +4829,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.amphenol-cs.com/product/g97r22312hr.html"
 			(at 80.01 87.63 0)
 			(hide yes)
 			(show_name no)

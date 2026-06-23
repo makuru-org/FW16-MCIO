@@ -25,13 +25,14 @@
 			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "pcie-clk-mux:VDFN8_NNC_MCH"
+		(property "Footprint" "pcie-clk-buffer:VDFN8_NNC_MCH"
 			(at -0.254 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +68,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C3613417"
-			(at 0 0 0)
+			(at 0 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -78,7 +79,7 @@
 			)
 		)
 		(property "MPN" "SY75602ATWL-TR"
-			(at 0 0 0)
+			(at 0 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
