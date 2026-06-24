@@ -253,6 +253,10 @@
           "drill": 0.2
         },
         {
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.45,
           "drill": 0.3
         }
@@ -558,7 +562,7 @@
       {
         "clearance": 0.1016,
         "name": "PCIeCLK",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(128, 77, 0)",
         "priority": 1,
         "schematic_color": "rgb(128, 77, 0)",
         "tuning_profile": "PCIeCLK",

@@ -458,7 +458,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcie-clk-mux:SY75602ATWL-TR"
+		(symbol "pcie-clk-buffer:SY75602ATWL-TR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -481,13 +481,14 @@
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "pcie-clk-mux:VDFN8_NNC_MCH"
+			(property "Footprint" "pcie-clk-buffer:VDFN8_NNC_MCH"
 				(at -0.254 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -523,7 +524,7 @@
 				)
 			)
 			(property "JLCPCB Part #" "C3613417"
-				(at 0 0 0)
+				(at 0 13.208 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -534,7 +535,7 @@
 				)
 			)
 			(property "MPN" "SY75602ATWL-TR"
-				(at 0 0 0)
+				(at 0 13.208 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1712,7 +1713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcie-clk-mux:SY75602ATWL-TR")
+		(lib_id "pcie-clk-buffer:SY75602ATWL-TR")
 		(at 184.15 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -1724,16 +1725,6 @@
 		(fields_autoplaced yes)
 		(uuid "c2040ca4-05e1-4472-807e-4ecf586795b6")
 		(property "Reference" "U1"
-			(at 184.15 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SY75602ATWL-TR"
 			(at 184.15 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1743,7 +1734,18 @@
 				)
 			)
 		)
-		(property "Footprint" "pcie-clk-mux:VDFN8_NNC_MCH"
+		(property "Value" "SY75602ATWL-TR"
+			(at 184.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "pcie-clk-buffer:VDFN8_NNC_MCH"
 			(at 183.896 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -1779,7 +1781,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C3613417"
-			(at 184.15 170.18 0)
+			(at 184.15 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,7 +1792,7 @@
 			)
 		)
 		(property "MPN" "SY75602ATWL-TR"
-			(at 184.15 170.18 0)
+			(at 184.15 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

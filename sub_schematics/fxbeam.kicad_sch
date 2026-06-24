@@ -10811,7 +10811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b6468e2-c670-4e24-8943-dcfda5654570")
-		(property "Reference" "R0"
+		(property "Reference" "ID0"
 			(at 55.88 270.51 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11082,7 +11082,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R0")
+					(reference "ID0")
 					(unit 1)
 				)
 			)
@@ -11754,7 +11754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a0cbbdf-e4ac-4ac5-afa6-d3492708527a")
-		(property "Reference" "R1"
+		(property "Reference" "ID1"
 			(at 48.26 97.79 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12025,7 +12025,7 @@
 		(instances
 			(project "fw16_MCIO8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0/8477da45-41b5-48a1-9c5b-2402988eb1f4"
-					(reference "R1")
+					(reference "ID1")
 					(unit 1)
 				)
 			)
