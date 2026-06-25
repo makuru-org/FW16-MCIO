@@ -117,7 +117,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -127 180)
+				(at 17.78 -128.27 180)
 				(length 2.54)
 				(name "3V3_ALW"
 					(effects
@@ -135,7 +135,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -124.46 180)
+				(at 17.78 -125.73 180)
 				(length 2.54)
 				(name "3V3_ALW"
 					(effects
@@ -261,7 +261,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -121.92 180)
+				(at 17.78 -123.19 180)
 				(length 2.54)
 				(name "3V3_ALW"
 					(effects
@@ -279,7 +279,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -119.38 180)
+				(at 17.78 -120.65 180)
 				(length 2.54)
 				(name "3V3_ALW"
 					(effects
@@ -2530,7 +2530,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin no_connect line
 				(at 17.78 -138.43 180)
 				(length 2.54)
 				(name "I2C_INT_ALW"

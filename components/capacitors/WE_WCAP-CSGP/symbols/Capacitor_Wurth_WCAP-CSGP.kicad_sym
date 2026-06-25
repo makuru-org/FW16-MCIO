@@ -54193,7 +54193,7 @@
 			)
 		)
 		(symbol "0402_885012105020_1_1"
-			(pin passive line
+			(pin power_in line
 				(at 0 3.81 270)
 				(length 2.794)
 				(name "1"
@@ -54211,7 +54211,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -3.81 90)
 				(length 2.794)
 				(name "2"
